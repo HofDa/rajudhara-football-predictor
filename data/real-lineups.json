@@ -1,2211 +1,310 @@
 [
   {
-    "fixtureId": "DK1-real-1",
-    "status": "official",
+    "fixtureId": "BE1-real-1",
+    "status": "expected",
     "updatedAt": "2026-08-03T10:00:00+02:00",
     "teams": {
-      "Kopenhagen": {
+      "Genk": {
         "formation": "3-5-2",
         "starters": [
-          "p_193a0f5b77ff",
-          "p_c6dfde4970e1",
-          "p_739f558a69e8",
-          "p_539fff682ac6",
-          "p_953ceaf5db68",
-          "p_de217df68150",
-          "p_924871476f15",
-          "p_614604f8503e",
-          "p_8c776b084f19",
-          "p_953ceaf5db68",
-          "p_fe4f6be9028c"
+          "p_29813d5a4ebb",
+          "p_8415e328211f",
+          "p_d3a6ff5ddd45",
+          "p_13552743f63d",
+          "p_758d5cffbf73",
+          "p_f70eebb4210c",
+          "p_d18b5bc38a7f",
+          "p_8e64779d8a2e",
+          "p_a6aa8139bdf0",
+          "p_32e2cb2853b3",
+          "p_18b524906b3c"
         ],
         "bench": [
-          "p_df5477c7fabc",
-          "p_23dfdb1a5151",
-          "p_6c15eaabdaa8",
-          "p_831848d290cb",
-          "p_a430b70a5ba9",
-          "p_dc67b6420e86"
-        ]
-      },
-      "Midtjylland": {
-        "formation": "4-4-2",
-        "starters": [
-          "p_cf2f68e30086",
-          "p_ea6aa407a186",
-          "p_7dfa2fd3970a",
-          "p_9792d15b822f",
-          "p_8390f642c50d",
-          "p_73b3e9848045",
-          "p_c040eb68c2a4",
-          "p_888f844aadca",
-          "p_820ce30732da",
-          "p_aef2d668f0bd",
-          "p_44d906bcb834"
-        ],
-        "bench": [
-          "p_9878ed94bc97",
-          "p_1a2c1f695f8a",
-          "p_c41354e36674",
-          "p_7a8f46a50a1b",
-          "p_dd468d295a9f",
-          "p_93bda5d84af7"
-        ]
-      }
-    }
-  },
-  {
-    "fixtureId": "DK1-real-2",
-    "status": "official",
-    "updatedAt": "2026-08-04T10:00:00+02:00",
-    "teams": {
-      "Brøndby": {
-        "formation": "4-4-2",
-        "starters": [
-          "p_e73d91b27440",
-          "p_02f7f3aca239",
-          "p_d8c83b2a9773",
-          "p_e9846bd8c1df",
-          "p_ad638bca92f3",
-          "p_37b63b77abc1",
-          "p_2ac10d152536",
-          "p_57cf963ab239",
-          "p_9615f1ced765",
-          "p_243922d7a904",
-          "p_f7500841fb32"
-        ],
-        "bench": [
-          "p_248423e4b6cd",
-          "p_6ffaa236f240",
-          "p_a784f8f36463",
-          "p_e95b34be36f8",
-          "p_e056aa4e5a58",
-          "p_fb98a692c7a0"
-        ]
-      },
-      "Aarhus": {
-        "formation": "4-4-2",
-        "starters": [
-          "p_2459c59ebb40",
-          "p_afb301eeed4b",
-          "p_df5a5fef23c6",
-          "p_7b0810f20296",
-          "p_8fd9bd688cfa",
-          "p_b2141217a296",
-          "p_b77885725bed",
-          "p_5d46cd12b8f6",
-          "p_3308572a6821",
-          "p_217e9af177e3",
-          "p_cf9e48276478"
-        ],
-        "bench": [
-          "p_9181ae90f81e",
-          "p_ea7deaa8be53",
-          "p_6092314dfed1",
-          "p_f0eb2567f936",
-          "p_031fc395c92c",
-          "p_8634cf492ed8"
-        ]
-      }
-    }
-  },
-  {
-    "fixtureId": "DK1-real-3",
-    "status": "official",
-    "updatedAt": "2026-08-05T10:00:00+02:00",
-    "teams": {
-      "Nordsjælland": {
-        "formation": "4-2-3-1",
-        "starters": [
-          "p_ed6b319d7178",
-          "p_191932478147",
-          "p_011eb7d3a7aa",
-          "p_aa8483971a95",
-          "p_2d95f6804422",
-          "p_7175f23bf53d",
-          "p_1e300e594892",
-          "p_901f1cc3b7ec",
-          "p_f25850534ac0",
-          "p_db7408a87d2e",
-          "p_371c080b7f12"
-        ],
-        "bench": [
-          "p_fb145476487b",
-          "p_3659050fa7a7",
-          "p_3c2e0ec45828",
-          "p_4d8164983462",
-          "p_1721ae6149e0",
-          "p_4c71593b7495"
-        ]
-      },
-      "Silkeborg": {
-        "formation": "3-4-2-1",
-        "starters": [
-          "p_a6c8d7a4d4da",
-          "p_839faaf4bb28",
-          "p_aa6b03d4cf00",
-          "p_7a526666289f",
-          "p_4da1baafe368",
-          "p_69a8ec3e521c",
-          "p_1e395af5350f",
-          "p_cb872a308c5c",
-          "p_1eead2407cd9",
-          "p_ee1133d7257e",
-          "p_ee1133d7257e"
-        ],
-        "bench": [
-          "p_3676319beaf9",
-          "p_234197156019",
-          "p_89f1b9321ffb",
-          "p_aa6b03d4cf00",
-          "p_585b008d08c2",
-          "p_0d61f0852623"
-        ]
-      }
-    }
-  },
-  {
-    "fixtureId": "DK1-real-4",
-    "status": "official",
-    "updatedAt": "2026-08-01T10:00:00+02:00",
-    "teams": {
-      "Odense": {
-        "formation": "4-2-3-1",
-        "starters": [
-          "p_746ac6cad322",
-          "p_dfefd1a5fd41",
-          "p_655716b0da47",
-          "p_a7693f4b6809",
-          "p_29b1e365469a",
-          "p_64cd2297e0f2",
-          "p_bd4516ee2625",
-          "p_52d963abcdb7",
-          "p_bf2959ac1cf0",
-          "p_a8562a6500fa",
-          "p_1933dfa07ff6"
-        ],
-        "bench": [
-          "p_54746ef0eee8",
-          "p_d766ab6ee1ef",
-          "p_55932a8c55ca",
-          "p_c009e6b821f1",
-          "p_a2fc630ac4c1",
-          "p_8f3ff5830df1"
-        ]
-      },
-      "Aalborg": {
-        "formation": "4-3-3",
-        "starters": [
-          "p_8ebc08e2065f",
-          "p_83337ddac714",
-          "p_a8a7709bac67",
-          "p_871dc4ee8161",
-          "p_0ee7517e7fa2",
-          "p_610f8b76e442",
-          "p_45b880f9d5e4",
-          "p_201ff06570e9",
-          "p_c072684fd6c4",
-          "p_93a3d12dfc57",
-          "p_cb49c47d6db3"
-        ],
-        "bench": [
-          "p_2a40bc11f810",
-          "p_b2028895b388",
-          "p_c236285b2b2a",
-          "p_296495e0086f",
-          "p_510ebaa3e9ab",
-          "p_fc3e6fd9b705"
-        ]
-      }
-    }
-  },
-  {
-    "fixtureId": "DK2-real-5",
-    "status": "expected",
-    "updatedAt": "2026-08-02T10:00:00+02:00",
-    "teams": {
-      "Lyngby": {
-        "formation": "4-3-3",
-        "starters": [
-          "p_9b53f1403d4b",
-          "p_66b2135e7a42",
-          "p_044c7807bd30",
-          "p_3006e8364371",
-          "p_59419dbdecaa",
-          "p_81da49e37276",
-          "p_15db7a942e4c",
-          "p_9671324bcc0e",
-          "p_d4e4cb90eccd",
-          "p_e500437628cf",
-          "p_41c11b85b67c"
-        ],
-        "bench": [
-          "p_b17c9ab8f160",
-          "p_24049c08f55a",
-          "p_f86143892da4",
-          "p_20a142812670",
-          "p_45979d584aaf",
-          "p_9b08c7ea451e"
-        ]
-      },
-      "Horsens": {
-        "formation": "3-4-2-1",
-        "starters": [
-          "p_06ed6e8bf099",
-          "p_d2ebac3bbb02",
-          "p_5ddd6e69d3e6",
-          "p_d2ebac3bbb02",
-          "p_332bff45930a",
-          "p_49b59b7b2cf6",
-          "p_887405ac93f5",
-          "p_008b7039dfbf",
-          "p_bdafbbf67c13",
-          "p_3c081ee77688",
-          "p_c5b387f2d771"
-        ],
-        "bench": [
-          "p_aaed91307da4",
-          "p_c5b387f2d771",
-          "p_7987f1a526b5",
-          "p_5a40cc666130",
-          "p_57b04b48b03b",
-          "p_b79d825bfc23"
-        ]
-      }
-    }
-  },
-  {
-    "fixtureId": "DK2-real-6",
-    "status": "expected",
-    "updatedAt": "2026-08-03T10:00:00+02:00",
-    "teams": {
-      "Esbjerg": {
-        "formation": "4-4-2",
-        "starters": [
-          "p_4189d0b7112e",
-          "p_e2e355377b4a",
-          "p_9eb1d9f25da9",
-          "p_59b921339e25",
-          "p_fbd0efee5b17",
-          "p_218461eae418",
-          "p_9ca54fc5bf7d",
-          "p_1133d444c776",
-          "p_af6b47c8a643",
-          "p_928ea77f03af",
-          "p_40550f853a41"
-        ],
-        "bench": [
-          "p_a8ab0337a60b",
-          "p_dfa705739108",
-          "p_20fe70ee3435",
-          "p_b6f74be1d254",
-          "p_4564a211b440",
-          "p_d4309c68463a"
-        ]
-      },
-      "Kolding": {
-        "formation": "4-3-3",
-        "starters": [
-          "p_49b544de8ca2",
-          "p_f97e94a14181",
-          "p_a7111e5ece21",
-          "p_e4f26d262e33",
-          "p_bc340cefceb7",
-          "p_9525fd71e8a6",
-          "p_bc1e8f6e8eed",
-          "p_aa7e5cb454f4",
-          "p_dfeb9841bb52",
-          "p_e3c7b882faeb",
-          "p_c30fa6f8f0ed"
-        ],
-        "bench": [
-          "p_a7adc0944b55",
-          "p_7acc8ed6d076",
-          "p_cdc9f8490ccc",
-          "p_42ae0f16c809",
-          "p_ce1ef54c6b7d",
-          "p_454408c731d5"
-        ]
-      }
-    }
-  },
-  {
-    "fixtureId": "DK2-real-7",
-    "status": "expected",
-    "updatedAt": "2026-08-04T10:00:00+02:00",
-    "teams": {
-      "Hvidovre": {
-        "formation": "4-4-2",
-        "starters": [
-          "p_e9b668aa2079",
-          "p_7bd937667e68",
-          "p_fdbf5ccbe55d",
-          "p_c3172c869aec",
-          "p_c60f7b0b7f82",
-          "p_f17647cf143b",
-          "p_7bd937667e68",
-          "p_33af16bcfc06",
-          "p_630472fbb3a3",
-          "p_fff8d81034e1",
-          "p_5e693a639638"
-        ],
-        "bench": [
-          "p_3f58d6c8b948",
-          "p_ec8fdb89d7fa",
-          "p_fb04d79d8c3b",
-          "p_0d4ff1c2ef16",
-          "p_f21c4044fdb5",
-          "p_eff52d340d8f"
-        ]
-      },
-      "Fredericia": {
-        "formation": "4-2-3-1",
-        "starters": [
-          "p_315cd25d6be4",
-          "p_3deff79a91c9",
-          "p_77deb82279fb",
-          "p_643a05cefdf9",
-          "p_1eb4f1ca1a5f",
-          "p_bf66b145f17e",
-          "p_11fe74f60ee5",
-          "p_671079f0fae2",
-          "p_45dd6a3c32ef",
-          "p_720cdfffacc3",
-          "p_e327a6bb0b1f"
-        ],
-        "bench": [
-          "p_54055d7a937d",
-          "p_5c1200223262",
-          "p_4fee2ef75b10",
-          "p_5f8cd9f9be11",
-          "p_626da7a966c3",
-          "p_6d2aca6587f9"
-        ]
-      }
-    }
-  },
-  {
-    "fixtureId": "DK2-real-8",
-    "status": "expected",
-    "updatedAt": "2026-08-05T10:00:00+02:00",
-    "teams": {
-      "Hobro": {
-        "formation": "4-2-3-1",
-        "starters": [
-          "p_a830201411b0",
-          "p_64629ebee0f7",
-          "p_2a986a632f54",
-          "p_7cb313a1671b",
-          "p_a18a0c39a3b1",
-          "p_361ac403cb41",
-          "p_aa10ea07c1e5",
-          "p_2f490d9f264b",
-          "p_676bcdcf3ee9",
-          "p_cc170bb92b3e",
-          "p_5fd7f10f4c5b"
-        ],
-        "bench": [
-          "p_c551fe5290dc",
-          "p_8934fa80c63b",
-          "p_755a7f99215d",
-          "p_393bc92175eb",
-          "p_2aa65fa38759",
-          "p_8bb3fecdf86b"
-        ]
-      },
-      "Køge": {
-        "formation": "4-4-2",
-        "starters": [
-          "p_bf078e3e0e34",
-          "p_eec96c7f49ef",
-          "p_edd388bf0557",
-          "p_d16b17ef843c",
-          "p_fd4997ae1db1",
-          "p_a3294d725795",
-          "p_91b9038bafdb",
-          "p_b7dc7f6112fd",
-          "p_b2fba5dfd34e",
-          "p_88f30a6a9c20",
-          "p_27fb7f568a3c"
-        ],
-        "bench": [
-          "p_7c48c316a80f",
-          "p_b443b125324f",
-          "p_065ef05ac854",
-          "p_ecc144475913",
-          "p_c3d1d77e61a7",
-          "p_ffaf22ce28a8"
-        ]
-      }
-    }
-  },
-  {
-    "fixtureId": "BE1-real-9",
-    "status": "official",
-    "updatedAt": "2026-08-01T10:00:00+02:00",
-    "teams": {
-      "Club Brügge": {
-        "formation": "4-2-3-1",
-        "starters": [
-          "p_17da91df0ca7",
-          "p_4dd26a9de664",
-          "p_54b1d68e6fc6",
-          "p_eb0d7c5020af",
-          "p_bc9a13e7d470",
-          "p_4f3f8fa01fd2",
-          "p_093228c40714",
-          "p_a283acce9b6e",
-          "p_96011514e880",
-          "p_17519306a88d",
-          "p_abff52cea758"
-        ],
-        "bench": [
-          "p_ed31584a4122",
-          "p_14828ad431a3",
-          "p_155d8e59588e",
-          "p_580c46628b91",
-          "p_c7cddcf9b202",
-          "p_18a51dfb00b7"
-        ]
-      },
-      "Genk": {
-        "formation": "4-3-3",
-        "starters": [
-          "p_452b5615f618",
-          "p_90b28a6d8b2e",
-          "p_5a55cb1c35bb",
-          "p_c68e601cbe88",
-          "p_6d6a939e3366",
-          "p_6865e07a4515",
-          "p_7e6f195499af",
-          "p_24a8d937836d",
-          "p_18ebb02d5440",
-          "p_d274103b2f7a",
-          "p_530871d9ab81"
-        ],
-        "bench": [
-          "p_2b76ea24f2f3",
-          "p_9fc633f09740",
-          "p_f24017fcc1fd",
-          "p_5817a888fc1d",
-          "p_13eb324a8f7c",
-          "p_599022fa2bc8"
-        ]
-      }
-    }
-  },
-  {
-    "fixtureId": "BE1-real-10",
-    "status": "official",
-    "updatedAt": "2026-08-02T10:00:00+02:00",
-    "teams": {
-      "Anderlecht": {
-        "formation": "4-2-3-1",
-        "starters": [
-          "p_d484a3f4c073",
-          "p_934b1fc1e3e4",
-          "p_2d84dde51d12",
-          "p_952620a1a1a5",
-          "p_995ce2b922e9",
-          "p_19aa6e9981b1",
-          "p_995ce2b922e9",
-          "p_8a34430824aa",
-          "p_12c31a892a61",
-          "p_4a4470feb48e",
-          "p_c6c88960bfef"
-        ],
-        "bench": [
-          "p_0b6e81904bef",
-          "p_15c7612a4573",
-          "p_808d2922f736",
-          "p_8a9d952af8a0",
-          "p_372456e2cfa9",
-          "p_0d01333e1f6b"
+          "p_7e7b889e8072",
+          "p_e197ec243f62",
+          "p_cbc32bcbd9b6",
+          "p_f74d228786a0",
+          "p_bc5aca845d75",
+          "p_6ab8dd3d77f9"
         ]
       },
       "Gent": {
-        "formation": "4-3-3",
+        "formation": "4-4-2",
         "starters": [
-          "p_5fb8c425af7a",
-          "p_bce37dbb5470",
-          "p_2f208be7fe23",
-          "p_4b00ab0a509f",
-          "p_0538de23db36",
-          "p_6212cd2e0fa9",
+          "p_badda1341c74",
+          "p_3ba52b1e6d4f",
+          "p_7f99e2b65add",
+          "p_1b8770f781c4",
+          "p_907bc21944c2",
           "p_b9b41b94da97",
-          "p_5867b0d87f32",
-          "p_5d3a01000d64",
-          "p_7d6d13407767",
-          "p_6cdc3fc6fafd"
-        ],
-        "bench": [
-          "p_11604cbf3bb9",
-          "p_234ad76b359f",
+          "p_ac88f4d85bf5",
+          "p_e9543adfca27",
+          "p_109ea5be4cdf",
           "p_9f60c23afc55",
-          "p_d3d345297d6e",
-          "p_089a536b1fb3",
-          "p_2f9022d2c0b9"
+          "p_cf77febf6d7a"
+        ],
+        "bench": [
+          "p_1bd94129c65a",
+          "p_71a4028c4481",
+          "p_fa4106421dd6",
+          "p_5d3a01000d64",
+          "p_7d88fd415e2e",
+          "p_689159fe83dc"
         ]
       }
     }
   },
   {
-    "fixtureId": "BE1-real-11",
-    "status": "expected",
-    "updatedAt": "2026-08-03T10:00:00+02:00",
-    "teams": {
-      "Antwerpen": {
-        "formation": "4-3-3",
-        "starters": [
-          "p_0d9ac7ea6786",
-          "p_875bebdc0113",
-          "p_906e84e44f85",
-          "p_b90e4c8c9a6d",
-          "p_42afa6143e15",
-          "p_3b510c8624b7",
-          "p_ca7b0dd41066",
-          "p_5e1cb1860036",
-          "p_ebc676261f46",
-          "p_54e14d6ac78f",
-          "p_cb7d99e71a5d"
-        ],
-        "bench": [
-          "p_45639a242093",
-          "p_a668ca3af7d9",
-          "p_7e3bbef36bac",
-          "p_2f1b2b650fad",
-          "p_ea7511a4e1d5",
-          "p_faab5c1f51e6"
-        ]
-      },
-      "Mechelen": {
-        "formation": "4-3-3",
-        "starters": [
-          "p_082b6ec17b13",
-          "p_e9b5f7ea6a27",
-          "p_538e8958408e",
-          "p_e0a3d29a11d6",
-          "p_7a92275c0dc9",
-          "p_c095a2d7f2b3",
-          "p_3511ef87d16c",
-          "p_825d288c602b",
-          "p_1c96dbf6e768",
-          "p_30865d4428a2",
-          "p_f5952165497c"
-        ],
-        "bench": [
-          "p_83ad2d655f42",
-          "p_d28825e9ee76",
-          "p_b7d93e5af61a",
-          "p_f095fdc5c093",
-          "p_477cf7f5e20c",
-          "p_37b0de6d5cf8"
-        ]
-      }
-    }
-  },
-  {
-    "fixtureId": "BE1-real-12",
+    "fixtureId": "BE1-real-2",
     "status": "expected",
     "updatedAt": "2026-08-04T10:00:00+02:00",
     "teams": {
-      "Standard": {
-        "formation": "4-4-2",
-        "starters": [
-          "p_53e9c35b7d36",
-          "p_85685ec7aad1",
-          "p_7b232dc9c0a2",
-          "p_7b4a2ac5dfcc",
-          "p_7ea4963663d8",
-          "p_c93e0ddc409e",
-          "p_52293660079f",
-          "p_4e77f87cc3fd",
-          "p_c1ac2e68a52d",
-          "p_007dc19ea038",
-          "p_df097327ca4f"
-        ],
-        "bench": [
-          "p_911d074f031e",
-          "p_0a645be8a833",
-          "p_6b076b332922",
-          "p_08926145125e",
-          "p_436706046723",
-          "p_78a74e0a9c9a"
-        ]
-      },
-      "Charleroi": {
-        "formation": "4-2-3-1",
-        "starters": [
-          "p_ccfddd6c5cbc",
-          "p_0e0cda1fd874",
-          "p_3517e2427bfb",
-          "p_cd209970fe57",
-          "p_7c6c196672f7",
-          "p_c5ed00e0fdaa",
-          "p_5e31c4ee3aa8",
-          "p_d9dacc0f5821",
-          "p_6519f410f8af",
-          "p_24c1850504b4",
-          "p_a3ca485fbda0"
-        ],
-        "bench": [
-          "p_5c71207a8358",
-          "p_c3deb2e4ae3d",
-          "p_a3ca485fbda0",
-          "p_ffcfdc8d31d3",
-          "p_b090bb6f5f0f",
-          "p_af62ecb64ffb"
-        ]
-      }
-    }
-  },
-  {
-    "fixtureId": "BE2-real-13",
-    "status": "official",
-    "updatedAt": "2026-08-05T10:00:00+02:00",
-    "teams": {
-      "Beveren": {
-        "formation": "4-4-2",
-        "starters": [
-          "p_a569dac92311",
-          "p_b9e3b974ff97",
-          "p_94849839a8e3",
-          "p_4b8352f7bdbd",
-          "p_1b43127d48d9",
-          "p_ed7d2d0b7dc8",
-          "p_3f5a9bae84b4",
-          "p_9af8765c3bd2",
-          "p_b32b89e40978",
-          "p_6cbb6b395a74",
-          "p_7d59260620f5"
-        ],
-        "bench": [
-          "p_07122d0b8a68",
-          "p_25b22ce5d96b",
-          "p_070032a0fbda",
-          "p_da880f7ad2b2",
-          "p_0d5aec1d849e",
-          "p_7d3eda4edc37"
-        ]
-      },
-      "Lierse": {
-        "formation": "4-3-3",
-        "starters": [
-          "p_964aae4e61a3",
-          "p_510216218d10",
-          "p_c657c8c2e25d",
-          "p_87fcbe8024ef",
-          "p_99bc2503f3d7",
-          "p_bcff09dbbf88",
-          "p_e500c5b042b8",
-          "p_547902887bb7",
-          "p_d6ef81a8c18a",
-          "p_e4f6dce30de5",
-          "p_68b7bfbfd788"
-        ],
-        "bench": [
-          "p_9eb10c485b43",
-          "p_0fb23ee3e77b",
-          "p_61d9a4a844f3",
-          "p_61d9a4a844f3",
-          "p_53b72f8525f2",
-          "p_0fb23ee3e77b"
-        ]
-      }
-    }
-  },
-  {
-    "fixtureId": "BE2-real-14",
-    "status": "official",
-    "updatedAt": "2026-08-01T10:00:00+02:00",
-    "teams": {
-      "Lommel": {
-        "formation": "4-3-3",
-        "starters": [
-          "p_5918e1eeadc3",
-          "p_adda0d4978c3",
-          "p_c50c4fcedf40",
-          "p_ab30cec4c03c",
-          "p_6b889153fed6",
-          "p_15bcf3bde83a",
-          "p_09d81d1e23e0",
-          "p_69f8c3d12bd4",
-          "p_a246c5fc70e5",
-          "p_2bb34ffe0f98",
-          "p_bca3759e1a21"
-        ],
-        "bench": [
-          "p_3344b657c816",
-          "p_92826a808c7a",
-          "p_a793eeba4e43",
-          "p_d81093820d84",
-          "p_eaf7ddecd2d0",
-          "p_42b3a1c0adba"
-        ]
-      },
-      "Beerschot": {
-        "formation": "4-4-2",
-        "starters": [
-          "p_f868250197b5",
-          "p_d381da7afef7",
-          "p_da556a523718",
-          "p_da556a523718",
-          "p_f913c1a516c3",
-          "p_abda2941eb48",
-          "p_ac41d854337b",
-          "p_564f29f333d1",
-          "p_0e7356a7fb3a",
-          "p_d217b7bb7f43",
-          "p_19314b41ac08"
-        ],
-        "bench": [
-          "p_15b141035a41",
-          "p_9f240dc617d8",
-          "p_47745d3ff366",
-          "p_19c1569f969c",
-          "p_625b743bba18",
-          "p_8f91f0d5ee5f"
-        ]
-      }
-    }
-  },
-  {
-    "fixtureId": "BE2-real-15",
-    "status": "official",
-    "updatedAt": "2026-08-02T10:00:00+02:00",
-    "teams": {
-      "Patro Eisden": {
-        "formation": "4-3-3",
-        "starters": [
-          "p_9c21cb1cb8ed",
-          "p_3b986237c6fc",
-          "p_239d3a36c6c9",
-          "p_519f480b469e",
-          "p_6be0d031c221",
-          "p_8f6298b2d425",
-          "p_26f2c56127cd",
-          "p_266bf5dedf1a",
-          "p_123793041d4c",
-          "p_8c0ef9d103c9",
-          "p_d2842b95cf0a"
-        ],
-        "bench": [
-          "p_3d51eff3fad3",
-          "p_ccc9ca37b8f3",
-          "p_26f2c56127cd",
-          "p_9c1c91c1d668",
-          "p_7358320ce148",
-          "p_5bbe816c088e"
-        ]
-      },
-      "RFC Liège": {
-        "formation": "4-4-2",
-        "starters": [
-          "p_1d1e31299bd3",
-          "p_dc09215e92d3",
-          "p_d24da95647ac",
-          "p_eec163a53bae",
-          "p_6e8869469514",
-          "p_df54492030e8",
-          "p_bc03d80a4b34",
-          "p_05344a97d4f2",
-          "p_42ee01ae0a0b",
-          "p_ae1ca53820e9",
-          "p_10604eb11779"
-        ],
-        "bench": [
-          "p_5e6c19d59eb7",
-          "p_c62e80887c4a",
-          "p_b63a926c7f5e",
-          "p_f4e287f0f158",
-          "p_48e040df806a",
-          "p_1500bb2595ab"
-        ]
-      }
-    }
-  },
-  {
-    "fixtureId": "BE2-real-16",
-    "status": "official",
-    "updatedAt": "2026-08-03T10:00:00+02:00",
-    "teams": {
-      "Seraing": {
-        "formation": "4-2-3-1",
-        "starters": [
-          "p_6e20ab315ca8",
-          "p_4558e7ec3b12",
-          "p_4a4960fcec61",
-          "p_a0b385f5dd94",
-          "p_51d89ddad160",
-          "p_79bcd0b1cb78",
-          "p_0f9b3e3831bb",
-          "p_cfcf32b988f3",
-          "p_82a9ae8e90a8",
-          "p_8bb655a189da",
-          "p_126ef4679513"
-        ],
-        "bench": [
-          "p_02a159fad49f",
-          "p_893a2c24be31",
-          "p_d8bf7c739902",
-          "p_34a0a6c858f5",
-          "p_e13153e2f55a",
-          "p_dcb298fc7af9"
-        ]
-      },
-      "Deinze": {
-        "formation": "4-2-3-1",
-        "starters": [
-          "p_4adf540a951d",
-          "p_17df6812d73f",
-          "p_08054d90f47a",
-          "p_54eaf6605a6e",
-          "p_b8df0bbebed5",
-          "p_d4fa40fb50a2",
-          "p_59e8a047b8f6",
-          "p_8e4ae5990256",
-          "p_f7dd10e9b92b",
-          "p_68ec4b525d40",
-          "p_87408ac9bbba"
-        ],
-        "bench": [
-          "p_a3c76cc6cfae",
-          "p_23954d0758ff",
-          "p_5b14aa81024e",
-          "p_6604d7fccfc7",
-          "p_c1de1db3e377",
-          "p_ef5dcef089a5"
-        ]
-      }
-    }
-  },
-  {
-    "fixtureId": "SE1-real-17",
-    "status": "official",
-    "updatedAt": "2026-08-04T10:00:00+02:00",
-    "teams": {
-      "Malmö": {
-        "formation": "4-4-2",
-        "starters": [
-          "p_453b709e4d75",
-          "p_ab5ec23418af",
-          "p_90c98b39dfb2",
-          "p_7261a286aa9d",
-          "p_dcfc94d0807e",
-          "p_7e5c18837adf",
-          "p_0eb638fbb792",
-          "p_5c4293f6e9d7",
-          "p_c1fa4ac13ed9",
-          "p_257704ef7994",
-          "p_2b9d4ab55fba"
-        ],
-        "bench": [
-          "p_7ab675d0b028",
-          "p_e48ad7d81a7d",
-          "p_4008f2edcdb4",
-          "p_1425f2d07af0",
-          "p_b7cee8e8e5c9",
-          "p_f4df83d871cd"
-        ]
-      },
-      "Hammarby": {
-        "formation": "4-4-2",
-        "starters": [
-          "p_870e1e8948a0",
-          "p_844611658732",
-          "p_4e2cb6a5f890",
-          "p_5bebc1a90bea",
-          "p_acfbe2bbdd10",
-          "p_ca965be4f036",
-          "p_fd7d7fde89c6",
-          "p_e643e63ae67a",
-          "p_c4445a540ba8",
-          "p_1d3acb2994d2",
-          "p_a1a38cc8145d"
-        ],
-        "bench": [
-          "p_29b1b683794a",
-          "p_6689b2a7b61d",
-          "p_45c9264caebc",
-          "p_b546643ca9dc",
-          "p_e7daf3313a52",
-          "p_ed873b36607b"
-        ]
-      }
-    }
-  },
-  {
-    "fixtureId": "SE1-real-18",
-    "status": "official",
-    "updatedAt": "2026-08-05T10:00:00+02:00",
-    "teams": {
-      "Djurgården": {
-        "formation": "4-3-3",
-        "starters": [
-          "p_9b2f60aa8795",
-          "p_154897b06c5a",
-          "p_99e48d65de01",
-          "p_071e975e4dac",
-          "p_22496d0306c4",
-          "p_6369ff02a5d4",
-          "p_ec7f98f8233e",
-          "p_35051d3b7176",
-          "p_96ac17fdf935",
-          "p_863d36999e37",
-          "p_2ccf53ac4419"
-        ],
-        "bench": [
-          "p_39e10fbe5c80",
-          "p_b99e3cf8a400",
-          "p_29149e7a6382",
-          "p_5bca9048b9a2",
-          "p_62899d297117",
-          "p_c71eead61104"
-        ]
-      },
-      "AIK": {
-        "formation": "4-3-3",
-        "starters": [
-          "p_dd2f2f2e795d",
-          "p_03d9a3dc33d7",
-          "p_f31871597808",
-          "p_a878a8d5b115",
-          "p_ccf1a0aef1e2",
-          "p_b4db327520f2",
-          "p_c42d8353e2d2",
-          "p_272c3943001d",
-          "p_0851dc4f0529",
-          "p_3bd320c05dde",
-          "p_7f9142cd8785"
-        ],
-        "bench": [
-          "p_e678366f31f6",
-          "p_c8d626e38e69",
-          "p_a60a3feb0acd",
-          "p_3d81c6da09ac",
-          "p_32ec1a9ffe42",
-          "p_f171fde9e50e"
-        ]
-      }
-    }
-  },
-  {
-    "fixtureId": "SE1-real-19",
-    "status": "official",
-    "updatedAt": "2026-08-01T10:00:00+02:00",
-    "teams": {
-      "Elfsborg": {
-        "formation": "4-4-2",
-        "starters": [
-          "p_4faa63e1c2e6",
-          "p_56dc20063cf7",
-          "p_be99d3ce3b8f",
-          "p_2ffddd200a9e",
-          "p_58cab84e6c30",
-          "p_8db416306066",
-          "p_78dea773366a",
-          "p_cf1c3dd97d8d",
-          "p_d7ee3f14fab9",
-          "p_180a08e11f07",
-          "p_4ffd2468146f"
-        ],
-        "bench": [
-          "p_e65c41df0bc3",
-          "p_cd34b23b9c79",
-          "p_14e57ad09418",
-          "p_8dbdb0c773a8",
-          "p_ebebc623aa42",
-          "p_d2b9e92f36c1"
-        ]
-      },
-      "Häcken": {
-        "formation": "4-3-3",
-        "starters": [
-          "p_c1b4e96a6445",
-          "p_2d39be3cceb0",
-          "p_6e5029902dee",
-          "p_59059dc852fc",
-          "p_3ac7d5b2dbc0",
-          "p_85afe09a08e0",
-          "p_65d11be0a634",
-          "p_f1cf752506c8",
-          "p_647c4a78588e",
-          "p_14b0d24eb926",
-          "p_b598882e1277"
-        ],
-        "bench": [
-          "p_b56443a91011",
-          "p_089f1f6e6447",
-          "p_d14732df71a1",
-          "p_3ac7d5b2dbc0",
-          "p_f100a725762e",
-          "p_dc9af1d96a93"
-        ]
-      }
-    }
-  },
-  {
-    "fixtureId": "SE1-real-20",
-    "status": "official",
-    "updatedAt": "2026-08-02T10:00:00+02:00",
-    "teams": {
-      "Göteborg": {
+      "St. Gilloise": {
         "formation": "3-5-2",
         "starters": [
-          "p_fc419aaaf39d",
-          "p_17dce665c1ff",
-          "p_2512050a14b8",
-          "p_b30b9032303c",
-          "p_d463b8701e25",
-          "p_318ee33b9c8e",
-          "p_53abb723c23b",
-          "p_89d667d5e583",
-          "p_89ee54e8d589",
-          "p_3829ae1c795b",
-          "p_4f16706f1c00"
+          "p_816526837ed6",
+          "p_4124e3400dbc",
+          "p_27000f757092",
+          "p_d76881c58435",
+          "p_4e836f03b649",
+          "p_952c4f70d4ff",
+          "p_d24bf2d1a7c5",
+          "p_f586c5de3222",
+          "p_9705ea2ec4ee",
+          "p_e8306a40c0d7",
+          "p_81f4a57ade2d"
         ],
         "bench": [
-          "p_c2aa97e20bc3",
-          "p_c31a65c54a4f",
-          "p_310f8c7df89f",
-          "p_e55141bcf59e",
-          "p_d3bde8306f3f",
-          "p_d57cac6cac43"
+          "p_d40ddf0144e2",
+          "p_10398aab710a",
+          "p_ddf013272f04",
+          "p_709c1f4d7362",
+          "p_83fce121549a",
+          "p_b46bda3dbebd"
         ]
       },
-      "Norrköping": {
-        "formation": "4-4-2",
-        "starters": [
-          "p_9fabc8f13cc3",
-          "p_b418d26fa3e9",
-          "p_2c922739c15c",
-          "p_f2cd7f9597c4",
-          "p_d338f736bbbd",
-          "p_53373cf716d2",
-          "p_84ad3a9150ed",
-          "p_445a7bf43fa9",
-          "p_02ba89d2b948",
-          "p_4e567a862ad1",
-          "p_f51d82aa560f"
-        ],
-        "bench": [
-          "p_5bd0239f91db",
-          "p_e4492ab056a8",
-          "p_f6f3b954fb3f",
-          "p_2c07a9dc3ac8",
-          "p_868ecd5b3e7f",
-          "p_351eef8d01a4"
-        ]
-      }
-    }
-  },
-  {
-    "fixtureId": "SE2-real-21",
-    "status": "official",
-    "updatedAt": "2026-08-03T10:00:00+02:00",
-    "teams": {
-      "Öster": {
-        "formation": "4-2-3-1",
-        "starters": [
-          "p_337bdfa279b3",
-          "p_1130108bd033",
-          "p_d5f03af1dab3",
-          "p_f66e27d605c9",
-          "p_06732b2af364",
-          "p_f9c2b1a5a0bf",
-          "p_d834f50d0ad8",
-          "p_0b6ba0703fd4",
-          "p_a9ad201a06ad",
-          "p_a1c7875e48b7",
-          "p_16d719a1d21e"
-        ],
-        "bench": [
-          "p_dae2a549ff03",
-          "p_488bec90afd8",
-          "p_08fc064bcd45",
-          "p_4da6bcbc84f0",
-          "p_3e7c971e53c2",
-          "p_174655094eb7"
-        ]
-      },
-      "Landskrona": {
-        "formation": "4-4-2",
-        "starters": [
-          "p_f04fafecae85",
-          "p_ea6a60e1a158",
-          "p_543d7b98ac78",
-          "p_c22f299c5d97",
-          "p_b75dce7bec3e",
-          "p_2101d3ef2f60",
-          "p_7f68094e0485",
-          "p_ceaff267d5c9",
-          "p_0dd76f0713ca",
-          "p_a14dab701138",
-          "p_a2cd87bcf6c0"
-        ],
-        "bench": [
-          "p_9d04a3921151",
-          "p_397be14c4d22",
-          "p_2c290659bb53",
-          "p_8e8debf725f5",
-          "p_94bbb1c897d6",
-          "p_26d5d523e1cb"
-        ]
-      }
-    }
-  },
-  {
-    "fixtureId": "SE2-real-22",
-    "status": "official",
-    "updatedAt": "2026-08-04T10:00:00+02:00",
-    "teams": {
-      "Helsingborg": {
-        "formation": "4-3-3",
-        "starters": [
-          "p_50e9ad0879df",
-          "p_348e708cad2e",
-          "p_6e9393d146dc",
-          "p_c6e328c6da44",
-          "p_1205a9e333af",
-          "p_26295063c023",
-          "p_fb70b7d86e8b",
-          "p_0b2dd1eb713f",
-          "p_79fe8371ee8e",
-          "p_7f9bb89126fc",
-          "p_8c2ce856bf69"
-        ],
-        "bench": [
-          "p_66bc490bcab2",
-          "p_10a24d030288",
-          "p_a6977fce991f",
-          "p_d6e22973f4d2",
-          "p_34a68d049018",
-          "p_156ff764fadc"
-        ]
-      },
-      "Örebro": {
+      "Genk": {
         "formation": "3-4-2-1",
         "starters": [
-          "p_1e7ea40088a0",
-          "p_d20c57495d61",
-          "p_2d8c30fbad09",
-          "p_ed090f7e1726",
-          "p_fae722b56241",
-          "p_1664c42abf14",
-          "p_f56ff9e301d6",
-          "p_2b3a9ff70b35",
-          "p_e249419a5d35",
-          "p_679d087e378d",
-          "p_0f28a8790d2c"
+          "p_29813d5a4ebb",
+          "p_8415e328211f",
+          "p_d3a6ff5ddd45",
+          "p_13552743f63d",
+          "p_758d5cffbf73",
+          "p_f70eebb4210c",
+          "p_d18b5bc38a7f",
+          "p_8e64779d8a2e",
+          "p_a6aa8139bdf0",
+          "p_32e2cb2853b3",
+          "p_18b524906b3c"
         ],
         "bench": [
-          "p_2d8c30fbad09",
-          "p_88ff8577c220",
-          "p_23c97ed4ea43",
-          "p_bbc95f246c0b",
-          "p_981ea0a60f09",
-          "p_f695c9814361"
+          "p_7e7b889e8072",
+          "p_e197ec243f62",
+          "p_cbc32bcbd9b6",
+          "p_f74d228786a0",
+          "p_bc5aca845d75",
+          "p_6ab8dd3d77f9"
         ]
       }
     }
   },
   {
-    "fixtureId": "SE2-real-23",
-    "status": "expected",
-    "updatedAt": "2026-08-05T10:00:00+02:00",
-    "teams": {
-      "Trelleborg": {
-        "formation": "3-5-2",
-        "starters": [
-          "p_5d8b7b9ebfd7",
-          "p_3a432a7e5e36",
-          "p_319b75b70aa3",
-          "p_7351d199a5fe",
-          "p_a7dbdb275305",
-          "p_64fc8566aca2",
-          "p_35271758c8eb",
-          "p_7cb075f80d33",
-          "p_45430aef0a22",
-          "p_e60811498616",
-          "p_3c84a9f1d300"
-        ],
-        "bench": [
-          "p_9fa4593bc209",
-          "p_2b83c908c813",
-          "p_9bdd7ea8a1e6",
-          "p_a4ac87513ee0",
-          "p_076f941b2d15",
-          "p_b17304101106"
-        ]
-      },
-      "Brage": {
-        "formation": "4-3-3",
-        "starters": [
-          "p_4e27bd53832f",
-          "p_909ea0b0d7a8",
-          "p_aae190b00854",
-          "p_119502ebb44d",
-          "p_429dd80f7f9d",
-          "p_9666605a6a2c",
-          "p_77d4231e0b92",
-          "p_466ee674f28f",
-          "p_49e83d7b04cc",
-          "p_c814a9532fe0",
-          "p_194183a4f75a"
-        ],
-        "bench": [
-          "p_4833864f8142",
-          "p_4822a9a4b17e",
-          "p_ba418a53307b",
-          "p_0f3c2ea01e46",
-          "p_b407514cb0c8",
-          "p_f5058b131880"
-        ]
-      }
-    }
-  },
-  {
-    "fixtureId": "SE2-real-24",
-    "status": "official",
-    "updatedAt": "2026-08-01T10:00:00+02:00",
-    "teams": {
-      "Utsikten": {
-        "formation": "4-4-2",
-        "starters": [
-          "p_1984ff8b7314",
-          "p_f19daf7a3b6f",
-          "p_a21d0cff0c7c",
-          "p_a8c515eddcc3",
-          "p_60618f19c5b0",
-          "p_a076ae7fb70b",
-          "p_d2bbae54dad1",
-          "p_3bf7f41f67e7",
-          "p_ffbfcc2f3da9",
-          "p_ffbfcc2f3da9",
-          "p_ffb258687eb1"
-        ],
-        "bench": [
-          "p_066d3a260a65",
-          "p_fb55ddbcdcfb",
-          "p_60f7c497dd20",
-          "p_86de46b0a47a",
-          "p_a84178f228f8",
-          "p_1318f9c9fddb"
-        ]
-      },
-      "Sundsvall": {
-        "formation": "4-4-2",
-        "starters": [
-          "p_c10307e76331",
-          "p_ddb13e1ea99c",
-          "p_da32b35b6f72",
-          "p_5a37d6a49466",
-          "p_e174b0ef6415",
-          "p_8edaf72d4c76",
-          "p_bd714e006133",
-          "p_1e7e4ec76aae",
-          "p_528d23d46e1e",
-          "p_1becf1b90059",
-          "p_e58141366e53"
-        ],
-        "bench": [
-          "p_b26b64bb18cc",
-          "p_f0451b1608b8",
-          "p_a9a586dcc6d0",
-          "p_4d31481c6641",
-          "p_b94650da2338",
-          "p_cb3523b6ed1e"
-        ]
-      }
-    }
-  },
-  {
-    "fixtureId": "NO1-real-25",
-    "status": "expected",
-    "updatedAt": "2026-08-02T10:00:00+02:00",
-    "teams": {
-      "Bodø/Glimt": {
-        "formation": "3-5-2",
-        "starters": [
-          "p_fede427cd83b",
-          "p_97dc38498fc3",
-          "p_a63b08f3a17b",
-          "p_be047a8ccb7d",
-          "p_fbbaeff0a59b",
-          "p_63abf412994e",
-          "p_1d5b2b77ac47",
-          "p_a81a49cafce1",
-          "p_607440bb08eb",
-          "p_bf7756db31c8",
-          "p_56b01066c7fc"
-        ],
-        "bench": [
-          "p_a4e1c5b49564",
-          "p_2d0c40d9306d",
-          "p_bc8963041f60",
-          "p_5c4f95e267d5",
-          "p_c2755d6defc8",
-          "p_efeacdcfc1df"
-        ]
-      },
-      "Molde": {
-        "formation": "4-4-2",
-        "starters": [
-          "p_1e5995878605",
-          "p_ca05c4646504",
-          "p_ae7892553a61",
-          "p_3a49c24ab30b",
-          "p_f8d1ed2ec56e",
-          "p_9bbe0d366531",
-          "p_29eb93cd02e9",
-          "p_1345edb5c633",
-          "p_f0f7c1463f23",
-          "p_5e6befc29503",
-          "p_9161400f6306"
-        ],
-        "bench": [
-          "p_3ba9df37daa4",
-          "p_4c1f9b73222e",
-          "p_494c8ee86bf3",
-          "p_1ce9702da6c4",
-          "p_569d5ac4ab32",
-          "p_768d958d196e"
-        ]
-      }
-    }
-  },
-  {
-    "fixtureId": "NO1-real-26",
-    "status": "official",
-    "updatedAt": "2026-08-03T10:00:00+02:00",
-    "teams": {
-      "Rosenborg": {
-        "formation": "4-4-2",
-        "starters": [
-          "p_206042b05653",
-          "p_489e48d66fd0",
-          "p_cf8172ec259d",
-          "p_c48e7c1cc009",
-          "p_6aec7791d53f",
-          "p_69b6a33a5b3c",
-          "p_9d827df0b3b5",
-          "p_f49e64077522",
-          "p_be9274b900b2",
-          "p_1722de1a77fb",
-          "p_4193ebcdd92f"
-        ],
-        "bench": [
-          "p_41f8e07ff53d",
-          "p_6aec7791d53f",
-          "p_e90a7bf62af1",
-          "p_5cdff55be7fd",
-          "p_7e57829293fa",
-          "p_e050481c792f"
-        ]
-      },
-      "Brann": {
-        "formation": "3-4-2-1",
-        "starters": [
-          "p_de53902a01f4",
-          "p_7233fa61e97a",
-          "p_58352afa5901",
-          "p_390d1dd87e4a",
-          "p_2cc283a45bd4",
-          "p_6db7cc9804a6",
-          "p_b00d5d459383",
-          "p_8b7c4dfb91fd",
-          "p_309012ca85d6",
-          "p_d18d1293e228",
-          "p_23c4d7df9818"
-        ],
-        "bench": [
-          "p_e23ff845884f",
-          "p_1125a9c75544",
-          "p_7cb5982fc276",
-          "p_66911638fe89",
-          "p_76924e619598",
-          "p_6c691c20d168"
-        ]
-      }
-    }
-  },
-  {
-    "fixtureId": "NO1-real-27",
-    "status": "official",
-    "updatedAt": "2026-08-04T10:00:00+02:00",
-    "teams": {
-      "Viking": {
-        "formation": "3-5-2",
-        "starters": [
-          "p_84a5d7d389b3",
-          "p_dab37cd7669d",
-          "p_c7a3348297cd",
-          "p_91c2ac8f1f82",
-          "p_f2cfadf51f47",
-          "p_87eb8a1c7207",
-          "p_8879cd0aace3",
-          "p_bca6108fea4f",
-          "p_87bed322fdaa",
-          "p_d62edbe0013e",
-          "p_ab3f5ad11747"
-        ],
-        "bench": [
-          "p_ce949cd84edc",
-          "p_5b0681dc0de1",
-          "p_dab37cd7669d",
-          "p_a3070666533b",
-          "p_d112c36e18fe",
-          "p_96319ce4875e"
-        ]
-      },
-      "Tromsø": {
-        "formation": "4-3-3",
-        "starters": [
-          "p_b50b99f84eac",
-          "p_2ac5eaa128be",
-          "p_6076cd230dfc",
-          "p_17f6d28c8e57",
-          "p_18a4fd743d81",
-          "p_3b7ad6bc5ff9",
-          "p_67182a0e2a78",
-          "p_92ff2677ef53",
-          "p_65a2bcdf4360",
-          "p_702df2f8f26a",
-          "p_21165efc22a7"
-        ],
-        "bench": [
-          "p_5e9e7f20fb7a",
-          "p_c07fd0fc5dad",
-          "p_c62b384e58ee",
-          "p_324255d8c89f",
-          "p_038103ef88eb",
-          "p_2ebda7cee59c"
-        ]
-      }
-    }
-  },
-  {
-    "fixtureId": "NO1-real-28",
-    "status": "expected",
-    "updatedAt": "2026-08-05T10:00:00+02:00",
-    "teams": {
-      "Sarpsborg": {
-        "formation": "4-3-3",
-        "starters": [
-          "p_a16330be3d5b",
-          "p_cbd33e639d06",
-          "p_dc7c3b47cf58",
-          "p_a1c3739b2c6a",
-          "p_dbcaa35db7b8",
-          "p_c8144609e817",
-          "p_3e0baa6c2313",
-          "p_12ba95e51a74",
-          "p_c3bfeddfdf0b",
-          "p_c30141a508ea",
-          "p_0bad0012c366"
-        ],
-        "bench": [
-          "p_25541b1c8b88",
-          "p_1040fd941b91",
-          "p_e3d350e7bafe",
-          "p_0646c44df23a",
-          "p_881b63b2e8f1",
-          "p_0fd8d2d0feb2"
-        ]
-      },
-      "Haugesund": {
-        "formation": "4-2-3-1",
-        "starters": [
-          "p_9177986e2d10",
-          "p_b2f87c8b3cb3",
-          "p_8d7d683f3a7b",
-          "p_009577f6ad0f",
-          "p_01484882e4a3",
-          "p_fbd166702fb8",
-          "p_9ceb14dd15bd",
-          "p_f970474da1af",
-          "p_55a5b98db80e",
-          "p_9ceb14dd15bd",
-          "p_72f63f482102"
-        ],
-        "bench": [
-          "p_1f824f8f4d85",
-          "p_27d2b618ce25",
-          "p_b2f87c8b3cb3",
-          "p_c66840a44bc0",
-          "p_8854294ed22a",
-          "p_0191589c67b8"
-        ]
-      }
-    }
-  },
-  {
-    "fixtureId": "NO2-real-29",
-    "status": "expected",
-    "updatedAt": "2026-08-01T10:00:00+02:00",
-    "teams": {
-      "Start": {
-        "formation": "4-3-3",
-        "starters": [
-          "p_539694ccc079",
-          "p_e793dacfa6b0",
-          "p_d11a75d8b5ec",
-          "p_f7b0e364d995",
-          "p_c82614e5a54a",
-          "p_c0884cc900c8",
-          "p_f76bc1dc8aa6",
-          "p_b41d94761f17",
-          "p_257d2e3d96f3",
-          "p_fed824c06999",
-          "p_f2d891404f18"
-        ],
-        "bench": [
-          "p_dfe09164d8e0",
-          "p_fa4711b1bba9",
-          "p_9d4b94848258",
-          "p_2607d75b15e0",
-          "p_4e1082f9e470",
-          "p_9283febf08ee"
-        ]
-      },
-      "Sogndal": {
-        "formation": "4-3-3",
-        "starters": [
-          "p_4dfc4f976f00",
-          "p_6db6635541f3",
-          "p_62207c3e3e47",
-          "p_7d0041d768c1",
-          "p_811b5c72fd24",
-          "p_b3c213310591",
-          "p_49b4985502c8",
-          "p_6d0db03613cf",
-          "p_b08ec7986af1",
-          "p_0fe734ccbbe3",
-          "p_c233a1df4ef1"
-        ],
-        "bench": [
-          "p_bc396737553b",
-          "p_959c560f2a27",
-          "p_410359f50759",
-          "p_04b08ac8fb36",
-          "p_49b4985502c8",
-          "p_4f6b34469efe"
-        ]
-      }
-    }
-  },
-  {
-    "fixtureId": "NO2-real-30",
-    "status": "official",
-    "updatedAt": "2026-08-02T10:00:00+02:00",
-    "teams": {
-      "Kongsvinger": {
-        "formation": "4-3-3",
-        "starters": [
-          "p_aa5bd0bce65a",
-          "p_0a2315bcaa74",
-          "p_ea159c0503f7",
-          "p_7b87207de443",
-          "p_794d1a708485",
-          "p_69de9d325b0c",
-          "p_cffefe9b8868",
-          "p_1fdf5e65bc28",
-          "p_9e2b1df0151f",
-          "p_69de9d325b0c",
-          "p_3579ecaca944"
-        ],
-        "bench": [
-          "p_44866282f26d",
-          "p_3fc6f129ea6f",
-          "p_6d63e7bd8c58",
-          "p_e72d62299452",
-          "p_fe97b2737fe9",
-          "p_670feb7290b7"
-        ]
-      },
-      "Ranheim": {
-        "formation": "3-4-2-1",
-        "starters": [
-          "p_3895d96d8f2c",
-          "p_00d4ec510644",
-          "p_0b11a5cc4056",
-          "p_d741eab9b7a3",
-          "p_6794b9c1e7c1",
-          "p_4b9c11bbe2bc",
-          "p_eaafe441d508",
-          "p_a0b4fa509078",
-          "p_dbeb9762483c",
-          "p_374deb874e89",
-          "p_d66756bf1808"
-        ],
-        "bench": [
-          "p_24442fa3f72d",
-          "p_705d0b60c17e",
-          "p_09e575d8b984",
-          "p_c3c14aa95d0b",
-          "p_93c59d4919d6",
-          "p_8d2333897f68"
-        ]
-      }
-    }
-  },
-  {
-    "fixtureId": "NO2-real-31",
-    "status": "official",
-    "updatedAt": "2026-08-03T10:00:00+02:00",
-    "teams": {
-      "Stabæk": {
-        "formation": "3-5-2",
-        "starters": [
-          "p_399486bf0862",
-          "p_5fd1c2f2466d",
-          "p_0c60bfb0e6bd",
-          "p_53151696dfb2",
-          "p_0b9281df7a0d",
-          "p_2738f6dbd535",
-          "p_94c523b3fbd9",
-          "p_405a9a3a12cd",
-          "p_1da20505aafa",
-          "p_2d7a430b292f",
-          "p_88bbbcbe1ee9"
-        ],
-        "bench": [
-          "p_381e7da6b7f6",
-          "p_d468f6f3c90a",
-          "p_645b4986b548",
-          "p_3f714869db89",
-          "p_09f164b3ac63",
-          "p_f28a9e8fa7b0"
-        ]
-      },
-      "Åsane": {
-        "formation": "4-4-2",
-        "starters": [
-          "p_4ccfe846d523",
-          "p_a61f73f254ee",
-          "p_c27217b374c6",
-          "p_1336a94b949d",
-          "p_173b4babea8a",
-          "p_3a23aae48c70",
-          "p_dfe7ef2bdf78",
-          "p_1ee1f9742839",
-          "p_e30937259272",
-          "p_da6948cc9840",
-          "p_6711ace46fdb"
-        ],
-        "bench": [
-          "p_a2d39143a5a4",
-          "p_26bed82a6508",
-          "p_4e1ef2c1f633",
-          "p_bdc4064cbe62",
-          "p_e308445ad913",
-          "p_7930cd2083d4"
-        ]
-      }
-    }
-  },
-  {
-    "fixtureId": "NO2-real-32",
-    "status": "expected",
-    "updatedAt": "2026-08-04T10:00:00+02:00",
-    "teams": {
-      "Raufoss": {
-        "formation": "4-4-2",
-        "starters": [
-          "p_8ba942ddd68e",
-          "p_32cc2fd03013",
-          "p_344723d8f29a",
-          "p_2c821c4946c4",
-          "p_6672dd6b7660",
-          "p_d5140a00d70f",
-          "p_23ffeed7c084",
-          "p_2acbf6e079d6",
-          "p_cb64a39eb219",
-          "p_f20651eba2c6",
-          "p_cb64a39eb219"
-        ],
-        "bench": [
-          "p_f8a9f1d8c3bd",
-          "p_1b4ab39b920f",
-          "p_d3dbf7a1c560",
-          "p_7e54ac30b3b4",
-          "p_f42ab8ecbaa5",
-          "p_d2a9f0d7d160"
-        ]
-      },
-      "Mjøndalen": {
-        "formation": "4-2-3-1",
-        "starters": [
-          "p_c906949fd7d0",
-          "p_8bb17dfbe5e3",
-          "p_d25ea08735d2",
-          "p_7b3e6726f70c",
-          "p_753a06393d20",
-          "p_de3efa5fab58",
-          "p_ffb818c6e6b5",
-          "p_536574b7005f",
-          "p_4e5787b30f8d",
-          "p_8475e09b4dee",
-          "p_b5e536c02499"
-        ],
-        "bench": [
-          "p_b302f9010102",
-          "p_e6cb19626768",
-          "p_45dca523215f",
-          "p_a01015346cf8",
-          "p_c1d19c515916",
-          "p_be04b610b2ab"
-        ]
-      }
-    }
-  },
-  {
-    "fixtureId": "AT1-real-33",
-    "status": "expected",
-    "updatedAt": "2026-08-05T10:00:00+02:00",
-    "teams": {
-      "Salzburg": {
-        "formation": "4-4-2",
-        "starters": [
-          "p_0dc39e015962",
-          "p_36ecf82749bb",
-          "p_a6c198cb0c78",
-          "p_38d099b822f8",
-          "p_2ebac6fea5f1",
-          "p_457518ce030c",
-          "p_1dbba40d51a9",
-          "p_d0c3cf805b1c",
-          "p_382d1dc9f8e5",
-          "p_2a7b4c4ac2b1",
-          "p_d8b98ec9a091"
-        ],
-        "bench": [
-          "p_c9a24a7fbb79",
-          "p_e5ec12a2cf22",
-          "p_b554fa48b429",
-          "p_17a7184aa7c0",
-          "p_b5ca821dcea1",
-          "p_23b967b55fce"
-        ]
-      },
-      "Sturm Graz": {
-        "formation": "4-4-2",
-        "starters": [
-          "p_ea5b8532e8e6",
-          "p_f60481a1456c",
-          "p_9f9f1e23c4d4",
-          "p_0ac226708c9d",
-          "p_1e2baab87f62",
-          "p_f45226f0fd2e",
-          "p_b3fe664ad4bb",
-          "p_bc2a8f719598",
-          "p_32a5c034d397",
-          "p_bbc079fff44a",
-          "p_9e2bc82255cf"
-        ],
-        "bench": [
-          "p_970bbf0ef4c3",
-          "p_2ee46496fd29",
-          "p_c386e6197494",
-          "p_2d70c56aeb69",
-          "p_f56c8a80d1ee",
-          "p_4e79ab08d818"
-        ]
-      }
-    }
-  },
-  {
-    "fixtureId": "AT1-real-34",
-    "status": "expected",
-    "updatedAt": "2026-08-01T10:00:00+02:00",
-    "teams": {
-      "Rapid Wien": {
-        "formation": "4-2-3-1",
-        "starters": [
-          "p_cf218dbfffeb",
-          "p_01a8fcfb0c89",
-          "p_623c43881151",
-          "p_fb9a0ee7e84d",
-          "p_2650e6bb2947",
-          "p_23c812e7e027",
-          "p_001abd8f5ca7",
-          "p_b03848552320",
-          "p_190c7dd929c5",
-          "p_18cd5ac46a1d",
-          "p_05de2aa80ac3"
-        ],
-        "bench": [
-          "p_62e5e79d71e4",
-          "p_59f290ce7482",
-          "p_d8060f2083e7",
-          "p_6c30a37a0c8c",
-          "p_733904473aef",
-          "p_5455ccc41c6c"
-        ]
-      },
-      "Austria Wien": {
-        "formation": "4-3-3",
-        "starters": [
-          "p_16c86ad2d992",
-          "p_64b177b7abbe",
-          "p_f6d4074028af",
-          "p_3a4b4ff4d609",
-          "p_baee4e1d3dd2",
-          "p_2f2430236522",
-          "p_9e2d38279901",
-          "p_520fbdec7011",
-          "p_dea5ca69403c",
-          "p_739e74fa5278",
-          "p_fba4948b0f51"
-        ],
-        "bench": [
-          "p_70ae53afc950",
-          "p_2e1bfc0141fa",
-          "p_4049cc24b5e3",
-          "p_3dfab92d6da6",
-          "p_a69671a147ba",
-          "p_2e1bfc0141fa"
-        ]
-      }
-    }
-  },
-  {
-    "fixtureId": "AT1-real-35",
-    "status": "official",
-    "updatedAt": "2026-08-02T10:00:00+02:00",
-    "teams": {
-      "LASK": {
-        "formation": "4-3-3",
-        "starters": [
-          "p_f4351473c778",
-          "p_1d3a91c565af",
-          "p_91a5affc4469",
-          "p_e8f0a5540afc",
-          "p_5de9354bc45c",
-          "p_feb11e340105",
-          "p_d77b3ec356e6",
-          "p_d4bcac1b60a8",
-          "p_cd8161effd5a",
-          "p_c289e953f1e9",
-          "p_7d7d3c26f09f"
-        ],
-        "bench": [
-          "p_57eed8771ade",
-          "p_1cdcfd4724a9",
-          "p_50b388051b96",
-          "p_917cdc735675",
-          "p_f72b15459ac0",
-          "p_6990dfc89f60"
-        ]
-      },
-      "Wolfsberg": {
-        "formation": "4-4-2",
-        "starters": [
-          "p_8b7ec1029acd",
-          "p_de257c45b797",
-          "p_e00ecf3efcf7",
-          "p_992e0b9c19dd",
-          "p_125c54c0e617",
-          "p_13cc9cf4d0dd",
-          "p_599c330581a9",
-          "p_1640dced05ad",
-          "p_cc64928ff363",
-          "p_0cebcfc2d93c",
-          "p_b3ac998a003c"
-        ],
-        "bench": [
-          "p_8fb387746c6c",
-          "p_067de4435154",
-          "p_71de11694926",
-          "p_f31344a7228a",
-          "p_fda99aaa7a58",
-          "p_cb24eefe1f33"
-        ]
-      }
-    }
-  },
-  {
-    "fixtureId": "AT1-real-36",
-    "status": "expected",
-    "updatedAt": "2026-08-03T10:00:00+02:00",
-    "teams": {
-      "Hartberg": {
-        "formation": "3-5-2",
-        "starters": [
-          "p_55996c721262",
-          "p_8e7895df159f",
-          "p_ed607cacec56",
-          "p_a683ea38547a",
-          "p_3e8b6ea2f0b6",
-          "p_77ba404b6f1e",
-          "p_29bfe6930854",
-          "p_c66ca3276a0f",
-          "p_0282504d7a27",
-          "p_1b774f5a991d",
-          "p_1b774f5a991d"
-        ],
-        "bench": [
-          "p_832e8d02ed11",
-          "p_d89d7b288a73",
-          "p_c66ca3276a0f",
-          "p_c6f2c920b85d",
-          "p_5e8c4b20c7fa",
-          "p_a367a4b825cc"
-        ]
-      },
-      "Altach": {
-        "formation": "3-4-2-1",
-        "starters": [
-          "p_fe54c602c9af",
-          "p_75d2a5d4d9ae",
-          "p_488624b5e251",
-          "p_179f589c953a",
-          "p_e612199b4202",
-          "p_3e7fd4aa8c91",
-          "p_cb06614e1877",
-          "p_cbf0bd6af7ab",
-          "p_6f6e540ca0de",
-          "p_3020e814fd3a",
-          "p_96e598f32ed7"
-        ],
-        "bench": [
-          "p_be84bb837bf1",
-          "p_0502c88f7bb2",
-          "p_c527aa651907",
-          "p_2be39c38d300",
-          "p_41b9926a01dc",
-          "p_d2824a44a9b8"
-        ]
-      }
-    }
-  },
-  {
-    "fixtureId": "AT2-real-37",
-    "status": "official",
-    "updatedAt": "2026-08-04T10:00:00+02:00",
-    "teams": {
-      "Ried": {
-        "formation": "3-5-2",
-        "starters": [
-          "p_211a0ffc77f5",
-          "p_56fc5ed77816",
-          "p_89723ee2e8f6",
-          "p_fe520653bbd0",
-          "p_7cc7040a2bb5",
-          "p_edc29bc4c408",
-          "p_be038d482cfa",
-          "p_8793f15d601c",
-          "p_b9b42dc65ff4",
-          "p_2098c8d0b7fa",
-          "p_c2fd82c86830"
-        ],
-        "bench": [
-          "p_658d75e16c4e",
-          "p_9e37e93b9289",
-          "p_60f993568365",
-          "p_c135f1a2dda2",
-          "p_4f5f33df5e1f",
-          "p_a3c190320894"
-        ]
-      },
-      "Admira": {
-        "formation": "3-4-2-1",
-        "starters": [
-          "p_746ab36cf2c6",
-          "p_1eedaeb287f2",
-          "p_48f295b7c625",
-          "p_a1a5a5ae1100",
-          "p_2b2e60c80fde",
-          "p_9c933eb4ca91",
-          "p_bfe76c24f24d",
-          "p_68293077e923",
-          "p_e9e73e3a1880",
-          "p_05ea7bb6d789",
-          "p_97d34ad3e378"
-        ],
-        "bench": [
-          "p_7b5589faf684",
-          "p_97f00cefd384",
-          "p_509fc12fff6f",
-          "p_a59852e828c7",
-          "p_7a05bd111f31",
-          "p_556feccbf3bc"
-        ]
-      }
-    }
-  },
-  {
-    "fixtureId": "AT2-real-38",
+    "fixtureId": "BE1-real-3",
     "status": "official",
     "updatedAt": "2026-08-05T10:00:00+02:00",
     "teams": {
-      "St. Pölten": {
+      "Club Brugge": {
         "formation": "4-4-2",
         "starters": [
-          "p_b78545cf4aef",
-          "p_e235be0f0983",
-          "p_5a279b10f442",
-          "p_498dcdede418",
-          "p_6635a6eac7fd",
-          "p_f83037e00b84",
-          "p_d928a218a168",
-          "p_70e88a8a8d27",
-          "p_70f6ac95499a",
-          "p_d49196127cc5",
-          "p_125da43a72c2"
+          "p_07d2ebf96f6d",
+          "p_7c2b156bf2e1",
+          "p_f77b136acb58",
+          "p_4c1ae334babc",
+          "p_b59549617e7e",
+          "p_ee17805d44da",
+          "p_f4efe22c44af",
+          "p_a3cf2c1a7f97",
+          "p_49ed7305c76b",
+          "p_51fb68a06bf1",
+          "p_62f62324c2e0"
         ],
         "bench": [
-          "p_989fbbd40a5a",
-          "p_3a83c4bc367a",
-          "p_2fbaaa89e648",
-          "p_1a7fde42f1d6",
-          "p_e4124447401c",
-          "p_874492e99bf9"
+          "p_b6808c0198db",
+          "p_35968ae86c8e",
+          "p_6b3d03817d19",
+          "p_5c0316651962",
+          "p_065fc128bf62",
+          "p_e46027a832e9"
         ]
       },
-      "Kapfenberg": {
-        "formation": "4-2-3-1",
+      "Cercle Brugge": {
+        "formation": "3-4-2-1",
         "starters": [
-          "p_4572ee0fd34e",
-          "p_ae36992d11f6",
-          "p_6d3c101b4164",
-          "p_edbd2941f178",
-          "p_6f0525f934c2",
-          "p_b3153ea16eca",
-          "p_d3f76dd8b3bc",
-          "p_056b909c3e9d",
-          "p_833c22bde2b4",
-          "p_6cd387282d34",
-          "p_90e4ca5c345f"
+          "p_468b5b3a6823",
+          "p_bbb29e6c0084",
+          "p_72716e8a1a0d",
+          "p_6931047d1269",
+          "p_9216d66514db",
+          "p_846b4e193343",
+          "p_38a5d218d621",
+          "p_fe66601d7533",
+          "p_c5b05bbf56b0",
+          "p_a62d4a89abba",
+          "p_a6fbb21da664"
         ],
         "bench": [
-          "p_c9f9247e3dd7",
-          "p_041141f43c00",
-          "p_28db45813afe",
-          "p_07a255d272cb",
-          "p_c2428c7d2010",
-          "p_71057413d4ab"
+          "p_284ac2e222cd",
+          "p_4c5ebc9b965f",
+          "p_d542e54354d5",
+          "p_8c31d166f078",
+          "p_d87791c7e109",
+          "p_68b7c1fab5d9"
         ]
       }
     }
   },
   {
-    "fixtureId": "AT2-real-39",
-    "status": "expected",
+    "fixtureId": "BE1-real-4",
+    "status": "official",
     "updatedAt": "2026-08-01T10:00:00+02:00",
     "teams": {
-      "Vienna": {
-        "formation": "4-2-3-1",
+      "Antwerp": {
+        "formation": "4-3-3",
         "starters": [
-          "p_29933f7f68e2",
-          "p_76db9b47e6f9",
-          "p_5e5c8e8deb2d",
-          "p_fdeb79d5663d",
-          "p_dc2a64c68199",
-          "p_bc1c66608d33",
-          "p_4a5868eae318",
-          "p_dd6548c1177b",
-          "p_20fcbb404fd0",
-          "p_84cdaf98a624",
-          "p_4850e20534b2"
+          "p_589dcaa5a228",
+          "p_aabfb88f71ef",
+          "p_313c3e74a7ff",
+          "p_81b593b727b5",
+          "p_c27963a53873",
+          "p_a55c6810fb3d",
+          "p_d71867bbc6fe",
+          "p_bc16c960a12f",
+          "p_63a433d3132e",
+          "p_a487f2b6fd8c",
+          "p_32c899701c88"
         ],
         "bench": [
-          "p_0040c9409c6c",
-          "p_b72aff548abc",
-          "p_8ef613c9627c",
-          "p_5d32c160ea62",
-          "p_ec909e48b517",
-          "p_bec46543b968"
+          "p_8de63ff01aa0",
+          "p_11522d16e960",
+          "p_d5f35fb6d1c0",
+          "p_2b470e1db4a4",
+          "p_398e6068ea1c",
+          "p_fd1eb164685e"
         ]
       },
-      "Lustenau": {
-        "formation": "4-4-2",
+      "Anderlecht": {
+        "formation": "4-3-3",
         "starters": [
-          "p_857486a7bfb6",
-          "p_ef84dcc1c568",
-          "p_c396399908eb",
-          "p_477e9fd0fc39",
-          "p_c45d0a5d036b",
-          "p_c93426cf9d51",
-          "p_2a70e532c9c0",
-          "p_5740306ca592",
-          "p_7a37c8c3baae",
-          "p_111db039ccac",
-          "p_751cd3b93fe2"
+          "p_4b4ec40057a4",
+          "p_83f5dec4472d",
+          "p_8a3455b35fe3",
+          "p_fea72ab2bd2a",
+          "p_1636733428c9",
+          "p_0d6cbc5d28d1",
+          "p_934b1fc1e3e4",
+          "p_971841cc31af",
+          "p_5c59e0f6bb94",
+          "p_1c0bf46e2c4b",
+          "p_fb72d43940ee"
         ],
         "bench": [
-          "p_30dca2b77df2",
-          "p_ce9eb8a17aa2",
-          "p_27ff85665a15",
-          "p_9f304f7fbe82",
-          "p_5740306ca592",
-          "p_de10c8dbb8d0"
+          "p_414bd295c071",
+          "p_16da345c9d8f",
+          "p_5d8a65349bac",
+          "p_b0444dcdb0aa",
+          "p_f4e9e4d61b82",
+          "p_316c2143687a"
         ]
       }
     }
   },
   {
-    "fixtureId": "AT2-real-40",
+    "fixtureId": "IT1-real-5",
     "status": "official",
     "updatedAt": "2026-08-02T10:00:00+02:00",
     "teams": {
-      "Amstetten": {
-        "formation": "4-2-3-1",
+      "Atalanta": {
+        "formation": "4-3-3",
         "starters": [
-          "p_fa12ff1a770e",
-          "p_7e3177619c39",
-          "p_c288345a0e00",
-          "p_e75ef40bfaf0",
-          "p_abcffe961a49",
-          "p_bac4e404357a",
-          "p_cf028613369a",
-          "p_c6c8ec8d6a53",
-          "p_4aaa9e423913",
-          "p_1aaeeaf84ced",
-          "p_3790f892fd06"
+          "p_a6fff210d07c",
+          "p_aef91fdec6f3",
+          "p_48b69e1f7e42",
+          "p_e7baa3db0b05",
+          "p_bcf6421969b0",
+          "p_4a47cb3d6a56",
+          "p_e26ca31c46a2",
+          "p_9312faf402ae",
+          "p_cd15e5542fc7",
+          "p_4c3a764b6bf4",
+          "p_7ebf8ed95946"
         ],
         "bench": [
-          "p_acffbe921f88",
-          "p_a4f5cf87001f",
-          "p_78322bd92dcd",
-          "p_f67ebd522cfc",
-          "p_b7fbf5aedb1d",
-          "p_a9519bd72734"
+          "p_d97d6b3772d9",
+          "p_6302cac49ea9",
+          "p_523b898c6359",
+          "p_967b90c38dad",
+          "p_3163f47a9478",
+          "p_52fbcbd63a94"
         ]
       },
-      "Liefering": {
+      "Fiorentina": {
         "formation": "4-2-3-1",
         "starters": [
-          "p_1dc147f3058e",
-          "p_1b371c50c514",
-          "p_2869b065fb00",
-          "p_04dfa4f3d94a",
-          "p_c22ac9f7044f",
-          "p_ae45985c4462",
-          "p_616d36e9675d",
-          "p_e60edd15606b",
-          "p_8382db3fc504",
-          "p_3a8156df4187",
-          "p_2dd63d1f4bb9"
+          "p_162beaa19745",
+          "p_390443c91a9d",
+          "p_3112eca5b092",
+          "p_f5c38b97df10",
+          "p_8c8ebc02810c",
+          "p_2abe37dcef06",
+          "p_7383f1e720f3",
+          "p_df5a5e49244b",
+          "p_a0d4043e97b6",
+          "p_668a968153cf",
+          "p_16126665229f"
         ],
         "bench": [
-          "p_fae495e69cbf",
-          "p_546f01836b7d",
-          "p_d97ba9f7ec34",
-          "p_ad7419d8e3dc",
-          "p_79893f8cf806",
-          "p_9f8804e8badd"
+          "p_4f7817a862ef",
+          "p_134a5ed3b16f",
+          "p_a0d4043e97b6",
+          "p_f011970481fa",
+          "p_3de5da221bec",
+          "p_7e0e50ce00f8"
         ]
       }
     }
   },
   {
-    "fixtureId": "IT1-real-41",
+    "fixtureId": "IT1-real-6",
     "status": "official",
     "updatedAt": "2026-08-03T10:00:00+02:00",
     "teams": {
+      "Verona": {
+        "formation": "4-3-3",
+        "starters": [
+          "p_8df3c6518f7a",
+          "p_137d3f0fbd75",
+          "p_5b05b650c620",
+          "p_2e55201976b3",
+          "p_df23fa274ae8",
+          "p_57f102eae23e",
+          "p_74cd9b2864da",
+          "p_6f041e7bf699",
+          "p_1b13791a75e9",
+          "p_267afc9a5875",
+          "p_117ebbd31468"
+        ],
+        "bench": [
+          "p_d75c46a24c48",
+          "p_c0750bd66570",
+          "p_1beeb6b44faa",
+          "p_1b0dbf570490",
+          "p_84c5be07588b",
+          "p_a8694f359128"
+        ]
+      },
       "Inter": {
-        "formation": "4-3-3",
+        "formation": "4-4-2",
         "starters": [
           "p_babdd17141b9",
           "p_3d498dd3daab",
@@ -2228,452 +327,370 @@
           "p_37dcb083db11",
           "p_be799e20552c"
         ]
-      },
-      "Milan": {
-        "formation": "4-2-3-1",
-        "starters": [
-          "p_527f3f917ca9",
-          "p_ffe94ed3185d",
-          "p_2708ea9b8886",
-          "p_dded78e0a704",
-          "p_6d116e36a5af",
-          "p_5146c4c04969",
-          "p_4d8491a40662",
-          "p_db5119d99629",
-          "p_d937fcece393",
-          "p_cc40c6d9d2dd",
-          "p_bb1875ff75b1"
-        ],
-        "bench": [
-          "p_a5bdb04df8c2",
-          "p_52cc86fb72bb",
-          "p_c42a6abcdb5d",
-          "p_b9622126421b",
-          "p_09643d98aff9",
-          "p_ea8e5bf076f8",
-          "p_be9045e9d286"
-        ]
       }
     }
   },
   {
-    "fixtureId": "IT1-real-42",
+    "fixtureId": "IT1-real-7",
     "status": "expected",
     "updatedAt": "2026-08-04T10:00:00+02:00",
     "teams": {
-      "Juventus": {
-        "formation": "3-5-2",
+      "Lazio": {
+        "formation": "4-4-2",
         "starters": [
-          "p_38f00199b495",
-          "p_630601fedc91",
-          "p_6c9039963c14",
-          "p_4090df72e44f",
-          "p_72c54b801747",
-          "p_2b063536fb13",
-          "p_8bef39ae371f",
-          "p_9d587c49fc1d",
-          "p_6d82767fcce7",
-          "p_64c9c4efe7e6",
-          "p_7889b778ef08"
+          "p_8cf5fa540864",
+          "p_d4678a9e04be",
+          "p_7da64551258a",
+          "p_c78ed2249e12",
+          "p_9a3c48781756",
+          "p_9ab47a3ab038",
+          "p_e1a9249e8719",
+          "p_c9d9ec28b911",
+          "p_75f5e87c0f33",
+          "p_50167ff32db8",
+          "p_9ab47a3ab038"
         ],
         "bench": [
-          "p_ef0d6d2e8255",
-          "p_8db38c54dc5a",
-          "p_e3302315e4a7",
-          "p_148d31187f74",
-          "p_4e077858f861",
-          "p_569198bd127d",
-          "p_df6e2da171e8"
+          "p_96481b9b5927",
+          "p_35ec2477902e",
+          "p_81cb774b35dd",
+          "p_d2ffcf463d76",
+          "p_e44b323ac9b0",
+          "p_2411229da9f7"
         ]
       },
-      "Napoli": {
-        "formation": "4-3-3",
+      "Sassuolo": {
+        "formation": "3-4-2-1",
         "starters": [
-          "p_56214f5400a9",
-          "p_a229babe3168",
-          "p_dbcdf1000dfa",
-          "p_ca133723a91f",
-          "p_de7017706cd3",
-          "p_51eca0d92066",
-          "p_69c1abd63a38",
-          "p_62f9f3b511e8",
-          "p_2e520c2c11c6",
-          "p_18d0bacac071",
-          "p_4fd889d7a500"
+          "p_3dd9104d9f36",
+          "p_92689ab34e14",
+          "p_5f60219b1765",
+          "p_aebc6c1882e8",
+          "p_9d25760b334d",
+          "p_bd595272f4b9",
+          "p_ae8f4d9b02e9",
+          "p_1e89c500547b",
+          "p_47bfecb4757f",
+          "p_82ddf303594f",
+          "p_41c0e643a6e8"
         ],
         "bench": [
-          "p_bc9ede4f0159",
-          "p_e9f82b0aa80c",
-          "p_1f84b39cfb69",
-          "p_78577ad6aa2a",
-          "p_ec253927a67d",
-          "p_866660f8d3fb"
+          "p_b653d58c9193",
+          "p_6cd94d311754",
+          "p_973e3a073fe2",
+          "p_ffd6cd895c23",
+          "p_d876167c9df8",
+          "p_9eecbe5eb811"
         ]
       }
     }
   },
   {
-    "fixtureId": "IT1-real-43",
+    "fixtureId": "IT1-real-8",
     "status": "official",
     "updatedAt": "2026-08-05T10:00:00+02:00",
     "teams": {
-      "Roma": {
-        "formation": "4-4-2",
+      "Frosinone": {
+        "formation": "4-3-3",
         "starters": [
-          "p_f1c658c8dcbf",
-          "p_f858079bcbc9",
-          "p_fbd1309b88a8",
-          "p_a36ee4e38466",
-          "p_25494e1c42d0",
-          "p_02e8e3af1bc3",
-          "p_c73faa75a31d",
-          "p_bf1e546f10a4",
-          "p_ae1a2c84cf9c",
-          "p_efb0010194d2",
-          "p_bdf94e7a56cb"
+          "p_03b6cdbd31bf",
+          "p_83fdbcfbd5aa",
+          "p_16bf288fd607",
+          "p_5e1fc8b28c93",
+          "p_5e9f367b5106",
+          "p_d6a2432cd948",
+          "p_8ee665155a6a",
+          "p_af29ec3f449f",
+          "p_2a2f3d0fedb4",
+          "p_e9fb933c5dd0",
+          "p_b2cc04161f02"
         ],
         "bench": [
-          "p_bef3e43b823b",
-          "p_b162d2d46bb3",
-          "p_737200b83e50",
-          "p_0fc615423f13",
-          "p_02e8e3af1bc3",
-          "p_a36ee4e38466"
+          "p_fa0f0fbf62ce",
+          "p_af29ec3f449f",
+          "p_26ab3cac3eba",
+          "p_f9958674cd4e",
+          "p_7dce672e4e32",
+          "p_1a6c3b77dffd"
         ]
       },
-      "Atalanta": {
-        "formation": "3-4-2-1",
+      "Udinese": {
+        "formation": "4-4-2",
         "starters": [
-          "p_6302cac49ea9",
-          "p_c7cf2e812d0b",
-          "p_ea59c336a7da",
-          "p_1a519b44cbc3",
-          "p_4a47cb3d6a56",
-          "p_800bf7323e68",
-          "p_1f175f2246bd",
-          "p_434088f8c70b",
-          "p_16ea9e539cd8",
-          "p_10db78bd8aa3",
-          "p_970284071fc9"
+          "p_e00b6462adb4",
+          "p_cbf497c7b2ec",
+          "p_e4ffb87eabf4",
+          "p_4a777ca5bac6",
+          "p_3a5de2dafe05",
+          "p_31100bdfae99",
+          "p_fb19b818e470",
+          "p_31cc35f7d6a9",
+          "p_0a9533b179f1",
+          "p_4bb40f591fa4",
+          "p_a529004c590b"
         ],
         "bench": [
-          "p_1207edf64cf6",
-          "p_7767b17d0339",
-          "p_5ae0a7811cdd",
-          "p_cce51c95f4b9",
-          "p_e36433027d33",
-          "p_8818bb4aab3e"
+          "p_85b899399e0b",
+          "p_1b7a9a51ee9a",
+          "p_4bb40f591fa4",
+          "p_59b5f6235141",
+          "p_d910f1b8e61c",
+          "p_18e2ea2ff3f2"
         ]
       }
     }
   },
   {
-    "fixtureId": "IT1-real-44",
-    "status": "official",
+    "fixtureId": "IT2-real-9",
+    "status": "expected",
     "updatedAt": "2026-08-01T10:00:00+02:00",
     "teams": {
-      "Fiorentina": {
-        "formation": "4-3-3",
-        "starters": [
-          "p_aa7da70f1407",
-          "p_b875eca85450",
-          "p_09038573b180",
-          "p_45de3950cf0e",
-          "p_46b83b8ec7e4",
-          "p_7d11ebc18aec",
-          "p_65a8322fcceb",
-          "p_419fe17b0814",
-          "p_7d11ebc18aec",
-          "p_2b3d1b360127",
-          "p_e2fb2b584d08"
-        ],
-        "bench": [
-          "p_ed8d12f18f8a",
-          "p_c909810539bf",
-          "p_2b3d1b360127",
-          "p_f68506af63d9",
-          "p_b43bb175e37f",
-          "p_e579d4fef5ee"
-        ]
-      },
-      "Lazio": {
-        "formation": "4-2-3-1",
-        "starters": [
-          "p_372b72c185f3",
-          "p_912f60800d02",
-          "p_cb70a0dfcccb",
-          "p_998708ce8dbe",
-          "p_79e58fd274af",
-          "p_c1a6766a62b1",
-          "p_afacad569739",
-          "p_21879c7f27d4",
-          "p_372b72c185f3",
-          "p_93ff45f470e4",
-          "p_a10aa6242fd3"
-        ],
-        "bench": [
-          "p_8eb9cced04b6",
-          "p_2aee54543474",
-          "p_2a617d273494",
-          "p_2411229da9f7",
-          "p_4984a2e2df80",
-          "p_2ae91b5be1dd"
-        ]
-      }
-    }
-  },
-  {
-    "fixtureId": "IT2-real-45",
-    "status": "expected",
-    "updatedAt": "2026-08-02T10:00:00+02:00",
-    "teams": {
-      "Palermo": {
+      "Sudtirol": {
         "formation": "4-4-2",
         "starters": [
-          "p_f742294fe537",
-          "p_3f39decc0d40",
-          "p_d9459259aa50",
-          "p_0efec36fe148",
-          "p_a7e4621ebaae",
-          "p_6b03440edb03",
-          "p_0efec36fe148",
-          "p_bfcba5e06a6d",
-          "p_7bfd60c8de1e",
-          "p_a3b9d1ae1458",
-          "p_0f25d0882cf9"
+          "p_0635d0e0c85a",
+          "p_9620c83072b3",
+          "p_b8660014e2cd",
+          "p_e681ec8200d7",
+          "p_b670e150dc9c",
+          "p_ce5f299a4db3",
+          "p_e9d80e5a7dcb",
+          "p_8e8aadc9d341",
+          "p_960eb1088750",
+          "p_42d4b2b0f79b",
+          "p_da8286852978"
         ],
         "bench": [
-          "p_5bae7f866dcb",
-          "p_0479ca6286e0",
-          "p_55577374e9a1",
-          "p_1a359b8ef685",
-          "p_c3506f166eb6",
-          "p_6235951992a2"
+          "p_231d8cce908e",
+          "p_31a01fe0806f",
+          "p_43837f9fee69",
+          "p_d1077eef6e6d",
+          "p_95de9c3c710b",
+          "p_6dc2830239dc"
         ]
       },
-      "Bari": {
+      "Palermo": {
         "formation": "4-3-3",
         "starters": [
-          "p_94d086b516d9",
-          "p_57e2aacee91b",
-          "p_675641ee0cbf",
-          "p_ab979673ccc2",
-          "p_d3978bfdefb3",
-          "p_ff4eda1bd8f7",
-          "p_df6e8d51b8d2",
-          "p_2fa0e21c5a43",
-          "p_9e50e393a478",
-          "p_d2fe58ec41ff",
-          "p_0912c07f50a3"
+          "p_fc2e44dac210",
+          "p_76e90301eb57",
+          "p_e845ab63cfc8",
+          "p_0479ca6286e0",
+          "p_2184960ed4cf",
+          "p_0bbc577f11df",
+          "p_b2aa6c6b697a",
+          "p_bad3250bb451",
+          "p_07f06772674d",
+          "p_225d7fc1b406",
+          "p_3e31a9664344"
         ],
         "bench": [
-          "p_1ec8dba0064e",
-          "p_a0f9706654da",
-          "p_9d5ec2900624",
-          "p_8c32d5144863",
-          "p_15aab67d7a7d",
-          "p_1ec8dba0064e"
+          "p_a3a98f7d4798",
+          "p_f7954874d6c0",
+          "p_7fd94e61dfcf",
+          "p_b2b07ed858f8",
+          "p_7e8ca58560c0",
+          "p_75943e368b20"
         ]
       }
     }
   },
   {
-    "fixtureId": "IT2-real-46",
+    "fixtureId": "IT2-real-10",
     "status": "official",
-    "updatedAt": "2026-08-03T10:00:00+02:00",
+    "updatedAt": "2026-08-02T10:00:00+02:00",
     "teams": {
-      "Sampdoria": {
-        "formation": "4-3-3",
+      "Spezia": {
+        "formation": "3-5-2",
         "starters": [
-          "p_b9dab3836ff4",
-          "p_62f0548e3013",
-          "p_36cb5fda588f",
-          "p_571bfe6c902c",
-          "p_c967ec9dc2cd",
-          "p_c8cca549cba0",
-          "p_1a9041b4c105",
-          "p_3066b27dc630",
-          "p_e9ed25d96f3e",
-          "p_0ec4af200cd6",
-          "p_8701adda427f"
+          "p_182089b6e151",
+          "p_5ec6a9d14b21",
+          "p_4a7c22d404ed",
+          "p_9a752c112fb0",
+          "p_c3012e40528f",
+          "p_e13ba7adda46",
+          "p_67d8b7a3e8f8",
+          "p_78eb86ad5426",
+          "p_aca4f67d21ad",
+          "p_e5f8e0917fcc",
+          "p_3efae60541c5"
         ],
         "bench": [
-          "p_782d4b8b1a2d",
-          "p_e00e522fc9c8",
-          "p_47d880f062fc",
-          "p_e7a070c407e3",
-          "p_2385f8af69c5",
-          "p_bef31e0684d3"
+          "p_0beb7901341c",
+          "p_cfd0de87328b",
+          "p_f64bbdfa728e",
+          "p_1bf433f6e753",
+          "p_fedda885ff3a",
+          "p_433dd9733623"
+        ]
+      },
+      "Venezia": {
+        "formation": "4-4-2",
+        "starters": [
+          "p_d2fc6afd7eb5",
+          "p_9314c38330aa",
+          "p_7632fff2987d",
+          "p_796b71aa136e",
+          "p_84121c7fac63",
+          "p_ff5d02868fed",
+          "p_664970edde71",
+          "p_d2a4a506207e",
+          "p_783000eb93e4",
+          "p_9e559cd7cfdb",
+          "p_21eec040e117"
+        ],
+        "bench": [
+          "p_b61f40c86492",
+          "p_9501d9096e95",
+          "p_89c6c346506d",
+          "p_8fe2739eed71",
+          "p_94b26035c0ce",
+          "p_5be39b217d50"
+        ]
+      }
+    }
+  },
+  {
+    "fixtureId": "IT2-real-11",
+    "status": "expected",
+    "updatedAt": "2026-08-03T10:00:00+02:00",
+    "teams": {
+      "Reggiana": {
+        "formation": "3-5-2",
+        "starters": [
+          "p_026722e0aed1",
+          "p_a90108bcab30",
+          "p_1c788370208a",
+          "p_1035868ac0da",
+          "p_7a46f98e0c92",
+          "p_425b35034864",
+          "p_dc78c5ae8432",
+          "p_1d7383be8c77",
+          "p_1b97ce5f6b14",
+          "p_ded34367d1da",
+          "p_388f27604086"
+        ],
+        "bench": [
+          "p_09372bf10fb1",
+          "p_37a70c6a3ae6",
+          "p_0833b141f9ce",
+          "p_74e030a1fa98",
+          "p_539cf67adcc5",
+          "p_f82176b5fa51"
+        ]
+      },
+      "Parma": {
+        "formation": "4-2-3-1",
+        "starters": [
+          "p_696ada2102e9",
+          "p_36fd4af43220",
+          "p_ace86a38c3ff",
+          "p_1f93ca6045f3",
+          "p_b71affbdd300",
+          "p_cf2dce550996",
+          "p_84da57136a42",
+          "p_358ce399db30",
+          "p_24dd32ed1dd6",
+          "p_e9fd2d00f30c",
+          "p_166f0c756446"
+        ],
+        "bench": [
+          "p_4e64b62879c3",
+          "p_ad343d9a2c2a",
+          "p_1c8489d475c0",
+          "p_8aff54d0c664",
+          "p_18b696b2b00c",
+          "p_76c888c839cc"
+        ]
+      }
+    }
+  },
+  {
+    "fixtureId": "IT2-real-12",
+    "status": "expected",
+    "updatedAt": "2026-08-04T10:00:00+02:00",
+    "teams": {
+      "Lecco": {
+        "formation": "3-5-2",
+        "starters": [
+          "p_4f6a28adb36d",
+          "p_28fcec96a6b0",
+          "p_fe02e25cb1aa",
+          "p_61f1d1ff2e7c",
+          "p_99c0b27aec39",
+          "p_7a5474aefb7e",
+          "p_54e740948d04",
+          "p_8fa3ac7197b6",
+          "p_0f953602457d",
+          "p_c540ef6ea060",
+          "p_042c226201a0"
+        ],
+        "bench": [
+          "p_cc86e797077a",
+          "p_67db7ef8e29e",
+          "p_6f383327cfac",
+          "p_16b8172a549f",
+          "p_fea56b90b179",
+          "p_2de5e20afea6"
         ]
       },
       "Modena": {
-        "formation": "3-4-2-1",
+        "formation": "4-2-3-1",
         "starters": [
-          "p_72713ca47cae",
-          "p_df1b7756f0db",
-          "p_1b572228a03a",
-          "p_c736d893a471",
-          "p_ac295b4bc430",
-          "p_c52e5e8be135",
-          "p_0050a1f8a714",
-          "p_aba02f0d2e6a",
-          "p_a4e9c4d42566",
-          "p_0212a5c1f751",
-          "p_ad619be36dfd"
+          "p_f329b1b5350f",
+          "p_231c8142ede7",
+          "p_658ba18c6bbb",
+          "p_5ba756a67904",
+          "p_84194c4d5381",
+          "p_d73cfec680f1",
+          "p_cf223445f3bd",
+          "p_4290417b7c7c",
+          "p_e474d63788af",
+          "p_87ebd4affb3e",
+          "p_df1b7756f0db"
         ],
         "bench": [
-          "p_d833146896ca",
-          "p_9220c4a402c9",
-          "p_06b59ad8c0ee",
-          "p_9d3c4621645a",
-          "p_00e6c900188a",
-          "p_610885a94fb9"
+          "p_da4bdae9a8a0",
+          "p_88c6292701e8",
+          "p_b9bd363851ab",
+          "p_032f01a1d9f1",
+          "p_6247bc172294",
+          "p_f4bacec8c1d1"
         ]
       }
     }
   },
   {
-    "fixtureId": "IT2-real-47",
-    "status": "official",
-    "updatedAt": "2026-08-04T10:00:00+02:00",
-    "teams": {
-      "Parma": {
-        "formation": "4-4-2",
-        "starters": [
-          "p_aef96ddbc841",
-          "p_fccba5e51801",
-          "p_ea53522e7bb2",
-          "p_28a6d6b71a25",
-          "p_f738405b6120",
-          "p_6c3f54572565",
-          "p_192cb9e72bb6",
-          "p_1c8489d475c0",
-          "p_196273e2b531",
-          "p_ba4141f98b4a",
-          "p_6850722f0989"
-        ],
-        "bench": [
-          "p_a1a0fee80d34",
-          "p_090acfbe957e",
-          "p_a100226dac85",
-          "p_7e3b4b9940b7",
-          "p_d2b9b0f79f4f",
-          "p_4b57068f51a0"
-        ]
-      },
-      "Pisa": {
-        "formation": "4-3-3",
-        "starters": [
-          "p_7e3710b4a3b4",
-          "p_de463ced27a6",
-          "p_4473e24d21fe",
-          "p_7d6ecfe8272a",
-          "p_2344a2cb7b89",
-          "p_13b72ba5ab45",
-          "p_23d0b0474628",
-          "p_f3aafc082748",
-          "p_28d5d88d4205",
-          "p_78cd043a000f",
-          "p_16d71bc0b2a7"
-        ],
-        "bench": [
-          "p_8fc2e1ff7074",
-          "p_ca658f215cbb",
-          "p_3fdab5d0ae4c",
-          "p_d0976d10b1bf",
-          "p_23d0b0474628",
-          "p_4473e24d21fe"
-        ]
-      }
-    }
-  },
-  {
-    "fixtureId": "IT2-real-48",
+    "fixtureId": "ES1-real-13",
     "status": "official",
     "updatedAt": "2026-08-05T10:00:00+02:00",
     "teams": {
-      "Catanzaro": {
-        "formation": "3-5-2",
-        "starters": [
-          "p_abdf41a45b82",
-          "p_43d5144e68d2",
-          "p_a699ec60fa40",
-          "p_6a4ee1116042",
-          "p_a9eb83438d03",
-          "p_28b8e5bb466e",
-          "p_5ba1bd98b420",
-          "p_48663cc7ff22",
-          "p_6fed25b12dd3",
-          "p_cf2469b55ade",
-          "p_f6ffadcbc86b"
-        ],
-        "bench": [
-          "p_40426ed0ff3d",
-          "p_21feb015dc15",
-          "p_52a2f140f425",
-          "p_9d92c455fa3d",
-          "p_c742aa490717",
-          "p_975ef482fd2b"
-        ]
-      },
-      "Südtirol": {
+      "Sevilla": {
         "formation": "4-2-3-1",
         "starters": [
-          "p_61806eff7df9",
-          "p_fe75497fca01",
-          "p_2185311e92cd",
-          "p_6afbc6605613",
-          "p_6f42aee07db0",
-          "p_e6554af2bff2",
-          "p_1a6c99e18902",
-          "p_51eb77b4d14e",
-          "p_2885b544376b",
-          "p_74108328d186",
-          "p_25e402050e2a"
+          "p_a4e2f8268886",
+          "p_e8dea1f6b67e",
+          "p_507f5639472c",
+          "p_a639048eec19",
+          "p_d8810d49ac02",
+          "p_752412bd7f80",
+          "p_7e152107beaf",
+          "p_f1811c622b97",
+          "p_752412bd7f80",
+          "p_825b36b8afe9",
+          "p_1040ee05e410"
         ],
         "bench": [
-          "p_b312d419e77f",
-          "p_263a98c5eaea",
-          "p_390f4aa84eaf",
-          "p_390f4aa84eaf",
-          "p_f746533e55aa",
-          "p_d08b51f37590"
-        ]
-      }
-    }
-  },
-  {
-    "fixtureId": "ES1-real-49",
-    "status": "official",
-    "updatedAt": "2026-08-01T10:00:00+02:00",
-    "teams": {
-      "Real Madrid": {
-        "formation": "3-5-2",
-        "starters": [
-          "p_8c01c8ecf78a",
-          "p_bf22d06a52ea",
-          "p_0577dfa93cec",
-          "p_f35cb3531e0c",
-          "p_e414a310e714",
-          "p_1b2b30a31e78",
-          "p_5aeb849161a2",
-          "p_a4ec83b4e8ce",
-          "p_b79f1ff9317c",
-          "p_c1b89ae9d9d1",
-          "p_641b5e6674fe"
-        ],
-        "bench": [
-          "p_f19f6ea894a8",
-          "p_c7ca6fb8e548",
-          "p_a187ed2b8915",
-          "p_d1a42a0ff93e",
-          "p_1914059ff552",
-          "p_f7b32fdaa4f8",
-          "p_e701eac51f0e"
+          "p_6efa5e2da2a8",
+          "p_9cfe7712d82c",
+          "p_1f866bc240a1",
+          "p_fd7c31e25ad6",
+          "p_864d1e351059",
+          "p_3fe420a82614"
         ]
       },
       "Barcelona": {
-        "formation": "3-4-2-1",
+        "formation": "4-2-3-1",
         "starters": [
           "p_30d3edde0307",
           "p_35b2a15a2e7f",
@@ -2700,387 +717,386 @@
     }
   },
   {
-    "fixtureId": "ES1-real-50",
-    "status": "expected",
-    "updatedAt": "2026-08-02T10:00:00+02:00",
-    "teams": {
-      "Atlético": {
-        "formation": "4-2-3-1",
-        "starters": [
-          "p_5358059617ac",
-          "p_7693b1dd3a6e",
-          "p_3c2297d0ecd2",
-          "p_36926af4bc46",
-          "p_355917d32f08",
-          "p_1168ca8d0a95",
-          "p_dad533e978ea",
-          "p_53f28e96899b",
-          "p_bb503dc8c689",
-          "p_fc63bb415b20",
-          "p_26da44dc31ef"
-        ],
-        "bench": [
-          "p_19d97c59f0f9",
-          "p_9e536896e176",
-          "p_f3fbea778730",
-          "p_4e2a366c881a",
-          "p_e0118967a910",
-          "p_9927c888cac7",
-          "p_3e868f6ec056"
-        ]
-      },
-      "Sevilla": {
-        "formation": "4-3-3",
-        "starters": [
-          "p_dfc20e444b35",
-          "p_24c8b6750cb8",
-          "p_9df7fea87b1e",
-          "p_c12ded401932",
-          "p_26a186d7aec6",
-          "p_b6c46d850f2b",
-          "p_9409c39d73e3",
-          "p_3c22cd19cc5e",
-          "p_7e41a7a5906c",
-          "p_3901acdf2ce3",
-          "p_cb0f805ab682"
-        ],
-        "bench": [
-          "p_640bb48bffc0",
-          "p_540cbac9aebc",
-          "p_7495cdc9a777",
-          "p_fd413785ddf4",
-          "p_08fa398fc58a",
-          "p_bf93d7b3704a"
-        ]
-      }
-    }
-  },
-  {
-    "fixtureId": "ES1-real-51",
-    "status": "expected",
-    "updatedAt": "2026-08-03T10:00:00+02:00",
-    "teams": {
-      "Villarreal": {
-        "formation": "4-4-2",
-        "starters": [
-          "p_1694b3f339be",
-          "p_d71a4e2bdcd2",
-          "p_30ac1010851d",
-          "p_9404199485ac",
-          "p_cb1e40d2e7fd",
-          "p_dd9e0979f3d1",
-          "p_45d884d6467a",
-          "p_0d5d727d712b",
-          "p_db6130b0b78a",
-          "p_adbb90e99ba8",
-          "p_ee70bcdd6e92"
-        ],
-        "bench": [
-          "p_49a1445447de",
-          "p_133b5c509216",
-          "p_d5f8c0729fb8",
-          "p_3989341c6cb9",
-          "p_03d27efb70a1",
-          "p_a1c05c3d2c32"
-        ]
-      },
-      "Betis": {
-        "formation": "4-2-3-1",
-        "starters": [
-          "p_37876174793a",
-          "p_1c609a99ba80",
-          "p_e9c07f64bce2",
-          "p_05b5f37552ad",
-          "p_f835151706e5",
-          "p_f228bc6890a3",
-          "p_236a1a21346a",
-          "p_b0643d38152e",
-          "p_b76de89a9519",
-          "p_e690a26b1904",
-          "p_ea1c825820ae"
-        ],
-        "bench": [
-          "p_ced7f4dba654",
-          "p_07b70b3a01d5",
-          "p_c7a1b9d8b85d",
-          "p_42c4dbb925fa",
-          "p_bd23299347a3",
-          "p_7c1ae08bc4d8"
-        ]
-      }
-    }
-  },
-  {
-    "fixtureId": "ES1-real-52",
-    "status": "expected",
-    "updatedAt": "2026-08-04T10:00:00+02:00",
-    "teams": {
-      "Valencia": {
-        "formation": "3-5-2",
-        "starters": [
-          "p_15b6c512aa8a",
-          "p_707ffedea6d6",
-          "p_21c4f38b291b",
-          "p_0153ca027abc",
-          "p_34e651e6eaa2",
-          "p_0153ca027abc",
-          "p_ae50498e3513",
-          "p_49156f12932d",
-          "p_343b5e03f0a8",
-          "p_95dbd7689862",
-          "p_fc32310d73b4"
-        ],
-        "bench": [
-          "p_1780222c8128",
-          "p_355eccea3d4f",
-          "p_fe84512588bf",
-          "p_1f78f3a15121",
-          "p_5960fb68e559",
-          "p_18868aa3f632"
-        ]
-      },
-      "Real Sociedad": {
-        "formation": "3-4-2-1",
-        "starters": [
-          "p_34a594f8bf4c",
-          "p_7defa5c0a5cb",
-          "p_f9cc97bce27a",
-          "p_d69700cf522a",
-          "p_9e4452368f28",
-          "p_e34c027d9735",
-          "p_f32949c61c1a",
-          "p_c92433b76a4d",
-          "p_3dbe2d30375e",
-          "p_10e66f117709",
-          "p_d69700cf522a"
-        ],
-        "bench": [
-          "p_fe17082426e8",
-          "p_1b764849cc43",
-          "p_1a2f594055c6",
-          "p_36c03a1f3878",
-          "p_2ecd5625d96c",
-          "p_282d881f4ea9"
-        ]
-      }
-    }
-  },
-  {
-    "fixtureId": "ES2-real-53",
-    "status": "expected",
-    "updatedAt": "2026-08-05T10:00:00+02:00",
-    "teams": {
-      "Eibar": {
-        "formation": "4-2-3-1",
-        "starters": [
-          "p_b4c4dc1890e6",
-          "p_a1c8a840f91d",
-          "p_2790ea6c6f44",
-          "p_6e1501b79498",
-          "p_cc63ade748a0",
-          "p_813efe97b72c",
-          "p_a4289bd55146",
-          "p_8f17c43685d2",
-          "p_00302b24626d",
-          "p_fd4ff1ff7113",
-          "p_833ac865e26a"
-        ],
-        "bench": [
-          "p_799bd5ccefcc",
-          "p_b949f2a28d12",
-          "p_52875efe6797",
-          "p_6beb5bbab85b",
-          "p_bc3b71b43cfa",
-          "p_b0ad2176be1b"
-        ]
-      },
-      "Oviedo": {
-        "formation": "4-3-3",
-        "starters": [
-          "p_05537efa9595",
-          "p_220618460933",
-          "p_0d4ec99e751d",
-          "p_a03a5578ce6a",
-          "p_c8a84c89f2e6",
-          "p_31d42fc044d7",
-          "p_2022961c7982",
-          "p_bf7ce7c2a101",
-          "p_cefd238255c2",
-          "p_f5ee9d6c81a1",
-          "p_65ed11ee3c19"
-        ],
-        "bench": [
-          "p_67a3fd078694",
-          "p_389c3e2d42eb",
-          "p_2d6857090d1b",
-          "p_709a0f015d3d",
-          "p_0172c034df9d",
-          "p_655ed30c7b56"
-        ]
-      }
-    }
-  },
-  {
-    "fixtureId": "ES2-real-54",
+    "fixtureId": "ES1-real-14",
     "status": "official",
     "updatedAt": "2026-08-01T10:00:00+02:00",
     "teams": {
-      "Sporting": {
-        "formation": "4-3-3",
+      "Las Palmas": {
+        "formation": "3-5-2",
         "starters": [
-          "p_b737eb7f6288",
-          "p_913f725672cb",
-          "p_d3af494d636b",
-          "p_a1d5ccd75abf",
-          "p_4ca049ffcb71",
-          "p_4f774435d185",
-          "p_60c30d4a0c68",
-          "p_61a984d7d629",
-          "p_2dca03f91625",
-          "p_72b576a85392",
-          "p_de309ed91cae"
+          "p_aad5e58c40fc",
+          "p_f43b9b5c3550",
+          "p_835d80800267",
+          "p_3002b70292fd",
+          "p_79abdf2f789c",
+          "p_06826168b8f7",
+          "p_bedbe1757963",
+          "p_dbc0c705bdad",
+          "p_4cca56261456",
+          "p_73d450579a69",
+          "p_bb0265b93447"
         ],
         "bench": [
-          "p_42dfe2732ed2",
-          "p_2aa8b82ec023",
-          "p_2b0517ef1207",
-          "p_10c2f69e485c",
-          "p_3ac034313391",
-          "p_f18ec769683c"
+          "p_a504a419af2e",
+          "p_397ec654a8f8",
+          "p_060041c41af8",
+          "p_9e793495d5e4",
+          "p_8d97e25716ac",
+          "p_48d0a59da927"
         ]
       },
-      "Zaragoza": {
+      "Alaves": {
         "formation": "4-4-2",
         "starters": [
-          "p_66c098f55762",
-          "p_f0fc758427a7",
-          "p_a15f3ebd4e5f",
-          "p_c44acba517cc",
-          "p_38ef135f7071",
-          "p_c53b168eec0c",
-          "p_fda3c5f8d3dd",
-          "p_3690051bd037",
-          "p_82ff41f97b6a",
-          "p_1b46bc289bc5",
-          "p_108e4f8d1b6e"
+          "p_b00f5c52fbb3",
+          "p_4f41663bca72",
+          "p_af9ed9db3f17",
+          "p_adb03d2e72c7",
+          "p_5aaabc51ad9c",
+          "p_a8d541c27554",
+          "p_fff699328d78",
+          "p_5519c495ff31",
+          "p_254389546758",
+          "p_a703ceef0cb2",
+          "p_9b36cd357232"
         ],
         "bench": [
-          "p_6343f3ff1eb9",
-          "p_9140930cae94",
-          "p_404432369d6d",
-          "p_a23cac45ac1b",
-          "p_22883f9e0445",
-          "p_a924880cead5"
+          "p_fbcda3f510af",
+          "p_0ce5664ee7f3",
+          "p_1e454016e2a0",
+          "p_957c682a3bd6",
+          "p_b68b5b13f76f",
+          "p_94d710db2209"
         ]
       }
     }
   },
   {
-    "fixtureId": "ES2-real-55",
-    "status": "official",
+    "fixtureId": "ES1-real-15",
+    "status": "expected",
     "updatedAt": "2026-08-02T10:00:00+02:00",
     "teams": {
-      "Levante": {
-        "formation": "4-3-3",
+      "Celta": {
+        "formation": "3-5-2",
         "starters": [
-          "p_fc4e8262634e",
-          "p_8dfbb29a7e18",
-          "p_399a912a8a20",
-          "p_171f02848649",
-          "p_f6ab6a304f54",
-          "p_9ffd3c965e5a",
-          "p_1e6aa496f63e",
-          "p_7e3ff5ffcb34",
-          "p_7a3989b541e2",
-          "p_124a64a50427",
-          "p_9776674b5670"
+          "p_614fe4659435",
+          "p_345d1f6effef",
+          "p_363750a25273",
+          "p_72b3d3de4dac",
+          "p_d505cdd6bbff",
+          "p_b702a08a7264",
+          "p_641f526d5bf0",
+          "p_c5692ad3a60a",
+          "p_1448029b59d3",
+          "p_7655c06f39f3",
+          "p_428163d44afd"
         ],
         "bench": [
-          "p_bc6fdb24dd0b",
-          "p_9a084c27b868",
-          "p_cbe5e972c1fc",
-          "p_5fcd9fe241db",
-          "p_d0e300e001c5",
-          "p_92f67af3d4f4"
+          "p_59da13be01e9",
+          "p_da32e3d60e44",
+          "p_98602af56db0",
+          "p_af099ccd7c4e",
+          "p_e601f624f6de",
+          "p_3e1a1fedeb60"
         ]
       },
-      "Burgos": {
-        "formation": "3-4-2-1",
+      "Valencia": {
+        "formation": "4-4-2",
         "starters": [
-          "p_0f1ed79efb77",
-          "p_0e766baf5bb0",
-          "p_0300941fd739",
-          "p_b90262ec1ef5",
-          "p_281f4efb412a",
-          "p_7f35d4e4e1cd",
-          "p_ce14a1347914",
-          "p_a8bfe110d9e6",
-          "p_a3ee5dd2719e",
-          "p_1ce01bea56f2",
-          "p_06ed373aa904"
+          "p_c4d3651e869e",
+          "p_d13ca683adf3",
+          "p_42e26ec23e50",
+          "p_843967f3586c",
+          "p_41f354c98598",
+          "p_2579d87cdd7b",
+          "p_061df9e6c031",
+          "p_deacfe0ad4f4",
+          "p_c7f4c088ce70",
+          "p_50fd3050762e",
+          "p_1fce511ad239"
         ],
         "bench": [
-          "p_aafb8bb199ff",
-          "p_83d94b763c62",
-          "p_71278c975500",
-          "p_42ff61b06f26",
-          "p_20f1b2361d76",
-          "p_d81a018eaf01"
+          "p_baa555693d6e",
+          "p_cee86345bc9a",
+          "p_a9077ec4256f",
+          "p_4e4b22690434",
+          "p_d5e07e6fb1ad",
+          "p_c657fb8df807"
         ]
       }
     }
   },
   {
-    "fixtureId": "ES2-real-56",
+    "fixtureId": "ES1-real-16",
     "status": "official",
     "updatedAt": "2026-08-03T10:00:00+02:00",
     "teams": {
-      "Elche": {
-        "formation": "3-5-2",
-        "starters": [
-          "p_e95d24b2594f",
-          "p_18840242c2b5",
-          "p_1429660f1a02",
-          "p_ab60e0b7dffc",
-          "p_8d4a94583036",
-          "p_c3baa5223998",
-          "p_ac7faedbb7ca",
-          "p_610055850acc",
-          "p_2af98573a489",
-          "p_fca4e8ced2a2",
-          "p_4fade1dc70f6"
-        ],
-        "bench": [
-          "p_66bfae3d6c2f",
-          "p_0cc0a7ae36b9",
-          "p_1d5b3835a0b4",
-          "p_02701bb2ff18",
-          "p_059ed7a4bebe",
-          "p_034059bcc92d"
-        ]
-      },
-      "Tenerife": {
+      "Getafe": {
         "formation": "4-3-3",
         "starters": [
-          "p_9dd87e677576",
-          "p_a5bc8bb8bec5",
-          "p_43d625053df9",
-          "p_ece7af9bb954",
-          "p_94c51a4ae14e",
-          "p_384dc1c926b4",
-          "p_eaf1ac0b9779",
-          "p_4c9d59df90a1",
-          "p_587bb6497e61",
-          "p_e71460b97ba0",
-          "p_11f144d7b6b7"
+          "p_52cddcb6ae63",
+          "p_d8e351961f1e",
+          "p_01b5aa050e33",
+          "p_a04b00e79573",
+          "p_f812a116f0e4",
+          "p_b047f0ab600e",
+          "p_fbda50e52cc9",
+          "p_aa7a2b2c8f8c",
+          "p_fbda50e52cc9",
+          "p_a2c98d887f28",
+          "p_4ef3fbef4d7c"
         ],
         "bench": [
-          "p_c059840ce4a5",
-          "p_df4aeaed500a",
-          "p_4213c67c76be",
-          "p_48fd710b074b",
+          "p_c5cdbf00e98d",
+          "p_2fe194b2f48e",
+          "p_ed8e81a41da8",
+          "p_4d4611a3bcd7",
+          "p_633e22007575",
+          "p_3cfe8eb7c9fe"
+        ]
+      },
+      "Mallorca": {
+        "formation": "3-4-2-1",
+        "starters": [
+          "p_4d37c956b58c",
+          "p_189e81eacd9c",
+          "p_83f06389bed9",
+          "p_ddaa35469957",
+          "p_da2e83a5f3c7",
+          "p_eeb15ffb7586",
+          "p_d4cefde0a707",
+          "p_77ae04ddabb4",
+          "p_ac7ddb7cc532",
+          "p_865a8c48d6b3",
+          "p_9fe8bcc163f4"
+        ],
+        "bench": [
+          "p_da2e83a5f3c7",
+          "p_16401f7adb12",
+          "p_a4bd0675adc0",
+          "p_39747072f69a",
+          "p_69a8487de465",
+          "p_cbcdc6d162b7"
+        ]
+      }
+    }
+  },
+  {
+    "fixtureId": "ES2-real-17",
+    "status": "expected",
+    "updatedAt": "2026-08-04T10:00:00+02:00",
+    "teams": {
+      "Zaragoza": {
+        "formation": "3-5-2",
+        "starters": [
+          "p_220ac9b8a3bb",
+          "p_29d51961df3d",
+          "p_0066d05ecd4e",
+          "p_d73de8eac7fa",
+          "p_31957a6c8d16",
+          "p_0990936da6b0",
+          "p_9801ec0e0153",
+          "p_ec1137f7bae1",
+          "p_4a5a042268fa",
+          "p_109da1b9f0ef",
+          "p_03de4ce9b963"
+        ],
+        "bench": [
+          "p_5a000866eeb9",
+          "p_38ef135f7071",
+          "p_15b2cea211f3",
+          "p_599a464a9fba",
+          "p_6d0f5f2f6bc4",
+          "p_1f26cfaa8065"
+        ]
+      },
+      "Albacete": {
+        "formation": "4-3-3",
+        "starters": [
+          "p_7ec78618c4e7",
+          "p_b69b2d8485e4",
+          "p_d3696cdca4c4",
+          "p_ef1a28a28e5c",
+          "p_d53fc3aa1e6a",
+          "p_d34aad84a27c",
+          "p_bd85afd1be4e",
+          "p_9d4e2168e415",
+          "p_82f28be2aa5b",
+          "p_65f67788dbd8",
+          "p_668ecfd868e3"
+        ],
+        "bench": [
+          "p_c4b5a40aad13",
+          "p_12c52a70e988",
+          "p_3558cbcbd01c",
+          "p_b1c7b30c22d0",
+          "p_9bd70ac2bb0a",
+          "p_8f83c0d65cd5"
+        ]
+      }
+    }
+  },
+  {
+    "fixtureId": "ES2-real-18",
+    "status": "official",
+    "updatedAt": "2026-08-05T10:00:00+02:00",
+    "teams": {
+      "Villarreal B": {
+        "formation": "4-3-3",
+        "starters": [
+          "p_0a9600415dc6",
+          "p_48d999eb3fc2",
+          "p_5d6e1456683b",
+          "p_83e579528a8e",
+          "p_60bcb8d4c434",
+          "p_fdd7213bb10d",
+          "p_7f0a165e62c0",
+          "p_f3c608cf7c44",
+          "p_9c77a5f394eb",
+          "p_dfd5a190b653",
+          "p_339554d84e5c"
+        ],
+        "bench": [
+          "p_319fa855f023",
+          "p_7bccaa33ddb4",
+          "p_698f9656f01e",
+          "p_ccad5f0d3821",
+          "p_ea4edd09ce6f",
+          "p_60bcb8d4c434"
+        ]
+      },
+      "Santander": {
+        "formation": "4-3-3",
+        "starters": [
+          "p_4f16d5882569",
+          "p_f58f6ffbdb92",
+          "p_84596bad87d5",
+          "p_4ab281e86dcc",
+          "p_99eb17e96b85",
+          "p_61dd21f88834",
+          "p_74983f357a0b",
+          "p_21d0f9e8d68e",
+          "p_734448a0fcae",
+          "p_5ab7304c831b",
+          "p_325be5fb5673"
+        ],
+        "bench": [
+          "p_74983f357a0b",
+          "p_c8b51aa26720",
+          "p_4514c247569a",
+          "p_a4cdbb38cb42",
+          "p_7b17def1523e",
+          "p_d1bd78dcf686"
+        ]
+      }
+    }
+  },
+  {
+    "fixtureId": "ES2-real-19",
+    "status": "official",
+    "updatedAt": "2026-08-01T10:00:00+02:00",
+    "teams": {
+      "Tenerife": {
+        "formation": "4-4-2",
+        "starters": [
+          "p_ba5b37ab9564",
+          "p_7e020e30730f",
+          "p_65489c5bce94",
+          "p_5ad93244465f",
+          "p_ba5b37ab9564",
+          "p_1cecd21c2594",
+          "p_2b65ed220650",
+          "p_2aced67a5ead",
+          "p_15e3ebcc8ee3",
+          "p_ea4b39b69700",
+          "p_ac0e789d9d9b"
+        ],
+        "bench": [
           "p_4dfba92b1eab",
-          "p_c059840ce4a5"
+          "p_da3c7823e11a",
+          "p_ea24ddeb7443",
+          "p_5540925202ea",
+          "p_5e46dacc92df",
+          "p_32a07e50644b"
+        ]
+      },
+      "Valladolid": {
+        "formation": "4-3-3",
+        "starters": [
+          "p_c2f5b03fec6b",
+          "p_b1183d4684ca",
+          "p_4de141fb2987",
+          "p_8becf3a925d9",
+          "p_d8296f6f9dfa",
+          "p_074e0e0c485d",
+          "p_6690771abab2",
+          "p_15c77a3a5b2f",
+          "p_262e21a88803",
+          "p_a5064b42be28",
+          "p_262e21a88803"
+        ],
+        "bench": [
+          "p_36799dc63b10",
+          "p_7eb0a1ca23a8",
+          "p_953bc799e6e6",
+          "p_1b7389a419d8",
+          "p_b332f8071e61",
+          "p_3871acbddac2"
+        ]
+      }
+    }
+  },
+  {
+    "fixtureId": "ES2-real-20",
+    "status": "expected",
+    "updatedAt": "2026-08-02T10:00:00+02:00",
+    "teams": {
+      "Mirandes": {
+        "formation": "4-3-3",
+        "starters": [
+          "p_24139ff5f0cc",
+          "p_5c1b10cc7072",
+          "p_3a3f4246253f",
+          "p_6d5fbd150e24",
+          "p_0a535a785218",
+          "p_bd3c96969113",
+          "p_1f66e23a624b",
+          "p_dca016556935",
+          "p_30626f31607f",
+          "p_3a3f4246253f",
+          "p_e480196e8b33"
+        ],
+        "bench": [
+          "p_b2280644956a",
+          "p_74a860ab9405",
+          "p_a5a0071a159d",
+          "p_46d85abb004a",
+          "p_24139ff5f0cc",
+          "p_0b89ae778ebc"
+        ]
+      },
+      "Amorebieta": {
+        "formation": "3-4-2-1",
+        "starters": [
+          "p_a717c79998d2",
+          "p_65453060777a",
+          "p_613ff791bebf",
+          "p_2e98ab73d845",
+          "p_6cb022ff1019",
+          "p_7aef96ac6afe",
+          "p_04cf98ff0b37",
+          "p_3808d25b1805",
+          "p_39aab3993058",
+          "p_dc6232ebd19d",
+          "p_2d5972ae67bc"
+        ],
+        "bench": [
+          "p_e0c05d3b570d",
+          "p_c186cc5e90e1",
+          "p_ea07e4e93be0",
+          "p_33cbbf65894f",
+          "p_68aacb6f127e",
+          "p_b90168ee1975"
         ]
       }
     }
