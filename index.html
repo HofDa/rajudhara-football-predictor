@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#102f24">
+  <meta name="description" content="Offline-PWA für Over/Under-, Goal/No-Goal- und aufstellungsbereinigte Fußballprognosen">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <link rel="manifest" href="./manifest.webmanifest">
+  <link rel="apple-touch-icon" href="./icons/icon-192.png">
+  <link rel="stylesheet" href="./styles.css">
+  <title>Rajudhara Football Predictor</title>
+</head>
+<body>
+<div class="app">
+  <header class="topbar">
+    <a class="brand" href="#" data-nav="scanner">
+      <span class="logo">RFP</span>
+      <span><strong>Rajudhara Football Predictor</strong><small data-i18n="app.tagline">Totals, BTTS & Lineups</small></span>
+    </a>
+    <div class="top-actions">
+      <select id="languageSelect" class="lang-select" data-i18n-label="app.language"></select>
+      <span id="onlineBadge" class="badge">online</span>
+      <button id="installBtn" class="btn subtle hidden" data-i18n="app.install">Installieren</button>
+    </div>
+  </header>
+
+  <nav class="main-nav">
+    <button class="nav-item active" data-nav="scanner" data-i18n="nav.scanner">Scanner</button>
+    <button class="nav-item" data-nav="match" data-i18n="nav.match">Spielanalyse</button>
+    <button class="nav-item" data-nav="players" data-i18n="nav.players">Spieler</button>
+    <button class="nav-item" data-nav="profiles" data-i18n="nav.profiles">Profile</button>
+    <button class="nav-item" data-nav="backtest" data-i18n="nav.backtest">Backtest</button>
+    <button class="nav-item" data-nav="bets" data-i18n="nav.bets">Wettjournal</button>
+    <button class="nav-item" data-nav="data" data-i18n="nav.data">Daten</button>
+    <button class="nav-item" data-nav="method" data-i18n="nav.method">Methodik</button>
+  </nav>
+
+  <main>
+    <section id="scannerView" class="view active">
+      <div class="hero">
+        <div>
+          <p class="kicker" data-i18n="scanner.kicker">14 Ligen · Spielerimpact · Over/Under · Goal/No Goal</p>
+          <h1 data-i18n-html="scanner.title">Value finden.<br>Aufstellungen verstehen.</h1>
+          <p class="lead" data-i18n="scanner.lead">Basisprognose und aufstellungsbereinigte Prognose, faire Quoten, Edge, Datenqualität und lokale Backtests.</p>
+        </div>
+        <div class="hero-actions">
+          <button id="refreshScannerBtn" class="btn primary" data-i18n="scanner.compute">Scanner berechnen</button>
+          <button class="btn secondary" data-nav="data" data-i18n="scanner.manageData">Daten verwalten</button>
+        </div>
+      </div>
+
+      <section class="panel">
+        <div class="section-head">
+          <div><p class="kicker" data-i18n="scanner.filterKicker">Filter</p><h2 data-i18n="scanner.filterTitle">Value-Scanner</h2></div>
+          <div class="status-group"><span id="dataState" class="badge warning">Demo-Daten</span><span class="badge" data-i18n="app.stableBadge">stabilisiert v3</span></div>
+        </div>
+        <div class="filters">
+          <label><span data-i18n="scanner.country">Land / Liga</span><select id="leagueFilter"></select></label>
+          <label><span data-i18n="scanner.market">Markt</span><select id="marketFilter">
+            <option value="all" data-i18n="market.all">Alle Kernmärkte</option>
+            <option value="over15" data-i18n="market.over15">Over 1,5</option>
+            <option value="over25" data-i18n="market.over25">Over 2,5</option>
+            <option value="under25" data-i18n="market.under25">Under 2,5</option>
+            <option value="over35" data-i18n="market.over35">Over 3,5</option>
+            <option value="bttsYes" data-i18n="market.bttsYes">BTTS Ja</option>
+            <option value="bttsNo" data-i18n="market.bttsNo">BTTS Nein</option>
+          </select></label>
+          <label><span data-i18n="scanner.minEdge">Min. Edge</span><input id="edgeFilter" type="number" step=".5" value="3">%</label>
+          <label><span data-i18n="scanner.minQuality">Min. Qualität</span><input id="qualityFilter" type="number" min="0" max="100" value="35"></label>
+          <label><span data-i18n="scanner.sort">Sortieren</span><select id="sortFilter"><option value="edge" data-i18n="scanner.sortEdge">Edge</option><option value="quality" data-i18n="scanner.sortQuality">Qualität</option><option value="probability" data-i18n="scanner.sortProbability">Wahrscheinlichkeit</option><option value="date" data-i18n="scanner.sortDate">Datum</option></select></label>
+        </div>
+      </section>
+
+      <div id="scannerSummary" class="summary-grid"></div>
+      <section class="panel">
+        <div class="section-head"><div><p class="kicker" data-i18n="scanner.candidates">Kandidaten</p><h2 data-i18n="scanner.currentMatches">Aktuelle Spiele</h2></div><button id="exportScannerBtn" class="btn subtle" data-i18n="scanner.exportCsv">CSV exportieren</button></div>
+        <div class="table-wrap"><table><thead><tr><th data-i18n="scanner.thMatch">Spiel</th><th data-i18n="scanner.thLineup">Aufstellung</th><th data-i18n="scanner.thMarket">Markt</th><th data-i18n="scanner.thModel">Modell</th><th data-i18n="scanner.thFairOdds">Faire Quote</th><th data-i18n="scanner.thMarketOdds">Marktquote</th><th data-i18n="scanner.thEdge">Edge</th><th data-i18n="scanner.thQuality">Qualität</th><th></th></tr></thead><tbody id="scannerRows"></tbody></table></div>
+      </section>
+
+      <section class="panel" id="slipPanel">
+        <div class="section-head">
+          <div><p class="kicker" data-i18n="combo.kicker">Kombiwette</p><h2 data-i18n="combo.title">Wettschein</h2></div>
+          <div class="button-row"><button id="clearSlipBtn" class="btn subtle" data-i18n="combo.clear">Wettschein leeren</button><button id="slipToJournalBtn" class="btn primary" data-i18n="combo.addToJournal">Als Wette eintragen</button></div>
+        </div>
+        <div id="slipLegs" class="slip-list"></div>
+        <div class="filters slip-controls"><label><span data-i18n="combo.stake">Einsatz</span><input id="slipStake" type="number" min="0.01" step=".01" value="10">€</label></div>
+        <div id="slipSummary" class="summary-grid"></div>
+        <div id="slipNotes"></div>
+      </section>
+    </section>
+
+    <section id="matchView" class="view">
+      <div class="page-head"><div><p class="kicker" data-i18n="match.kicker">Einzelspiel</p><h1 data-i18n="match.title">Spielanalyse</h1></div><select id="fixtureSelect"></select></div>
+      <div id="matchAnalysis"></div>
+    </section>
+
+    <section id="playersView" class="view">
+      <div class="page-head"><div><p class="kicker" data-i18n="players.kicker">Saisonwerte & Einfluss</p><h1 data-i18n="players.title">Spielerstatistiken</h1></div></div>
+      <section class="panel">
+        <div class="filters player-filters">
+          <label><span data-i18n="players.league">Liga</span><select id="playerLeagueFilter"></select></label>
+          <label><span data-i18n="players.team">Team</span><select id="playerTeamFilter"></select></label>
+          <label><span data-i18n="players.position">Position</span><select id="playerPositionFilter"><option value="all" data-i18n="players.allPositions">Alle Positionen</option><option>GK</option><option>CB</option><option>FB</option><option>DM</option><option>CM</option><option>AM</option><option>W</option><option>ST</option></select></label>
+          <label><span data-i18n="players.search">Suche</span><input id="playerSearch" type="search" data-i18n-placeholder="players.searchPlaceholder" placeholder="Spielername"></label>
+          <label><span data-i18n="players.sort">Sortierung</span><select id="playerSort"><option value="total" data-i18n="players.sortTotal">Gesamtimpact</option><option value="attack" data-i18n="players.sortAttack">Offensivimpact</option><option value="defense" data-i18n="players.sortDefense">Defensivimpact</option><option value="minutes" data-i18n="players.sortMinutes">Minuten</option><option value="goals" data-i18n="players.sortGoals">Tore</option></select></label>
+        </div>
+      </section>
+      <div id="playerSummary" class="summary-grid"></div>
+      <section class="panel">
+        <div class="table-wrap"><table><thead><tr><th data-i18n="players.thPlayer">Spieler</th><th data-i18n="players.thTeam">Team</th><th data-i18n="players.thPos">Pos.</th><th data-i18n="players.thStatus">Status</th><th data-i18n="players.thMin">Min.</th><th data-i18n="players.thGoals">Tore</th><th>xG</th><th data-i18n="players.thAssists">Assists</th><th>xA</th><th data-i18n="players.thAttack">Angriff</th><th data-i18n="players.thDefense">Defensive</th></tr></thead><tbody id="playerRows"></tbody></table></div>
+      </section>
+    </section>
+
+    <section id="profilesView" class="view">
+      <div class="page-head"><div><p class="kicker" data-i18n="profiles.kicker">Torprofile</p><h1 data-i18n="profiles.title">Liga- & Teamprofile</h1></div><select id="profileLeagueSelect"></select></div>
+      <div id="leagueProfile"></div>
+      <section class="panel"><div class="section-head"><div><p class="kicker" data-i18n="profiles.teams">Teams</p><h2 data-i18n="profiles.homeAway">Heim-/Auswärtsprofile</h2></div></div><div id="teamProfiles" class="profile-grid"></div></section>
+    </section>
+
+    <section id="backtestView" class="view">
+      <div class="page-head"><div><p class="kicker" data-i18n="backtest.kicker">Walk-forward</p><h1 data-i18n="backtest.title">Backtest-Labor</h1></div></div>
+      <section class="panel"><div class="filters"><label><span data-i18n="backtest.league">Liga</span><select id="btLeague"></select></label><label><span data-i18n="backtest.market">Markt</span><select id="btMarket"><option value="over25" data-i18n="market.over25">Over 2,5</option><option value="under25" data-i18n="market.under25">Under 2,5</option><option value="bttsYes" data-i18n="market.bttsYes">BTTS Ja</option><option value="bttsNo" data-i18n="market.bttsNo">BTTS Nein</option></select></label><label><span data-i18n="backtest.minEdge">Min. Edge</span><input id="btEdge" type="number" value="5" step=".5">%</label><label><span data-i18n="backtest.minHistory">Mind. Vorgeschichte</span><input id="btMinHistory" type="number" value="8" min="3"></label><label><span data-i18n="backtest.stake">Einsatz</span><input id="btStake" type="number" value="10" min="1">€</label></div><button id="runBacktestBtn" class="btn primary" data-i18n="backtest.run">Backtest starten</button></section>
+      <div id="backtestOutput"></div>
+    </section>
+
+    <section id="betsView" class="view">
+      <div class="page-head"><div><p class="kicker" data-i18n="bets.kicker">Reale Entscheidungen</p><h1 data-i18n="bets.title">Wettjournal</h1></div><button id="addBetBtn" class="btn primary" data-i18n="bets.add">Wette eintragen</button></div>
+      <div id="bankrollCards" class="summary-grid"></div>
+      <section class="panel"><div class="table-wrap"><table><thead><tr><th data-i18n="bets.thDate">Datum</th><th data-i18n="bets.thMatch">Spiel</th><th data-i18n="bets.thMarket">Markt</th><th data-i18n="bets.thOdds">Quote</th><th data-i18n="bets.thStake">Einsatz</th><th data-i18n="bets.thStatus">Status</th><th data-i18n="bets.thProfit">G/V</th><th></th></tr></thead><tbody id="betRows"></tbody></table></div></section>
+    </section>
+
+    <section id="dataView" class="view">
+      <div class="page-head"><div><p class="kicker" data-i18n="data.kicker">Import & Adapter</p><h1 data-i18n="data.title">Daten verwalten</h1></div></div>
+      <div class="data-grid">
+        <section class="panel"><h2 data-i18n="data.historyTitle">Historische Ergebnisse</h2><p data-i18n="data.historyHint">Football-Data.co.uk-CSV und Rajudhara-Format.</p><label class="dropzone"><input id="historyFile" type="file" accept=".csv,text/csv" multiple><strong data-i18n="data.historyPick">CSV auswählen</strong><span data-i18n="data.historyPickHint">Ergebnisse und Quoten</span></label><div class="button-row"><button id="loadDemoHistoryBtn" class="btn secondary" data-i18n="data.loadDemo">Demo laden</button><button id="clearHistoryBtn" class="btn danger" data-i18n="data.clear">Löschen</button></div><p id="historyStatus" class="muted"></p></section>
+        <section class="panel"><h2 data-i18n="data.fixturesTitle">Kommende Spiele</h2><p data-i18n="data.fixturesHint">JSON oder CSV mit Begegnungen und Marktquoten.</p><label class="dropzone"><input id="fixturesFile" type="file" accept=".csv,.json,application/json,text/csv" multiple><strong data-i18n="data.fixturesPick">Fixtures auswählen</strong><span data-i18n="data.csvOrJson">CSV oder JSON</span></label><div class="button-row"><button id="loadDemoFixturesBtn" class="btn secondary" data-i18n="data.loadDemo">Demo laden</button><button id="clearFixturesBtn" class="btn danger" data-i18n="data.clear">Löschen</button></div><p id="fixturesStatus" class="muted"></p></section>
+        <section class="panel"><h2 data-i18n="data.playersTitle">Spielerstatistiken</h2><p data-i18n="data.playersHint">Saisonwerte als JSON oder CSV: Minuten, Tore, xG, xA, Schüsse, Defensivwerte und Status.</p><label class="dropzone"><input id="playersFile" type="file" accept=".csv,.json,application/json,text/csv" multiple><strong data-i18n="data.playersPick">Spielerdaten auswählen</strong><span data-i18n="data.csvOrJson">CSV oder JSON</span></label><div class="button-row"><button id="loadDemoPlayersBtn" class="btn secondary" data-i18n="data.loadDemo">Demo laden</button><button id="clearPlayersBtn" class="btn danger" data-i18n="data.clear">Löschen</button></div><p id="playersStatus" class="muted"></p></section>
+        <section class="panel"><h2 data-i18n="data.lineupsTitle">Aufstellungen & Ausfälle</h2><p data-i18n="data.lineupsHint">Fixture-bezogene Startelf, Formation, Status und Änderungen.</p><label class="dropzone"><input id="lineupsFile" type="file" accept=".json,application/json"><strong data-i18n="data.lineupsPick">Lineups auswählen</strong><span>JSON</span></label><div class="button-row"><button id="loadDemoLineupsBtn" class="btn secondary" data-i18n="data.loadDemo">Demo laden</button><button id="clearLineupsBtn" class="btn danger" data-i18n="data.clear">Löschen</button></div><p id="lineupsStatus" class="muted"></p></section>
+      </div>
+
+      <section class="panel">
+        <div class="section-head"><div><p class="kicker" data-i18n="data.systemCheck">Systemcheck</p><h2 data-i18n="data.diagnosticsTitle">Diagnose & Reset</h2></div><div class="button-row"><button id="runDiagnosticsBtn" class="btn secondary" data-i18n="data.runDiagnostics">Diagnose starten</button><button id="resetAppBtn" class="btn danger" data-i18n="data.resetApp">App zurücksetzen</button></div></div>
+        <div id="diagnosticOutput" class="diagnostic-grid"><p class="muted" data-i18n="data.diagnosticsHint">Prüft Datenzuordnung, Ligacodes, Quoten, Spieler und Aufstellungen.</p></div>
+      </section>
+
+      <section class="panel">
+        <div class="section-head"><div><p class="kicker" data-i18n="data.liveKicker">Live-Daten</p><h2 data-i18n="data.liveTitle">Backend-/Proxy-Adapter</h2></div><span class="badge" data-i18n="data.livePrepared">vorbereitet</span></div>
+        <p data-i18n-html="data.liveHint">API-Schlüssel gehören nicht in die PWA. <code>data-adapter.example.js</code> beschreibt die normalisierte Schnittstelle.</p>
+        <div class="code-line">GET /api/fixtures?leagues=DK1,DK2,...</div>
+        <div class="code-line">GET /api/players?league=IT1&amp;season=2026</div>
+        <div class="code-line">GET /api/fixtures/:id/lineups</div>
+        <div class="code-line">GET /api/fixtures/:id/player-statistics</div>
+      </section>
+    </section>
+
+    <section id="methodView" class="view">
+      <div class="page-head"><div><p class="kicker" data-i18n="method.kicker">Transparent</p><h1 data-i18n="method.title">Methodik</h1></div></div>
+      <div class="method-grid">
+        <article class="panel"><h2 data-i18n="method.baseTitle">Basismodell</h2><p data-i18n="method.baseText">Ligamittel, Heim-/Auswärtsangriff und gegnerische Defensive ergeben die Basiswerte λ Heim und λ Auswärts.</p></article>
+        <article class="panel"><h2 data-i18n="method.playerTitle">Spielerimpact</h2><p data-i18n="method.playerText">Spielerwerte werden in offensiven und defensiven xG-Einfluss umgerechnet. Einsatzminuten bestimmen die Zuverlässigkeit.</p></article>
+        <article class="panel"><h2 data-i18n="method.lineupTitle">Aufstellungsanpassung</h2><p data-i18n="method.lineupText">Die tatsächliche oder erwartete Startelf wird mit der üblichen Stammelf verglichen. Erst danach wird die Torverteilung neu berechnet.</p></article>
+        <article class="panel"><h2 data-i18n="method.marketsTitle">Märkte</h2><p data-i18n="method.marketsText">Over 1,5, Over/Under 2,5, Over 3,5 und BTTS Ja/Nein folgen aus der angepassten Score-Matrix.</p></article>
+        <article class="panel"><h2 data-i18n="method.valueTitle">Value</h2><p data-i18n-html="method.valueText"><strong>Faire Quote = 1 / p</strong><br><strong>Edge = p × Quote − 1</strong></p></article>
+        <article class="panel"><h2 data-i18n="method.limitsTitle">Grenzen</h2><p data-i18n="method.limitsText">Spielergewichte sind transparent, aber zunächst heuristisch. Sie müssen mit echten historischen Aufstellungen kalibriert werden.</p></article>
+      </div>
+      <section class="panel warning-box"><strong data-i18n="method.disclaimerLabel">Hinweis:</strong> <span data-i18n="method.disclaimer">Analysewerkzeug, keine Gewinnzusage. Die mitgelieferten Demo-Daten sind synthetisch.</span></section>
+    </section>
+  </main>
+
+  <footer><span data-i18n="app.footer">Rajudhara Football Predictor · local-first PWA</span><span id="storageInfo"></span></footer>
+</div>
+
+<dialog id="betDialog"><form id="betForm" method="dialog"><div class="dialog-head"><h2 data-i18n="bets.add">Wette eintragen</h2><button value="cancel" class="icon-btn">×</button></div><div class="form-grid"><label><span data-i18n="bets.formDate">Datum</span><input name="date" type="date" required></label><label><span data-i18n="bets.formMatch">Spiel</span><input name="match" required></label><label><span data-i18n="bets.formMarket">Markt</span><select name="market"><option value="over25" data-i18n="market.over25">Over 2,5</option><option value="under25" data-i18n="market.under25">Under 2,5</option><option value="bttsYes" data-i18n="market.bttsYes">BTTS Ja</option><option value="bttsNo" data-i18n="market.bttsNo">BTTS Nein</option><option value="combo" data-i18n="market.combo">Kombi</option></select></label><label><span data-i18n="bets.formOdds">Quote</span><input name="odds" type="number" step=".01" min="1.01" required></label><label><span data-i18n="bets.formStake">Einsatz €</span><input name="stake" type="number" step=".01" min=".01" required></label><label><span data-i18n="bets.formStatus">Status</span><select name="status"><option value="open" data-i18n="betStatus.open">offen</option><option value="won" data-i18n="betStatus.won">gewonnen</option><option value="lost" data-i18n="betStatus.lost">verloren</option><option value="void" data-i18n="betStatus.void">storniert</option></select></label><label class="full"><span data-i18n="bets.formNote">Notiz</span><textarea name="note" rows="3"></textarea></label></div><div class="dialog-actions"><button value="cancel" class="btn subtle" data-i18n="bets.cancel">Abbrechen</button><button value="default" class="btn primary" data-i18n="bets.save">Speichern</button></div></form></dialog>
+<div id="toast" class="toast hidden" role="status" aria-live="polite"></div>
+<script type="module" src="./app.js"></script>
+</body>
+</html>

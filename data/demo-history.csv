@@ -1,0 +1,785 @@
+Date,League,LeagueName,HomeTeam,AwayTeam,FTHG,FTAG,O25,U25,BTTSY,BTTSN
+2024-08-02,DK1,Dänemark · Superliga,Midtjylland,Odense,4,2,1.42,2.58,1.41,2.69
+2024-08-03,DK1,Dänemark · Superliga,Odense,Kopenhagen,2,0,1.69,2.09,1.64,2.31
+2024-08-05,DK1,Dänemark · Superliga,Kopenhagen,Brøndby,0,1,2.0,1.89,1.84,1.91
+2024-08-07,DK1,Dänemark · Superliga,Nordsjælland,Midtjylland,1,2,1.28,3.23,1.33,3.06
+2024-08-08,DK1,Dänemark · Superliga,Midtjylland,Aarhus,0,1,1.76,2.04,1.69,2.24
+2024-08-11,DK1,Dänemark · Superliga,Odense,Aalborg,2,1,2.52,1.52,2.15,1.6
+2024-08-12,DK1,Dänemark · Superliga,Odense,Nordsjælland,0,0,1.66,2.29,1.49,2.41
+2024-08-13,DK1,Dänemark · Superliga,Midtjylland,Nordsjælland,2,1,1.37,3.07,1.33,3.05
+2024-08-15,DK1,Dänemark · Superliga,Aarhus,Aalborg,0,0,2.39,1.62,2.1,1.73
+2024-08-17,DK1,Dänemark · Superliga,Silkeborg,Aalborg,0,0,2.21,1.66,1.9,1.89
+2024-08-18,DK1,Dänemark · Superliga,Silkeborg,Midtjylland,0,2,1.71,2.05,1.59,2.18
+2024-08-20,DK1,Dänemark · Superliga,Silkeborg,Kopenhagen,3,0,2.29,1.63,1.88,1.85
+2024-08-21,DK1,Dänemark · Superliga,Nordsjælland,Odense,0,0,1.92,1.94,1.82,2.09
+2024-08-22,DK1,Dänemark · Superliga,Aalborg,Kopenhagen,2,2,2.09,1.78,1.81,1.9
+2024-08-25,DK1,Dänemark · Superliga,Odense,Midtjylland,0,1,1.55,2.53,1.47,2.67
+2024-08-28,DK1,Dänemark · Superliga,Silkeborg,Brøndby,0,3,1.81,2.0,1.77,2.13
+2024-08-30,DK1,Dänemark · Superliga,Midtjylland,Aalborg,1,1,2.08,1.78,2.01,1.83
+2024-08-31,DK1,Dänemark · Superliga,Aarhus,Brøndby,2,2,2.1,1.61,1.86,1.92
+2024-09-02,DK1,Dänemark · Superliga,Silkeborg,Nordsjælland,3,2,1.69,1.97,1.6,2.13
+2024-09-04,DK1,Dänemark · Superliga,Silkeborg,Aarhus,1,3,2.12,1.64,1.86,1.8
+2024-09-06,DK1,Dänemark · Superliga,Aarhus,Kopenhagen,2,1,1.67,2.12,1.66,2.16
+2024-09-07,DK1,Dänemark · Superliga,Brøndby,Aalborg,1,1,2.11,1.7,2.02,1.76
+2024-09-08,DK1,Dänemark · Superliga,Brøndby,Odense,2,1,2.09,1.75,1.9,1.85
+2024-09-10,DK1,Dänemark · Superliga,Odense,Silkeborg,3,0,1.83,1.96,1.68,2.05
+2024-09-11,DK1,Dänemark · Superliga,Kopenhagen,Midtjylland,4,0,1.32,3.01,1.44,3.18
+2024-09-14,DK1,Dänemark · Superliga,Silkeborg,Odense,3,2,1.96,1.85,1.75,2.0
+2024-09-15,DK1,Dänemark · Superliga,Kopenhagen,Odense,0,0,1.75,2.22,1.66,2.34
+2024-09-17,DK1,Dänemark · Superliga,Kopenhagen,Nordsjælland,1,0,1.53,2.47,1.6,2.34
+2024-09-19,DK1,Dänemark · Superliga,Nordsjælland,Silkeborg,1,2,1.96,1.89,1.79,1.92
+2024-09-21,DK1,Dänemark · Superliga,Brøndby,Silkeborg,2,0,2.05,1.75,1.88,1.88
+2024-09-22,DK1,Dänemark · Superliga,Midtjylland,Silkeborg,3,1,1.41,2.68,1.46,2.68
+2024-09-23,DK1,Dänemark · Superliga,Brøndby,Aarhus,1,2,2.66,1.52,2.19,1.73
+2024-09-26,DK1,Dänemark · Superliga,Aalborg,Brøndby,2,0,1.92,1.81,1.84,1.9
+2024-09-29,DK1,Dänemark · Superliga,Aalborg,Aarhus,2,0,2.44,1.51,2.21,1.67
+2024-10-01,DK1,Dänemark · Superliga,Midtjylland,Brøndby,3,1,1.73,2.09,1.78,2.11
+2024-10-02,DK1,Dänemark · Superliga,Midtjylland,Kopenhagen,3,0,1.59,2.33,1.61,2.34
+2024-10-05,DK1,Dänemark · Superliga,Kopenhagen,Aalborg,3,4,1.62,2.13,1.66,2.12
+2024-10-06,DK1,Dänemark · Superliga,Aarhus,Midtjylland,4,3,1.47,2.65,1.48,2.58
+2024-10-08,DK1,Dänemark · Superliga,Kopenhagen,Aarhus,3,0,1.88,1.86,1.73,2.05
+2024-10-09,DK1,Dänemark · Superliga,Nordsjælland,Kopenhagen,5,1,1.48,2.42,1.54,2.7
+2024-10-12,DK1,Dänemark · Superliga,Nordsjælland,Aalborg,1,2,1.81,1.94,1.81,2.18
+2024-10-13,DK1,Dänemark · Superliga,Nordsjælland,Aarhus,1,0,1.85,1.9,1.7,2.14
+2024-10-15,DK1,Dänemark · Superliga,Aalborg,Nordsjælland,2,1,1.6,2.29,1.51,2.53
+2024-10-18,DK1,Dänemark · Superliga,Aarhus,Odense,0,0,1.87,1.82,1.74,2.06
+2024-10-20,DK1,Dänemark · Superliga,Aalborg,Odense,1,0,2.54,1.55,2.21,1.73
+2024-10-23,DK1,Dänemark · Superliga,Aalborg,Silkeborg,0,3,2.45,1.48,2.1,1.68
+2024-10-26,DK1,Dänemark · Superliga,Aarhus,Nordsjælland,2,1,1.74,2.02,1.68,2.2
+2024-10-27,DK1,Dänemark · Superliga,Nordsjælland,Brøndby,1,0,1.97,1.8,1.86,1.93
+2024-10-28,DK1,Dänemark · Superliga,Aalborg,Midtjylland,1,2,2.0,1.8,1.72,2.01
+2024-10-30,DK1,Dänemark · Superliga,Odense,Brøndby,3,1,2.08,1.77,1.82,1.9
+2024-11-02,DK1,Dänemark · Superliga,Kopenhagen,Silkeborg,1,1,2.0,1.71,1.79,1.93
+2024-11-03,DK1,Dänemark · Superliga,Brøndby,Midtjylland,2,0,1.84,1.96,1.68,2.22
+2024-11-06,DK1,Dänemark · Superliga,Brøndby,Nordsjælland,2,1,1.54,2.51,1.5,2.75
+2024-11-07,DK1,Dänemark · Superliga,Odense,Aarhus,2,0,2.16,1.71,1.85,1.81
+2024-11-08,DK1,Dänemark · Superliga,Aarhus,Silkeborg,1,0,2.85,1.43,2.25,1.58
+2024-11-11,DK1,Dänemark · Superliga,Brøndby,Kopenhagen,0,0,1.73,2.11,1.73,2.16
+2024-08-03,DK2,Dänemark · 1st Division,Kolding,Fredericia,1,2,1.96,1.8,1.9,1.93
+2024-08-05,DK2,Dänemark · 1st Division,Fredericia,Esbjerg,2,2,1.91,1.83,1.79,2.01
+2024-08-08,DK2,Dänemark · 1st Division,Horsens,Hvidovre,3,2,1.55,2.4,1.6,2.22
+2024-08-10,DK2,Dänemark · 1st Division,Esbjerg,Fredericia,1,2,1.6,2.22,1.63,2.2
+2024-08-12,DK2,Dänemark · 1st Division,Esbjerg,Kolding,1,1,1.92,1.99,1.72,2.15
+2024-08-14,DK2,Dänemark · 1st Division,Hobro,Køge,2,0,2.4,1.56,2.27,1.72
+2024-08-15,DK2,Dänemark · 1st Division,Fredericia,Kolding,3,0,1.93,1.79,1.73,2.0
+2024-08-16,DK2,Dänemark · 1st Division,Lyngby,Horsens,0,1,2.25,1.61,1.92,1.82
+2024-08-18,DK2,Dänemark · 1st Division,Hvidovre,Fredericia,1,1,1.81,2.07,1.69,2.26
+2024-08-19,DK2,Dänemark · 1st Division,Horsens,Kolding,0,0,1.83,1.82,1.79,1.9
+2024-08-20,DK2,Dänemark · 1st Division,Hobro,Horsens,0,2,1.84,1.89,1.82,1.98
+2024-08-21,DK2,Dänemark · 1st Division,Kolding,Lyngby,2,2,2.44,1.63,2.18,1.71
+2024-08-24,DK2,Dänemark · 1st Division,Hobro,Lyngby,2,1,2.46,1.49,2.28,1.65
+2024-08-25,DK2,Dänemark · 1st Division,Køge,Esbjerg,0,1,2.27,1.63,1.95,1.74
+2024-08-26,DK2,Dänemark · 1st Division,Hvidovre,Esbjerg,0,1,1.57,2.38,1.47,2.6
+2024-08-28,DK2,Dänemark · 1st Division,Esbjerg,Lyngby,4,2,1.73,2.22,1.69,2.28
+2024-08-30,DK2,Dänemark · 1st Division,Hobro,Hvidovre,1,3,1.75,1.98,1.77,2.13
+2024-09-01,DK2,Dänemark · 1st Division,Køge,Horsens,1,1,2.66,1.43,2.26,1.61
+2024-09-03,DK2,Dänemark · 1st Division,Esbjerg,Hobro,2,0,1.75,2.0,1.69,2.03
+2024-09-05,DK2,Dänemark · 1st Division,Kolding,Hobro,1,2,2.87,1.42,2.25,1.56
+2024-09-06,DK2,Dänemark · 1st Division,Hobro,Esbjerg,0,0,2.05,1.77,1.81,1.91
+2024-09-09,DK2,Dänemark · 1st Division,Køge,Hobro,2,3,2.85,1.36,2.36,1.51
+2024-09-12,DK2,Dänemark · 1st Division,Hvidovre,Lyngby,1,3,1.58,2.16,1.67,2.1
+2024-09-14,DK2,Dänemark · 1st Division,Hvidovre,Horsens,0,3,1.64,2.1,1.58,2.3
+2024-09-16,DK2,Dänemark · 1st Division,Fredericia,Køge,0,0,2.31,1.61,2.15,1.67
+2024-09-19,DK2,Dänemark · 1st Division,Hvidovre,Køge,3,1,2.29,1.62,2.01,1.77
+2024-09-20,DK2,Dänemark · 1st Division,Lyngby,Hvidovre,1,1,2.24,1.68,1.86,1.85
+2024-09-21,DK2,Dänemark · 1st Division,Køge,Lyngby,1,1,2.37,1.59,2.15,1.8
+2024-09-23,DK2,Dänemark · 1st Division,Esbjerg,Hvidovre,4,1,1.78,1.9,1.66,2.06
+2024-09-26,DK2,Dänemark · 1st Division,Lyngby,Esbjerg,0,3,2.03,1.76,1.85,1.92
+2024-09-29,DK2,Dänemark · 1st Division,Kolding,Horsens,1,3,1.88,1.88,1.74,1.96
+2024-09-30,DK2,Dänemark · 1st Division,Kolding,Køge,0,1,2.39,1.64,2.1,1.78
+2024-10-02,DK2,Dänemark · 1st Division,Hvidovre,Kolding,3,0,1.67,2.08,1.65,2.21
+2024-10-04,DK2,Dänemark · 1st Division,Horsens,Fredericia,3,0,1.7,1.97,1.9,1.93
+2024-10-07,DK2,Dänemark · 1st Division,Horsens,Lyngby,1,1,1.79,1.91,2.09,1.81
+2024-10-10,DK2,Dänemark · 1st Division,Køge,Hvidovre,2,1,1.98,1.88,1.73,2.13
+2024-10-11,DK2,Dänemark · 1st Division,Kolding,Esbjerg,0,1,2.39,1.61,2.09,1.85
+2024-10-12,DK2,Dänemark · 1st Division,Lyngby,Køge,0,2,2.88,1.38,2.29,1.61
+2024-10-15,DK2,Dänemark · 1st Division,Hobro,Fredericia,1,1,2.26,1.61,2.08,1.74
+2024-10-16,DK2,Dänemark · 1st Division,Horsens,Køge,1,1,2.3,1.59,2.09,1.74
+2024-10-18,DK2,Dänemark · 1st Division,Esbjerg,Køge,0,1,2.27,1.52,2.19,1.63
+2024-10-20,DK2,Dänemark · 1st Division,Lyngby,Kolding,0,2,2.34,1.53,2.13,1.8
+2024-10-23,DK2,Dänemark · 1st Division,Hobro,Kolding,2,1,2.15,1.71,1.85,1.92
+2024-10-26,DK2,Dänemark · 1st Division,Fredericia,Hobro,4,0,2.07,1.75,2.0,1.83
+2024-10-27,DK2,Dänemark · 1st Division,Lyngby,Hobro,2,1,2.12,1.74,1.98,1.81
+2024-10-29,DK2,Dänemark · 1st Division,Horsens,Hobro,0,3,1.57,2.31,1.65,2.3
+2024-10-30,DK2,Dänemark · 1st Division,Fredericia,Lyngby,1,1,1.79,2.02,1.66,2.24
+2024-11-02,DK2,Dänemark · 1st Division,Horsens,Esbjerg,2,1,1.66,2.05,1.64,2.09
+2024-11-03,DK2,Dänemark · 1st Division,Esbjerg,Horsens,3,2,1.56,2.54,1.45,2.68
+2024-11-05,DK2,Dänemark · 1st Division,Hvidovre,Hobro,1,0,2.1,1.65,1.92,1.91
+2024-11-07,DK2,Dänemark · 1st Division,Fredericia,Horsens,2,3,1.75,2.05,1.62,2.12
+2024-11-09,DK2,Dänemark · 1st Division,Køge,Fredericia,0,1,2.27,1.59,2.02,1.83
+2024-11-10,DK2,Dänemark · 1st Division,Fredericia,Hvidovre,2,1,1.49,2.67,1.45,2.75
+2024-11-13,DK2,Dänemark · 1st Division,Lyngby,Fredericia,0,2,1.73,2.0,1.72,2.1
+2024-11-14,DK2,Dänemark · 1st Division,Køge,Kolding,1,3,3.0,1.44,2.32,1.53
+2024-11-15,DK2,Dänemark · 1st Division,Kolding,Hvidovre,2,3,2.21,1.68,1.94,1.78
+2024-08-04,BE1,Belgien · Pro League,Gent,Standard,0,1,1.96,1.86,1.76,1.93
+2024-08-06,BE1,Belgien · Pro League,Genk,Gent,4,1,2.24,1.63,1.94,1.72
+2024-08-09,BE1,Belgien · Pro League,Anderlecht,Gent,4,0,1.54,2.48,1.51,2.43
+2024-08-10,BE1,Belgien · Pro League,Antwerpen,Standard,0,1,1.69,2.21,1.76,2.0
+2024-08-11,BE1,Belgien · Pro League,Genk,Club Brügge,0,0,2.23,1.71,2.12,1.83
+2024-08-12,BE1,Belgien · Pro League,Standard,Antwerpen,2,1,1.54,2.29,1.66,2.22
+2024-08-15,BE1,Belgien · Pro League,Charleroi,Gent,1,2,1.75,2.07,1.77,2.19
+2024-08-18,BE1,Belgien · Pro League,Genk,Standard,3,0,1.72,2.05,1.74,2.06
+2024-08-20,BE1,Belgien · Pro League,Gent,Club Brügge,1,0,1.85,1.96,1.76,2.06
+2024-08-21,BE1,Belgien · Pro League,Charleroi,Antwerpen,2,0,1.73,2.2,1.54,2.34
+2024-08-23,BE1,Belgien · Pro League,Charleroi,Club Brügge,2,3,1.37,3.06,1.53,2.6
+2024-08-25,BE1,Belgien · Pro League,Mechelen,Club Brügge,2,1,1.97,1.77,1.8,1.92
+2024-08-28,BE1,Belgien · Pro League,Anderlecht,Club Brügge,0,3,1.84,1.98,1.85,1.93
+2024-08-31,BE1,Belgien · Pro League,Standard,Charleroi,2,5,1.72,2.14,1.59,2.3
+2024-09-02,BE1,Belgien · Pro League,Club Brügge,Genk,4,2,2.26,1.74,1.94,1.84
+2024-09-03,BE1,Belgien · Pro League,Gent,Anderlecht,2,2,1.92,2.02,1.74,2.18
+2024-09-05,BE1,Belgien · Pro League,Charleroi,Mechelen,0,2,1.57,2.3,1.62,2.28
+2024-09-07,BE1,Belgien · Pro League,Gent,Antwerpen,1,1,2.42,1.51,2.21,1.64
+2024-09-08,BE1,Belgien · Pro League,Anderlecht,Mechelen,2,1,1.53,2.43,1.52,2.59
+2024-09-10,BE1,Belgien · Pro League,Club Brügge,Anderlecht,0,3,1.53,2.54,1.49,2.58
+2024-09-12,BE1,Belgien · Pro League,Genk,Mechelen,0,4,2.11,1.78,1.82,1.99
+2024-09-14,BE1,Belgien · Pro League,Standard,Mechelen,2,3,1.86,1.9,1.71,2.04
+2024-09-17,BE1,Belgien · Pro League,Club Brügge,Standard,0,1,1.8,2.1,1.64,2.15
+2024-09-19,BE1,Belgien · Pro League,Anderlecht,Standard,0,1,1.26,3.4,1.37,2.88
+2024-09-20,BE1,Belgien · Pro League,Anderlecht,Antwerpen,1,2,1.58,2.23,1.63,2.35
+2024-09-22,BE1,Belgien · Pro League,Mechelen,Gent,4,1,1.95,1.85,1.89,2.0
+2024-09-23,BE1,Belgien · Pro League,Antwerpen,Mechelen,0,1,2.13,1.69,1.89,1.82
+2024-09-25,BE1,Belgien · Pro League,Charleroi,Genk,2,3,1.79,1.9,1.7,2.12
+2024-09-26,BE1,Belgien · Pro League,Genk,Charleroi,0,0,2.07,1.75,1.88,1.98
+2024-09-27,BE1,Belgien · Pro League,Antwerpen,Anderlecht,2,1,1.75,2.0,1.7,2.1
+2024-09-28,BE1,Belgien · Pro League,Club Brügge,Charleroi,0,1,1.51,2.43,1.47,2.68
+2024-09-30,BE1,Belgien · Pro League,Club Brügge,Mechelen,1,3,1.92,1.9,1.76,2.04
+2024-10-03,BE1,Belgien · Pro League,Mechelen,Anderlecht,1,5,1.7,2.25,1.59,2.34
+2024-10-05,BE1,Belgien · Pro League,Charleroi,Standard,2,1,1.39,3.06,1.5,2.45
+2024-10-08,BE1,Belgien · Pro League,Gent,Genk,0,0,2.38,1.67,1.95,1.72
+2024-10-11,BE1,Belgien · Pro League,Anderlecht,Genk,2,2,1.53,2.62,1.43,2.58
+2024-10-13,BE1,Belgien · Pro League,Gent,Mechelen,2,1,1.99,1.82,1.85,2.0
+2024-10-14,BE1,Belgien · Pro League,Antwerpen,Gent,2,2,2.14,1.74,1.94,1.87
+2024-10-15,BE1,Belgien · Pro League,Genk,Antwerpen,0,2,2.14,1.7,1.96,1.96
+2024-10-17,BE1,Belgien · Pro League,Gent,Charleroi,2,0,1.62,2.27,1.65,2.44
+2024-10-20,BE1,Belgien · Pro League,Anderlecht,Charleroi,1,1,1.31,3.64,1.3,3.42
+2024-10-21,BE1,Belgien · Pro League,Club Brügge,Antwerpen,0,1,1.79,2.0,1.88,1.89
+2024-10-23,BE1,Belgien · Pro League,Standard,Club Brügge,1,3,1.82,1.92,1.73,2.05
+2024-10-24,BE1,Belgien · Pro League,Mechelen,Genk,0,2,1.82,1.83,1.77,1.97
+2024-10-27,BE1,Belgien · Pro League,Antwerpen,Club Brügge,3,0,1.77,2.13,1.84,2.05
+2024-10-29,BE1,Belgien · Pro League,Antwerpen,Genk,0,0,2.03,1.78,1.83,1.83
+2024-10-30,BE1,Belgien · Pro League,Standard,Gent,0,2,2.1,1.77,1.92,1.92
+2024-11-02,BE1,Belgien · Pro League,Genk,Anderlecht,1,0,1.88,1.91,1.79,2.09
+2024-11-03,BE1,Belgien · Pro League,Mechelen,Antwerpen,0,1,1.87,1.92,1.87,1.97
+2024-11-04,BE1,Belgien · Pro League,Club Brügge,Gent,0,0,1.99,1.74,1.83,1.86
+2024-11-05,BE1,Belgien · Pro League,Antwerpen,Charleroi,1,5,1.79,2.14,1.64,2.22
+2024-11-06,BE1,Belgien · Pro League,Charleroi,Anderlecht,3,2,1.33,3.18,1.33,3.11
+2024-11-08,BE1,Belgien · Pro League,Standard,Anderlecht,1,4,1.51,2.73,1.48,2.77
+2024-11-11,BE1,Belgien · Pro League,Mechelen,Standard,0,1,1.52,2.46,1.58,2.29
+2024-11-12,BE1,Belgien · Pro League,Standard,Genk,2,0,1.77,2.07,1.6,2.19
+2024-11-15,BE1,Belgien · Pro League,Mechelen,Charleroi,2,2,1.84,2.11,1.71,2.3
+2024-08-03,BE2,Belgien · Challenger Pro League,Beerschot,Patro Eisden,1,0,2.07,1.72,1.97,1.91
+2024-08-06,BE2,Belgien · Challenger Pro League,Beerschot,Seraing,2,1,2.21,1.64,2.23,1.69
+2024-08-07,BE2,Belgien · Challenger Pro League,Deinze,Patro Eisden,2,1,1.78,1.98,1.76,2.06
+2024-08-10,BE2,Belgien · Challenger Pro League,Lierse,Beveren,0,1,2.12,1.79,1.92,1.82
+2024-08-13,BE2,Belgien · Challenger Pro League,Lommel,Patro Eisden,4,3,1.67,2.05,1.69,2.2
+2024-08-16,BE2,Belgien · Challenger Pro League,Beveren,Seraing,3,1,2.27,1.69,1.99,1.79
+2024-08-18,BE2,Belgien · Challenger Pro League,RFC Liège,Lommel,1,1,1.64,2.15,1.65,2.27
+2024-08-19,BE2,Belgien · Challenger Pro League,Patro Eisden,RFC Liège,4,1,1.98,1.81,1.78,2.03
+2024-08-21,BE2,Belgien · Challenger Pro League,Lierse,Patro Eisden,1,0,1.99,1.84,1.95,1.85
+2024-08-23,BE2,Belgien · Challenger Pro League,RFC Liège,Deinze,3,1,1.53,2.41,1.55,2.48
+2024-08-24,BE2,Belgien · Challenger Pro League,Beveren,Beerschot,1,3,2.49,1.55,2.12,1.79
+2024-08-25,BE2,Belgien · Challenger Pro League,Beerschot,Lierse,3,2,1.83,1.87,1.81,2.08
+2024-08-28,BE2,Belgien · Challenger Pro League,Deinze,Beerschot,3,1,1.84,2.02,1.65,2.09
+2024-08-29,BE2,Belgien · Challenger Pro League,Seraing,Beerschot,1,2,2.33,1.57,2.1,1.7
+2024-09-01,BE2,Belgien · Challenger Pro League,Deinze,Seraing,0,2,1.91,1.91,1.75,2.14
+2024-09-03,BE2,Belgien · Challenger Pro League,Beerschot,Beveren,1,0,1.99,1.69,1.91,1.94
+2024-09-05,BE2,Belgien · Challenger Pro League,RFC Liège,Seraing,3,2,1.78,2.14,1.65,2.17
+2024-09-07,BE2,Belgien · Challenger Pro League,Seraing,RFC Liège,3,0,2.09,1.84,1.84,1.98
+2024-09-08,BE2,Belgien · Challenger Pro League,Seraing,Patro Eisden,1,0,2.25,1.63,1.99,1.76
+2024-09-10,BE2,Belgien · Challenger Pro League,Lierse,Seraing,0,1,1.91,1.91,1.94,1.8
+2024-09-13,BE2,Belgien · Challenger Pro League,Lierse,Deinze,1,2,1.49,2.66,1.43,2.78
+2024-09-14,BE2,Belgien · Challenger Pro League,RFC Liège,Beveren,1,2,1.98,1.84,1.88,2.06
+2024-09-17,BE2,Belgien · Challenger Pro League,Beveren,Lommel,3,1,2.05,1.81,1.83,2.01
+2024-09-20,BE2,Belgien · Challenger Pro League,Beveren,Patro Eisden,4,0,2.16,1.75,1.91,1.89
+2024-09-21,BE2,Belgien · Challenger Pro League,Beerschot,Deinze,2,1,1.8,1.99,1.83,2.08
+2024-09-23,BE2,Belgien · Challenger Pro League,Beveren,RFC Liège,4,2,1.74,1.95,1.74,2.04
+2024-09-24,BE2,Belgien · Challenger Pro League,Seraing,Beveren,0,1,2.27,1.65,1.93,1.91
+2024-09-27,BE2,Belgien · Challenger Pro League,Lierse,RFC Liège,1,3,1.82,2.06,1.7,2.25
+2024-09-30,BE2,Belgien · Challenger Pro League,Deinze,RFC Liège,1,2,1.63,2.32,1.56,2.33
+2024-10-01,BE2,Belgien · Challenger Pro League,Lommel,Deinze,3,1,1.91,1.89,1.82,2.04
+2024-10-03,BE2,Belgien · Challenger Pro League,Lierse,Beerschot,3,0,2.29,1.59,1.92,1.86
+2024-10-06,BE2,Belgien · Challenger Pro League,Beerschot,RFC Liège,2,0,1.76,2.06,1.76,2.15
+2024-10-09,BE2,Belgien · Challenger Pro League,Patro Eisden,Beveren,1,1,2.84,1.48,2.32,1.59
+2024-10-10,BE2,Belgien · Challenger Pro League,Lommel,Seraing,2,0,1.84,1.85,1.85,1.98
+2024-10-12,BE2,Belgien · Challenger Pro League,Seraing,Deinze,1,3,2.1,1.74,1.81,2.03
+2024-10-15,BE2,Belgien · Challenger Pro League,Lierse,Lommel,2,0,1.7,2.07,1.65,2.05
+2024-10-16,BE2,Belgien · Challenger Pro League,Patro Eisden,Lierse,2,1,1.66,2.27,1.55,2.41
+2024-10-19,BE2,Belgien · Challenger Pro League,RFC Liège,Beerschot,0,0,1.95,1.88,1.79,2.1
+2024-10-21,BE2,Belgien · Challenger Pro League,Beveren,Deinze,0,1,1.71,2.17,1.66,2.23
+2024-10-22,BE2,Belgien · Challenger Pro League,RFC Liège,Patro Eisden,2,1,1.87,2.0,1.75,2.12
+2024-10-25,BE2,Belgien · Challenger Pro League,Deinze,Beveren,0,0,1.74,2.06,1.68,2.26
+2024-10-28,BE2,Belgien · Challenger Pro League,Lommel,Beerschot,2,0,1.83,1.95,1.63,2.07
+2024-10-29,BE2,Belgien · Challenger Pro League,Patro Eisden,Deinze,0,4,2.09,1.8,1.79,1.96
+2024-10-31,BE2,Belgien · Challenger Pro League,RFC Liège,Lierse,2,2,1.82,2.06,1.71,2.29
+2024-11-01,BE2,Belgien · Challenger Pro League,Patro Eisden,Lommel,1,0,1.62,2.23,1.63,2.23
+2024-11-04,BE2,Belgien · Challenger Pro League,Seraing,Lierse,1,0,1.9,1.89,1.84,1.99
+2024-11-06,BE2,Belgien · Challenger Pro League,Beveren,Lierse,0,1,1.82,1.91,1.69,2.21
+2024-11-08,BE2,Belgien · Challenger Pro League,Lommel,Lierse,1,1,1.69,2.14,1.61,2.37
+2024-11-10,BE2,Belgien · Challenger Pro League,Seraing,Lommel,0,2,1.73,2.22,1.56,2.43
+2024-11-13,BE2,Belgien · Challenger Pro League,Patro Eisden,Seraing,0,2,2.09,1.71,1.9,1.99
+2024-11-14,BE2,Belgien · Challenger Pro League,Lommel,Beveren,1,1,1.87,1.88,1.83,2.04
+2024-11-15,BE2,Belgien · Challenger Pro League,Patro Eisden,Beerschot,1,2,1.92,1.95,1.7,2.18
+2024-11-16,BE2,Belgien · Challenger Pro League,Beerschot,Lommel,0,1,1.89,1.9,1.78,1.98
+2024-11-17,BE2,Belgien · Challenger Pro League,Deinze,Lierse,1,1,1.79,2.07,1.59,2.25
+2024-11-20,BE2,Belgien · Challenger Pro League,Lommel,RFC Liège,3,0,2.13,1.72,1.83,1.88
+2024-11-22,BE2,Belgien · Challenger Pro League,Deinze,Lommel,1,4,1.72,2.07,1.68,2.34
+2024-08-02,SE1,Schweden · Allsvenskan,Elfsborg,Göteborg,2,1,1.45,2.58,1.41,2.86
+2024-08-05,SE1,Schweden · Allsvenskan,Hammarby,Göteborg,2,2,1.74,2.04,1.66,2.12
+2024-08-06,SE1,Schweden · Allsvenskan,Häcken,Elfsborg,0,0,1.76,2.03,1.65,2.15
+2024-08-08,SE1,Schweden · Allsvenskan,Hammarby,Djurgården,2,0,1.45,2.64,1.44,2.58
+2024-08-10,SE1,Schweden · Allsvenskan,Häcken,Malmö,1,0,1.81,2.09,1.78,2.04
+2024-08-11,SE1,Schweden · Allsvenskan,AIK,Djurgården,1,1,1.78,1.95,1.72,2.17
+2024-08-13,SE1,Schweden · Allsvenskan,Hammarby,Häcken,2,0,1.53,2.49,1.49,2.43
+2024-08-14,SE1,Schweden · Allsvenskan,Häcken,Djurgården,3,0,1.66,2.35,1.53,2.46
+2024-08-15,SE1,Schweden · Allsvenskan,Malmö,Hammarby,3,1,1.66,2.22,1.57,2.25
+2024-08-18,SE1,Schweden · Allsvenskan,Elfsborg,Norrköping,0,1,1.73,2.14,1.71,2.28
+2024-08-21,SE1,Schweden · Allsvenskan,Malmö,Göteborg,2,0,1.7,2.04,1.67,2.19
+2024-08-24,SE1,Schweden · Allsvenskan,Häcken,Norrköping,2,1,1.88,1.96,1.76,2.17
+2024-08-27,SE1,Schweden · Allsvenskan,Malmö,Häcken,2,3,2.16,1.69,1.83,1.96
+2024-08-28,SE1,Schweden · Allsvenskan,Häcken,AIK,1,2,1.84,1.94,1.74,2.14
+2024-08-30,SE1,Schweden · Allsvenskan,Elfsborg,Djurgården,2,1,1.51,2.67,1.42,2.68
+2024-08-31,SE1,Schweden · Allsvenskan,Malmö,AIK,1,1,1.8,1.92,1.71,2.16
+2024-09-03,SE1,Schweden · Allsvenskan,Norrköping,Häcken,1,2,2.19,1.68,1.94,1.86
+2024-09-06,SE1,Schweden · Allsvenskan,Djurgården,Elfsborg,2,2,1.55,2.41,1.53,2.42
+2024-09-08,SE1,Schweden · Allsvenskan,AIK,Norrköping,1,3,1.78,2.12,1.68,2.17
+2024-09-10,SE1,Schweden · Allsvenskan,Norrköping,Djurgården,4,2,1.66,2.27,1.6,2.34
+2024-09-11,SE1,Schweden · Allsvenskan,Göteborg,Malmö,3,3,1.67,2.25,1.64,2.34
+2024-09-12,SE1,Schweden · Allsvenskan,Göteborg,AIK,0,1,1.73,2.07,1.65,2.25
+2024-09-13,SE1,Schweden · Allsvenskan,AIK,Elfsborg,2,0,1.75,1.98,1.68,2.29
+2024-09-14,SE1,Schweden · Allsvenskan,Häcken,Hammarby,1,2,1.6,2.19,1.55,2.41
+2024-09-15,SE1,Schweden · Allsvenskan,Malmö,Elfsborg,1,6,1.74,2.02,1.72,2.18
+2024-09-18,SE1,Schweden · Allsvenskan,Häcken,Göteborg,1,2,2.02,1.81,1.81,1.88
+2024-09-20,SE1,Schweden · Allsvenskan,Djurgården,Hammarby,1,0,1.48,2.51,1.45,2.55
+2024-09-23,SE1,Schweden · Allsvenskan,Norrköping,Malmö,3,1,2.15,1.74,1.87,1.84
+2024-09-24,SE1,Schweden · Allsvenskan,Malmö,Djurgården,2,1,2.06,1.75,1.89,1.84
+2024-09-26,SE1,Schweden · Allsvenskan,Elfsborg,Häcken,0,0,1.53,2.49,1.52,2.49
+2024-09-28,SE1,Schweden · Allsvenskan,Elfsborg,AIK,1,0,1.69,2.23,1.56,2.39
+2024-09-30,SE1,Schweden · Allsvenskan,Hammarby,Norrköping,2,2,1.41,2.73,1.36,2.86
+2024-10-02,SE1,Schweden · Allsvenskan,Göteborg,Häcken,3,0,1.91,1.81,1.82,1.98
+2024-10-03,SE1,Schweden · Allsvenskan,Norrköping,AIK,2,1,1.72,2.14,1.59,2.37
+2024-10-05,SE1,Schweden · Allsvenskan,Hammarby,AIK,3,3,1.79,1.98,1.73,2.05
+2024-10-08,SE1,Schweden · Allsvenskan,Hammarby,Malmö,3,1,1.71,2.12,1.54,2.29
+2024-10-11,SE1,Schweden · Allsvenskan,Norrköping,Göteborg,1,1,1.76,2.08,1.77,2.09
+2024-10-12,SE1,Schweden · Allsvenskan,Djurgården,Norrköping,2,0,1.52,2.29,1.53,2.27
+2024-10-14,SE1,Schweden · Allsvenskan,AIK,Häcken,0,1,2.36,1.62,1.94,1.84
+2024-10-16,SE1,Schweden · Allsvenskan,Djurgården,Göteborg,1,0,1.52,2.43,1.54,2.47
+2024-10-17,SE1,Schweden · Allsvenskan,Norrköping,Elfsborg,2,1,1.93,1.92,1.77,1.96
+2024-10-19,SE1,Schweden · Allsvenskan,AIK,Göteborg,1,3,1.67,2.11,1.61,2.15
+2024-10-20,SE1,Schweden · Allsvenskan,Göteborg,Djurgården,1,2,1.84,1.88,1.74,2.11
+2024-10-22,SE1,Schweden · Allsvenskan,Elfsborg,Malmö,1,0,1.71,2.12,1.73,2.16
+2024-10-23,SE1,Schweden · Allsvenskan,AIK,Malmö,0,1,2.04,1.74,1.84,2.05
+2024-10-25,SE1,Schweden · Allsvenskan,Malmö,Norrköping,1,0,2.1,1.8,1.96,1.87
+2024-10-28,SE1,Schweden · Allsvenskan,Djurgården,Häcken,0,1,1.95,1.78,1.83,1.95
+2024-10-30,SE1,Schweden · Allsvenskan,Göteborg,Norrköping,3,3,1.77,2.12,1.7,2.15
+2024-11-02,SE1,Schweden · Allsvenskan,Djurgården,AIK,4,1,1.66,2.15,1.59,2.3
+2024-11-04,SE1,Schweden · Allsvenskan,AIK,Hammarby,1,2,1.64,2.27,1.57,2.41
+2024-11-06,SE1,Schweden · Allsvenskan,Hammarby,Elfsborg,1,4,1.37,2.96,1.37,2.89
+2024-11-07,SE1,Schweden · Allsvenskan,Norrköping,Hammarby,2,1,1.69,2.18,1.71,2.24
+2024-11-10,SE1,Schweden · Allsvenskan,Elfsborg,Hammarby,2,1,1.51,2.38,1.53,2.47
+2024-11-11,SE1,Schweden · Allsvenskan,Djurgården,Malmö,1,2,1.63,2.18,1.68,2.19
+2024-11-12,SE1,Schweden · Allsvenskan,Göteborg,Hammarby,0,2,1.44,2.62,1.47,2.59
+2024-11-13,SE1,Schweden · Allsvenskan,Göteborg,Elfsborg,1,3,1.62,2.34,1.58,2.29
+2024-08-02,SE2,Schweden · Superettan,Öster,Landskrona,1,1,1.61,2.18,1.62,2.36
+2024-08-05,SE2,Schweden · Superettan,Brage,Öster,1,0,1.75,2.09,1.6,2.22
+2024-08-08,SE2,Schweden · Superettan,Helsingborg,Brage,2,1,1.4,3.21,1.41,3.24
+2024-08-10,SE2,Schweden · Superettan,Öster,Brage,4,1,1.5,2.53,1.52,2.38
+2024-08-12,SE2,Schweden · Superettan,Örebro,Öster,2,1,1.85,1.84,1.7,2.0
+2024-08-14,SE2,Schweden · Superettan,Trelleborg,Sundsvall,2,0,2.39,1.56,2.08,1.65
+2024-08-15,SE2,Schweden · Superettan,Utsikten,Trelleborg,1,2,2.26,1.69,1.97,1.73
+2024-08-17,SE2,Schweden · Superettan,Trelleborg,Helsingborg,1,1,1.45,2.51,1.46,2.65
+2024-08-19,SE2,Schweden · Superettan,Öster,Sundsvall,3,3,2.03,1.81,1.95,1.87
+2024-08-20,SE2,Schweden · Superettan,Helsingborg,Öster,1,2,1.62,2.27,1.59,2.46
+2024-08-21,SE2,Schweden · Superettan,Sundsvall,Utsikten,0,1,2.11,1.74,1.94,1.96
+2024-08-23,SE2,Schweden · Superettan,Landskrona,Sundsvall,3,0,1.87,2.06,1.82,1.95
+2024-08-25,SE2,Schweden · Superettan,Öster,Helsingborg,4,0,1.69,2.21,1.67,2.22
+2024-08-27,SE2,Schweden · Superettan,Örebro,Trelleborg,2,2,2.27,1.6,2.1,1.73
+2024-08-28,SE2,Schweden · Superettan,Brage,Sundsvall,3,1,1.67,2.21,1.73,2.26
+2024-08-30,SE2,Schweden · Superettan,Brage,Landskrona,2,0,1.83,1.94,1.61,2.18
+2024-08-31,SE2,Schweden · Superettan,Utsikten,Öster,3,0,2.04,1.79,1.9,1.84
+2024-09-03,SE2,Schweden · Superettan,Sundsvall,Helsingborg,3,0,1.82,2.07,1.62,2.31
+2024-09-06,SE2,Schweden · Superettan,Trelleborg,Landskrona,0,0,2.0,1.85,1.83,2.12
+2024-09-08,SE2,Schweden · Superettan,Örebro,Utsikten,1,3,2.3,1.68,2.07,1.8
+2024-09-09,SE2,Schweden · Superettan,Örebro,Brage,0,0,1.98,1.86,1.86,2.03
+2024-09-11,SE2,Schweden · Superettan,Trelleborg,Öster,1,2,2.47,1.48,2.1,1.62
+2024-09-13,SE2,Schweden · Superettan,Landskrona,Trelleborg,2,0,2.19,1.71,1.92,1.79
+2024-09-15,SE2,Schweden · Superettan,Helsingborg,Sundsvall,2,0,1.64,2.19,1.57,2.39
+2024-09-18,SE2,Schweden · Superettan,Örebro,Landskrona,2,1,1.51,2.51,1.52,2.52
+2024-09-21,SE2,Schweden · Superettan,Sundsvall,Trelleborg,1,3,2.08,1.86,1.86,1.9
+2024-09-23,SE2,Schweden · Superettan,Öster,Utsikten,1,1,2.04,1.85,1.75,2.06
+2024-09-24,SE2,Schweden · Superettan,Trelleborg,Örebro,1,1,2.08,1.65,1.9,1.87
+2024-09-27,SE2,Schweden · Superettan,Örebro,Sundsvall,3,1,2.43,1.58,2.04,1.77
+2024-09-30,SE2,Schweden · Superettan,Sundsvall,Öster,2,2,2.03,1.71,1.89,1.82
+2024-10-02,SE2,Schweden · Superettan,Landskrona,Örebro,0,0,2.09,1.73,1.95,1.79
+2024-10-05,SE2,Schweden · Superettan,Helsingborg,Utsikten,1,2,1.77,2.05,1.65,2.28
+2024-10-07,SE2,Schweden · Superettan,Trelleborg,Utsikten,3,1,2.0,1.94,1.79,2.02
+2024-10-10,SE2,Schweden · Superettan,Utsikten,Landskrona,2,0,1.5,2.3,1.56,2.41
+2024-10-13,SE2,Schweden · Superettan,Öster,Trelleborg,1,3,2.35,1.51,2.15,1.68
+2024-10-14,SE2,Schweden · Superettan,Brage,Trelleborg,2,1,1.83,2.09,1.71,2.1
+2024-10-17,SE2,Schweden · Superettan,Landskrona,Utsikten,2,2,2.12,1.79,1.8,2.03
+2024-10-20,SE2,Schweden · Superettan,Utsikten,Örebro,1,2,1.94,1.95,1.98,1.9
+2024-10-22,SE2,Schweden · Superettan,Utsikten,Sundsvall,2,2,1.76,1.96,1.69,2.07
+2024-10-23,SE2,Schweden · Superettan,Sundsvall,Örebro,1,0,2.2,1.66,1.97,1.85
+2024-10-24,SE2,Schweden · Superettan,Trelleborg,Brage,2,1,1.65,2.1,1.7,2.21
+2024-10-27,SE2,Schweden · Superettan,Öster,Örebro,1,0,1.9,1.85,1.93,1.95
+2024-10-29,SE2,Schweden · Superettan,Helsingborg,Landskrona,4,0,1.75,2.09,1.64,2.31
+2024-11-01,SE2,Schweden · Superettan,Utsikten,Helsingborg,4,1,1.61,2.38,1.54,2.38
+2024-11-02,SE2,Schweden · Superettan,Brage,Helsingborg,0,3,1.54,2.32,1.55,2.42
+2024-11-03,SE2,Schweden · Superettan,Örebro,Helsingborg,2,2,1.83,1.85,1.77,2.03
+2024-11-06,SE2,Schweden · Superettan,Sundsvall,Brage,2,1,1.69,2.17,1.64,2.38
+2024-11-09,SE2,Schweden · Superettan,Utsikten,Brage,1,2,1.52,2.56,1.45,2.57
+2024-11-10,SE2,Schweden · Superettan,Helsingborg,Trelleborg,3,2,1.71,2.15,1.62,2.16
+2024-11-12,SE2,Schweden · Superettan,Helsingborg,Örebro,2,1,1.54,2.42,1.59,2.56
+2024-11-14,SE2,Schweden · Superettan,Landskrona,Brage,6,2,1.5,2.44,1.56,2.43
+2024-11-17,SE2,Schweden · Superettan,Landskrona,Öster,1,3,1.83,2.15,1.59,2.14
+2024-11-19,SE2,Schweden · Superettan,Brage,Örebro,5,0,1.71,2.21,1.8,2.0
+2024-11-21,SE2,Schweden · Superettan,Sundsvall,Landskrona,0,4,1.79,2.02,1.69,2.25
+2024-11-23,SE2,Schweden · Superettan,Landskrona,Helsingborg,2,1,1.45,2.84,1.51,2.67
+2024-11-25,SE2,Schweden · Superettan,Brage,Utsikten,4,2,1.52,2.35,1.47,2.4
+2024-08-02,NO1,Norwegen · Eliteserien,Rosenborg,Haugesund,0,1,1.47,2.65,1.64,2.46
+2024-08-03,NO1,Norwegen · Eliteserien,Sarpsborg,Tromsø,0,1,1.59,2.53,1.49,2.5
+2024-08-04,NO1,Norwegen · Eliteserien,Molde,Viking,2,2,1.52,2.37,1.51,2.66
+2024-08-06,NO1,Norwegen · Eliteserien,Molde,Brann,1,1,1.9,1.91,1.76,2.05
+2024-08-09,NO1,Norwegen · Eliteserien,Sarpsborg,Brann,1,5,2.07,1.81,1.94,1.87
+2024-08-12,NO1,Norwegen · Eliteserien,Sarpsborg,Molde,0,1,1.63,2.07,1.57,2.41
+2024-08-14,NO1,Norwegen · Eliteserien,Haugesund,Brann,3,3,1.55,2.44,1.52,2.48
+2024-08-15,NO1,Norwegen · Eliteserien,Bodø/Glimt,Sarpsborg,2,2,1.92,1.82,1.71,2.07
+2024-08-16,NO1,Norwegen · Eliteserien,Molde,Bodø/Glimt,3,1,1.67,2.21,1.58,2.45
+2024-08-18,NO1,Norwegen · Eliteserien,Tromsø,Bodø/Glimt,0,2,1.92,1.9,1.66,2.05
+2024-08-19,NO1,Norwegen · Eliteserien,Viking,Tromsø,0,0,1.38,2.75,1.38,2.83
+2024-08-22,NO1,Norwegen · Eliteserien,Tromsø,Molde,2,0,1.56,2.37,1.54,2.6
+2024-08-23,NO1,Norwegen · Eliteserien,Viking,Molde,5,1,1.44,3.15,1.45,2.79
+2024-08-26,NO1,Norwegen · Eliteserien,Rosenborg,Tromsø,0,0,2.09,1.78,1.93,1.83
+2024-08-28,NO1,Norwegen · Eliteserien,Rosenborg,Bodø/Glimt,2,1,1.81,2.05,1.75,2.04
+2024-08-29,NO1,Norwegen · Eliteserien,Brann,Tromsø,0,0,2.43,1.58,2.16,1.73
+2024-08-31,NO1,Norwegen · Eliteserien,Bodø/Glimt,Viking,0,2,1.4,2.89,1.41,2.98
+2024-09-01,NO1,Norwegen · Eliteserien,Brann,Sarpsborg,0,2,1.81,1.93,1.8,2.07
+2024-09-04,NO1,Norwegen · Eliteserien,Sarpsborg,Bodø/Glimt,1,1,1.7,2.24,1.6,2.46
+2024-09-06,NO1,Norwegen · Eliteserien,Tromsø,Brann,1,2,2.49,1.6,2.14,1.79
+2024-09-07,NO1,Norwegen · Eliteserien,Haugesund,Tromsø,1,1,1.46,2.74,1.44,2.63
+2024-09-10,NO1,Norwegen · Eliteserien,Brann,Viking,1,0,2.01,1.86,1.78,1.98
+2024-09-11,NO1,Norwegen · Eliteserien,Brann,Rosenborg,1,1,1.74,2.18,1.6,2.25
+2024-09-12,NO1,Norwegen · Eliteserien,Molde,Haugesund,3,4,1.46,2.78,1.51,2.66
+2024-09-15,NO1,Norwegen · Eliteserien,Brann,Bodø/Glimt,1,1,1.89,1.82,1.8,2.05
+2024-09-17,NO1,Norwegen · Eliteserien,Tromsø,Sarpsborg,3,2,1.94,1.88,1.86,2.09
+2024-09-19,NO1,Norwegen · Eliteserien,Tromsø,Haugesund,2,1,1.63,2.24,1.53,2.36
+2024-09-21,NO1,Norwegen · Eliteserien,Rosenborg,Brann,1,1,1.8,2.14,1.8,2.01
+2024-09-23,NO1,Norwegen · Eliteserien,Rosenborg,Sarpsborg,2,0,1.67,2.34,1.62,2.17
+2024-09-26,NO1,Norwegen · Eliteserien,Haugesund,Rosenborg,3,0,1.34,3.58,1.31,3.4
+2024-09-29,NO1,Norwegen · Eliteserien,Bodø/Glimt,Tromsø,1,0,1.66,2.13,1.64,2.33
+2024-10-02,NO1,Norwegen · Eliteserien,Tromsø,Viking,2,6,1.51,2.59,1.45,2.73
+2024-10-04,NO1,Norwegen · Eliteserien,Molde,Sarpsborg,4,0,1.4,2.83,1.47,2.64
+2024-10-07,NO1,Norwegen · Eliteserien,Viking,Bodø/Glimt,2,1,1.69,2.31,1.57,2.34
+2024-10-10,NO1,Norwegen · Eliteserien,Bodø/Glimt,Molde,2,0,1.68,2.08,1.64,2.28
+2024-10-13,NO1,Norwegen · Eliteserien,Sarpsborg,Haugesund,1,1,1.53,2.51,1.43,2.73
+2024-10-15,NO1,Norwegen · Eliteserien,Haugesund,Molde,1,1,1.37,3.17,1.33,3.18
+2024-10-18,NO1,Norwegen · Eliteserien,Tromsø,Rosenborg,1,4,1.85,1.96,1.73,2.13
+2024-10-19,NO1,Norwegen · Eliteserien,Sarpsborg,Viking,1,3,1.46,2.51,1.53,2.67
+2024-10-21,NO1,Norwegen · Eliteserien,Viking,Sarpsborg,0,3,1.55,2.22,1.59,2.28
+2024-10-23,NO1,Norwegen · Eliteserien,Brann,Molde,1,2,1.84,2.02,1.7,2.19
+2024-10-25,NO1,Norwegen · Eliteserien,Haugesund,Sarpsborg,0,1,1.34,3.01,1.45,2.86
+2024-10-27,NO1,Norwegen · Eliteserien,Sarpsborg,Rosenborg,2,0,1.53,2.52,1.47,2.59
+2024-10-28,NO1,Norwegen · Eliteserien,Viking,Haugesund,2,1,1.38,3.06,1.44,3.02
+2024-10-30,NO1,Norwegen · Eliteserien,Viking,Rosenborg,2,2,1.42,2.67,1.44,2.79
+2024-10-31,NO1,Norwegen · Eliteserien,Bodø/Glimt,Rosenborg,2,2,1.59,2.27,1.58,2.35
+2024-11-01,NO1,Norwegen · Eliteserien,Rosenborg,Molde,1,1,1.25,3.33,1.41,3.09
+2024-11-04,NO1,Norwegen · Eliteserien,Brann,Haugesund,0,1,1.7,2.2,1.53,2.33
+2024-11-05,NO1,Norwegen · Eliteserien,Haugesund,Viking,2,1,1.4,3.02,1.36,3.08
+2024-11-07,NO1,Norwegen · Eliteserien,Molde,Tromsø,1,2,1.79,2.14,1.71,2.25
+2024-11-10,NO1,Norwegen · Eliteserien,Bodø/Glimt,Brann,1,0,2.18,1.64,1.92,1.73
+2024-11-11,NO1,Norwegen · Eliteserien,Rosenborg,Viking,1,2,1.59,2.34,1.54,2.35
+2024-11-13,NO1,Norwegen · Eliteserien,Molde,Rosenborg,2,4,1.63,2.32,1.6,2.31
+2024-11-14,NO1,Norwegen · Eliteserien,Bodø/Glimt,Haugesund,0,1,1.47,2.47,1.52,2.53
+2024-11-15,NO1,Norwegen · Eliteserien,Viking,Brann,2,1,1.76,2.1,1.73,2.15
+2024-11-18,NO1,Norwegen · Eliteserien,Haugesund,Bodø/Glimt,1,1,1.48,2.36,1.53,2.59
+2024-08-02,NO2,Norwegen · OBOS-ligaen,Ranheim,Mjøndalen,1,3,2.53,1.59,2.16,1.79
+2024-08-03,NO2,Norwegen · OBOS-ligaen,Start,Kongsvinger,1,2,1.79,1.93,1.66,2.16
+2024-08-04,NO2,Norwegen · OBOS-ligaen,Kongsvinger,Mjøndalen,2,0,2.04,1.76,1.84,1.84
+2024-08-05,NO2,Norwegen · OBOS-ligaen,Ranheim,Start,2,1,1.84,2.0,1.77,2.23
+2024-08-08,NO2,Norwegen · OBOS-ligaen,Mjøndalen,Åsane,0,1,1.85,2.01,1.75,2.04
+2024-08-09,NO2,Norwegen · OBOS-ligaen,Start,Åsane,0,3,1.45,3.06,1.52,2.5
+2024-08-11,NO2,Norwegen · OBOS-ligaen,Mjøndalen,Kongsvinger,3,0,2.21,1.64,1.92,1.82
+2024-08-13,NO2,Norwegen · OBOS-ligaen,Start,Mjøndalen,2,1,1.48,2.39,1.56,2.45
+2024-08-14,NO2,Norwegen · OBOS-ligaen,Mjøndalen,Sogndal,2,1,1.75,2.1,1.59,2.14
+2024-08-15,NO2,Norwegen · OBOS-ligaen,Åsane,Mjøndalen,1,2,1.66,2.26,1.56,2.49
+2024-08-16,NO2,Norwegen · OBOS-ligaen,Åsane,Kongsvinger,1,1,2.31,1.62,1.92,1.8
+2024-08-19,NO2,Norwegen · OBOS-ligaen,Kongsvinger,Ranheim,5,0,2.78,1.39,2.22,1.66
+2024-08-21,NO2,Norwegen · OBOS-ligaen,Sogndal,Åsane,2,1,1.61,2.35,1.6,2.42
+2024-08-24,NO2,Norwegen · OBOS-ligaen,Ranheim,Stabæk,2,0,2.05,1.79,1.94,1.93
+2024-08-26,NO2,Norwegen · OBOS-ligaen,Mjøndalen,Raufoss,0,1,1.83,1.94,1.68,2.06
+2024-08-27,NO2,Norwegen · OBOS-ligaen,Raufoss,Mjøndalen,1,1,1.93,1.95,1.84,2.09
+2024-08-29,NO2,Norwegen · OBOS-ligaen,Raufoss,Åsane,4,0,1.64,2.13,1.58,2.43
+2024-08-30,NO2,Norwegen · OBOS-ligaen,Sogndal,Start,2,3,1.33,3.22,1.35,3.24
+2024-08-31,NO2,Norwegen · OBOS-ligaen,Kongsvinger,Raufoss,1,2,2.22,1.74,1.85,1.9
+2024-09-01,NO2,Norwegen · OBOS-ligaen,Kongsvinger,Stabæk,1,1,2.53,1.55,2.18,1.7
+2024-09-04,NO2,Norwegen · OBOS-ligaen,Raufoss,Sogndal,2,2,2.03,1.8,1.8,1.88
+2024-09-06,NO2,Norwegen · OBOS-ligaen,Stabæk,Raufoss,2,2,1.89,1.89,1.87,1.99
+2024-09-07,NO2,Norwegen · OBOS-ligaen,Sogndal,Kongsvinger,3,1,1.78,2.21,1.62,2.3
+2024-09-10,NO2,Norwegen · OBOS-ligaen,Raufoss,Stabæk,2,1,2.16,1.62,1.93,1.79
+2024-09-13,NO2,Norwegen · OBOS-ligaen,Kongsvinger,Åsane,0,3,2.24,1.66,2.0,1.9
+2024-09-14,NO2,Norwegen · OBOS-ligaen,Sogndal,Ranheim,1,1,1.61,2.32,1.61,2.51
+2024-09-16,NO2,Norwegen · OBOS-ligaen,Mjøndalen,Stabæk,1,0,2.12,1.72,1.81,1.89
+2024-09-19,NO2,Norwegen · OBOS-ligaen,Sogndal,Mjøndalen,1,2,2.23,1.73,1.9,1.81
+2024-09-21,NO2,Norwegen · OBOS-ligaen,Kongsvinger,Start,1,2,1.73,1.95,1.78,2.13
+2024-09-22,NO2,Norwegen · OBOS-ligaen,Stabæk,Sogndal,1,2,1.82,2.0,1.81,2.1
+2024-09-23,NO2,Norwegen · OBOS-ligaen,Stabæk,Kongsvinger,2,2,2.51,1.55,2.06,1.73
+2024-09-25,NO2,Norwegen · OBOS-ligaen,Ranheim,Åsane,0,1,1.83,2.01,1.76,2.06
+2024-09-28,NO2,Norwegen · OBOS-ligaen,Stabæk,Åsane,4,1,1.68,2.22,1.76,2.2
+2024-10-01,NO2,Norwegen · OBOS-ligaen,Start,Stabæk,3,0,1.74,2.17,1.63,2.41
+2024-10-04,NO2,Norwegen · OBOS-ligaen,Stabæk,Ranheim,2,2,2.4,1.62,2.14,1.75
+2024-10-07,NO2,Norwegen · OBOS-ligaen,Raufoss,Ranheim,3,0,1.8,1.96,1.73,1.99
+2024-10-08,NO2,Norwegen · OBOS-ligaen,Sogndal,Raufoss,2,2,1.77,2.09,1.67,2.33
+2024-10-09,NO2,Norwegen · OBOS-ligaen,Mjøndalen,Start,0,1,1.62,2.27,1.53,2.55
+2024-10-10,NO2,Norwegen · OBOS-ligaen,Start,Raufoss,2,0,1.77,1.95,1.76,1.95
+2024-10-11,NO2,Norwegen · OBOS-ligaen,Raufoss,Kongsvinger,1,1,2.02,1.8,1.78,1.94
+2024-10-14,NO2,Norwegen · OBOS-ligaen,Start,Sogndal,0,2,1.34,3.21,1.46,3.01
+2024-10-15,NO2,Norwegen · OBOS-ligaen,Åsane,Raufoss,0,0,1.82,2.05,1.66,2.11
+2024-10-18,NO2,Norwegen · OBOS-ligaen,Kongsvinger,Sogndal,0,1,1.85,1.9,1.8,2.02
+2024-10-20,NO2,Norwegen · OBOS-ligaen,Raufoss,Start,0,3,1.43,2.61,1.49,2.8
+2024-10-22,NO2,Norwegen · OBOS-ligaen,Ranheim,Kongsvinger,0,2,2.23,1.63,2.0,1.81
+2024-10-25,NO2,Norwegen · OBOS-ligaen,Åsane,Start,1,0,1.6,2.25,1.61,2.36
+2024-10-26,NO2,Norwegen · OBOS-ligaen,Sogndal,Stabæk,1,3,2.12,1.72,1.78,1.91
+2024-10-28,NO2,Norwegen · OBOS-ligaen,Åsane,Stabæk,1,1,1.68,2.01,1.7,2.33
+2024-10-31,NO2,Norwegen · OBOS-ligaen,Stabæk,Start,1,2,1.61,2.45,1.48,2.45
+2024-11-03,NO2,Norwegen · OBOS-ligaen,Åsane,Ranheim,0,0,1.69,2.12,1.6,2.33
+2024-11-04,NO2,Norwegen · OBOS-ligaen,Start,Ranheim,3,1,1.66,2.13,1.76,2.04
+2024-11-05,NO2,Norwegen · OBOS-ligaen,Stabæk,Mjøndalen,1,2,1.81,2.09,1.7,2.1
+2024-11-08,NO2,Norwegen · OBOS-ligaen,Mjøndalen,Ranheim,2,3,2.02,1.8,1.97,1.91
+2024-11-09,NO2,Norwegen · OBOS-ligaen,Ranheim,Raufoss,1,1,2.15,1.67,2.01,1.85
+2024-11-11,NO2,Norwegen · OBOS-ligaen,Åsane,Sogndal,3,0,1.52,2.36,1.45,2.66
+2024-11-12,NO2,Norwegen · OBOS-ligaen,Ranheim,Sogndal,0,3,1.91,1.87,1.76,2.02
+2024-08-04,AT1,Österreich · Bundesliga,Sturm Graz,LASK,1,0,1.55,2.25,1.61,2.14
+2024-08-06,AT1,Österreich · Bundesliga,Salzburg,Sturm Graz,1,4,2.26,1.66,1.95,1.9
+2024-08-08,AT1,Österreich · Bundesliga,Wolfsberg,Altach,0,2,1.74,2.15,1.67,2.17
+2024-08-10,AT1,Österreich · Bundesliga,LASK,Austria Wien,3,0,1.6,2.18,1.64,2.43
+2024-08-13,AT1,Österreich · Bundesliga,Hartberg,Altach,1,1,1.36,3.24,1.32,3.13
+2024-08-15,AT1,Österreich · Bundesliga,Austria Wien,Hartberg,0,1,1.57,2.37,1.55,2.67
+2024-08-18,AT1,Österreich · Bundesliga,Altach,LASK,3,0,1.6,2.26,1.67,2.26
+2024-08-20,AT1,Österreich · Bundesliga,Wolfsberg,Rapid Wien,0,1,1.54,2.32,1.59,2.44
+2024-08-22,AT1,Österreich · Bundesliga,Austria Wien,Sturm Graz,1,4,1.75,2.02,1.76,2.21
+2024-08-24,AT1,Österreich · Bundesliga,Rapid Wien,Hartberg,2,1,1.34,3.52,1.34,3.32
+2024-08-27,AT1,Österreich · Bundesliga,Wolfsberg,Hartberg,2,0,1.72,2.09,1.61,2.19
+2024-08-28,AT1,Österreich · Bundesliga,Hartberg,LASK,5,1,1.46,2.68,1.5,2.57
+2024-08-30,AT1,Österreich · Bundesliga,Salzburg,Wolfsberg,1,1,2.54,1.54,2.17,1.68
+2024-08-31,AT1,Österreich · Bundesliga,Sturm Graz,Salzburg,0,0,2.15,1.68,1.9,1.9
+2024-09-02,AT1,Österreich · Bundesliga,Austria Wien,Salzburg,1,1,2.27,1.6,1.97,1.76
+2024-09-04,AT1,Österreich · Bundesliga,Hartberg,Sturm Graz,1,2,1.41,2.68,1.46,2.69
+2024-09-05,AT1,Österreich · Bundesliga,Salzburg,Austria Wien,4,2,1.88,1.85,1.69,2.0
+2024-09-08,AT1,Österreich · Bundesliga,Rapid Wien,Salzburg,1,0,1.68,2.15,1.63,2.17
+2024-09-10,AT1,Österreich · Bundesliga,Sturm Graz,Hartberg,5,0,1.46,2.43,1.54,2.57
+2024-09-13,AT1,Österreich · Bundesliga,Rapid Wien,Sturm Graz,4,0,1.96,1.85,1.82,1.94
+2024-09-16,AT1,Österreich · Bundesliga,Wolfsberg,Salzburg,3,2,1.83,1.94,1.68,2.02
+2024-09-18,AT1,Österreich · Bundesliga,Rapid Wien,LASK,0,0,1.81,1.95,1.73,2.11
+2024-09-19,AT1,Österreich · Bundesliga,Wolfsberg,Austria Wien,2,2,1.89,1.88,1.82,1.99
+2024-09-20,AT1,Österreich · Bundesliga,Austria Wien,Altach,5,2,1.6,2.3,1.66,2.28
+2024-09-23,AT1,Österreich · Bundesliga,Sturm Graz,Rapid Wien,1,1,1.55,2.69,1.56,2.56
+2024-09-25,AT1,Österreich · Bundesliga,LASK,Salzburg,1,1,2.04,1.7,1.91,1.85
+2024-09-27,AT1,Österreich · Bundesliga,Altach,Rapid Wien,6,1,1.39,3.26,1.4,3.02
+2024-09-30,AT1,Österreich · Bundesliga,Altach,Austria Wien,1,0,1.88,1.87,1.76,1.98
+2024-10-01,AT1,Österreich · Bundesliga,Salzburg,Rapid Wien,0,0,1.63,2.31,1.66,2.27
+2024-10-04,AT1,Österreich · Bundesliga,Rapid Wien,Austria Wien,0,1,1.56,2.48,1.48,2.58
+2024-10-06,AT1,Österreich · Bundesliga,LASK,Rapid Wien,1,0,1.58,2.59,1.52,2.64
+2024-10-07,AT1,Österreich · Bundesliga,Hartberg,Wolfsberg,1,1,1.78,2.06,1.65,2.21
+2024-10-08,AT1,Österreich · Bundesliga,Sturm Graz,Altach,3,1,1.65,2.32,1.68,2.09
+2024-10-11,AT1,Österreich · Bundesliga,Austria Wien,Rapid Wien,2,1,1.43,2.8,1.4,2.85
+2024-10-12,AT1,Österreich · Bundesliga,Wolfsberg,LASK,0,2,1.98,1.9,1.81,2.02
+2024-10-14,AT1,Österreich · Bundesliga,Salzburg,LASK,1,0,2.25,1.69,1.97,1.73
+2024-10-15,AT1,Österreich · Bundesliga,Altach,Hartberg,4,0,1.34,3.1,1.38,3.16
+2024-10-16,AT1,Österreich · Bundesliga,Hartberg,Rapid Wien,2,1,1.64,2.15,1.54,2.4
+2024-10-19,AT1,Österreich · Bundesliga,Altach,Salzburg,1,3,1.71,2.32,1.62,2.31
+2024-10-21,AT1,Österreich · Bundesliga,Sturm Graz,Austria Wien,4,2,1.86,2.01,1.65,2.04
+2024-10-22,AT1,Österreich · Bundesliga,LASK,Hartberg,1,0,1.46,2.72,1.49,2.7
+2024-10-24,AT1,Österreich · Bundesliga,Altach,Sturm Graz,2,0,1.71,1.97,1.72,2.25
+2024-10-27,AT1,Österreich · Bundesliga,LASK,Wolfsberg,2,2,1.99,1.81,1.87,1.96
+2024-10-30,AT1,Österreich · Bundesliga,Austria Wien,LASK,2,0,1.95,1.76,1.87,1.89
+2024-11-02,AT1,Österreich · Bundesliga,Salzburg,Altach,1,0,1.94,1.91,1.9,1.86
+2024-11-03,AT1,Österreich · Bundesliga,Hartberg,Salzburg,3,1,1.74,2.21,1.64,2.18
+2024-11-04,AT1,Österreich · Bundesliga,Sturm Graz,Wolfsberg,1,1,1.88,1.86,1.87,1.83
+2024-11-07,AT1,Österreich · Bundesliga,Altach,Wolfsberg,2,1,2.3,1.57,2.09,1.85
+2024-11-08,AT1,Österreich · Bundesliga,Wolfsberg,Sturm Graz,2,2,1.78,1.98,1.71,2.2
+2024-11-11,AT1,Österreich · Bundesliga,Salzburg,Hartberg,1,1,1.82,1.96,1.77,1.96
+2024-11-12,AT1,Österreich · Bundesliga,LASK,Altach,1,1,1.99,1.81,1.75,1.98
+2024-11-13,AT1,Österreich · Bundesliga,Rapid Wien,Altach,1,1,1.54,2.64,1.47,2.49
+2024-11-14,AT1,Österreich · Bundesliga,Austria Wien,Wolfsberg,0,1,1.77,2.15,1.67,2.13
+2024-11-16,AT1,Österreich · Bundesliga,Rapid Wien,Wolfsberg,1,0,1.73,2.08,1.66,2.25
+2024-11-18,AT1,Österreich · Bundesliga,LASK,Sturm Graz,2,2,1.83,1.94,1.8,2.02
+2024-11-20,AT1,Österreich · Bundesliga,Hartberg,Austria Wien,1,2,1.5,2.71,1.45,2.86
+2024-08-03,AT2,Österreich · 2. Liga,Liefering,Lustenau,0,2,1.34,3.09,1.5,2.66
+2024-08-04,AT2,Österreich · 2. Liga,Liefering,Ried,4,0,1.65,2.19,1.7,2.06
+2024-08-07,AT2,Österreich · 2. Liga,Liefering,Amstetten,4,2,1.8,2.14,1.72,2.05
+2024-08-08,AT2,Österreich · 2. Liga,Amstetten,Kapfenberg,0,2,1.83,1.92,1.77,2.01
+2024-08-10,AT2,Österreich · 2. Liga,Amstetten,Ried,1,2,1.57,2.43,1.47,2.61
+2024-08-13,AT2,Österreich · 2. Liga,Liefering,Kapfenberg,4,2,1.71,2.19,1.89,1.89
+2024-08-14,AT2,Österreich · 2. Liga,Liefering,St. Pölten,2,0,1.75,1.98,1.8,2.0
+2024-08-16,AT2,Österreich · 2. Liga,Vienna,Liefering,3,1,2.05,1.77,1.93,1.91
+2024-08-19,AT2,Österreich · 2. Liga,Vienna,Ried,0,2,2.08,1.69,2.01,1.8
+2024-08-22,AT2,Österreich · 2. Liga,Kapfenberg,Lustenau,0,2,1.57,2.45,1.59,2.51
+2024-08-25,AT2,Österreich · 2. Liga,St. Pölten,Vienna,1,4,2.14,1.6,1.94,1.85
+2024-08-27,AT2,Österreich · 2. Liga,Kapfenberg,Liefering,1,0,2.56,1.56,2.13,1.64
+2024-08-30,AT2,Österreich · 2. Liga,Vienna,Kapfenberg,0,1,1.83,1.87,1.89,1.99
+2024-08-31,AT2,Österreich · 2. Liga,Kapfenberg,Vienna,3,2,1.9,1.93,1.67,2.16
+2024-09-01,AT2,Österreich · 2. Liga,Vienna,Admira,2,0,1.7,2.35,1.52,2.29
+2024-09-02,AT2,Österreich · 2. Liga,Kapfenberg,Amstetten,2,1,1.77,2.02,1.58,2.22
+2024-09-04,AT2,Österreich · 2. Liga,Admira,Lustenau,1,2,1.52,2.57,1.5,2.61
+2024-09-07,AT2,Österreich · 2. Liga,Admira,Kapfenberg,1,0,2.01,1.87,1.76,1.98
+2024-09-08,AT2,Österreich · 2. Liga,St. Pölten,Ried,1,1,2.43,1.51,2.09,1.8
+2024-09-11,AT2,Österreich · 2. Liga,Vienna,St. Pölten,0,1,2.74,1.53,2.26,1.57
+2024-09-14,AT2,Österreich · 2. Liga,St. Pölten,Amstetten,2,1,2.34,1.61,2.11,1.72
+2024-09-16,AT2,Österreich · 2. Liga,St. Pölten,Kapfenberg,3,1,2.41,1.68,2.04,1.73
+2024-09-17,AT2,Österreich · 2. Liga,Lustenau,Admira,1,1,1.45,2.68,1.48,2.73
+2024-09-19,AT2,Österreich · 2. Liga,Admira,Vienna,0,0,1.91,1.94,1.72,2.08
+2024-09-20,AT2,Österreich · 2. Liga,Lustenau,Kapfenberg,2,0,1.8,2.15,1.6,2.2
+2024-09-21,AT2,Österreich · 2. Liga,St. Pölten,Admira,1,4,1.89,1.82,1.82,2.02
+2024-09-22,AT2,Österreich · 2. Liga,Amstetten,Liefering,0,5,1.97,1.92,1.85,1.95
+2024-09-24,AT2,Österreich · 2. Liga,Liefering,Admira,3,1,1.56,2.55,1.55,2.37
+2024-09-27,AT2,Österreich · 2. Liga,Amstetten,Vienna,1,1,2.15,1.72,1.88,1.9
+2024-09-30,AT2,Österreich · 2. Liga,Kapfenberg,St. Pölten,0,1,2.4,1.55,1.98,1.72
+2024-10-01,AT2,Österreich · 2. Liga,Vienna,Lustenau,3,1,1.49,2.56,1.54,2.4
+2024-10-04,AT2,Österreich · 2. Liga,Admira,Amstetten,2,1,1.71,2.16,1.6,2.29
+2024-10-06,AT2,Österreich · 2. Liga,Vienna,Amstetten,1,2,2.31,1.67,2.01,1.79
+2024-10-08,AT2,Österreich · 2. Liga,Lustenau,Liefering,3,1,1.7,2.28,1.65,2.43
+2024-10-10,AT2,Österreich · 2. Liga,Admira,St. Pölten,2,3,1.88,1.93,1.81,1.98
+2024-10-11,AT2,Österreich · 2. Liga,Ried,Kapfenberg,1,1,1.9,1.9,1.88,2.05
+2024-10-14,AT2,Österreich · 2. Liga,Ried,Lustenau,1,0,1.39,2.85,1.5,2.6
+2024-10-17,AT2,Österreich · 2. Liga,Liefering,Vienna,1,3,1.85,1.91,1.81,1.96
+2024-10-18,AT2,Österreich · 2. Liga,Lustenau,St. Pölten,1,1,1.64,2.13,1.55,2.37
+2024-10-20,AT2,Österreich · 2. Liga,Admira,Liefering,0,0,1.9,1.93,1.83,2.05
+2024-10-21,AT2,Österreich · 2. Liga,St. Pölten,Lustenau,3,3,1.7,2.15,1.64,2.32
+2024-10-23,AT2,Österreich · 2. Liga,Ried,Admira,1,1,2.15,1.73,1.91,1.81
+2024-10-26,AT2,Österreich · 2. Liga,Ried,Vienna,2,0,2.07,1.69,2.05,1.89
+2024-10-29,AT2,Österreich · 2. Liga,Ried,St. Pölten,0,1,2.23,1.75,1.97,1.73
+2024-10-30,AT2,Österreich · 2. Liga,Amstetten,Lustenau,3,1,1.27,4.0,1.28,3.26
+2024-11-02,AT2,Österreich · 2. Liga,St. Pölten,Liefering,3,1,2.2,1.78,1.89,1.88
+2024-11-05,AT2,Österreich · 2. Liga,Kapfenberg,Admira,1,0,1.82,2.08,1.64,2.22
+2024-11-07,AT2,Österreich · 2. Liga,Lustenau,Amstetten,2,1,1.31,3.95,1.27,3.7
+2024-11-10,AT2,Österreich · 2. Liga,Amstetten,St. Pölten,1,1,1.97,1.77,1.86,1.88
+2024-11-12,AT2,Österreich · 2. Liga,Amstetten,Admira,4,1,1.97,1.88,1.91,1.86
+2024-11-14,AT2,Österreich · 2. Liga,Kapfenberg,Ried,1,1,1.96,1.85,1.71,2.11
+2024-11-16,AT2,Österreich · 2. Liga,Ried,Liefering,0,2,2.32,1.61,2.16,1.78
+2024-11-17,AT2,Österreich · 2. Liga,Lustenau,Ried,2,1,1.55,2.68,1.47,2.74
+2024-11-18,AT2,Österreich · 2. Liga,Lustenau,Vienna,0,1,1.61,2.32,1.53,2.61
+2024-11-19,AT2,Österreich · 2. Liga,Ried,Amstetten,3,2,1.58,2.43,1.5,2.5
+2024-11-20,AT2,Österreich · 2. Liga,Admira,Ried,2,1,1.57,2.62,1.45,2.58
+2024-08-02,IT1,Italien · Serie A,Lazio,Inter,4,2,2.06,1.76,1.89,1.88
+2024-08-03,IT1,Italien · Serie A,Lazio,Atalanta,2,1,2.11,1.67,2.02,1.8
+2024-08-05,IT1,Italien · Serie A,Milan,Juventus,1,3,1.64,2.27,1.64,2.14
+2024-08-08,IT1,Italien · Serie A,Atalanta,Napoli,2,1,2.55,1.55,2.09,1.67
+2024-08-11,IT1,Italien · Serie A,Atalanta,Fiorentina,1,2,1.97,1.84,1.93,1.96
+2024-08-14,IT1,Italien · Serie A,Lazio,Juventus,1,1,2.56,1.45,2.17,1.63
+2024-08-16,IT1,Italien · Serie A,Atalanta,Milan,3,1,1.9,1.85,1.81,2.13
+2024-08-19,IT1,Italien · Serie A,Napoli,Fiorentina,1,3,2.33,1.6,2.08,1.86
+2024-08-21,IT1,Italien · Serie A,Roma,Lazio,2,5,2.18,1.69,1.87,1.95
+2024-08-23,IT1,Italien · Serie A,Juventus,Fiorentina,1,1,1.9,1.76,1.86,1.9
+2024-08-25,IT1,Italien · Serie A,Fiorentina,Inter,2,3,1.69,2.33,1.59,2.18
+2024-08-27,IT1,Italien · Serie A,Napoli,Roma,4,1,2.87,1.49,2.27,1.65
+2024-08-29,IT1,Italien · Serie A,Inter,Roma,0,2,1.69,2.2,1.67,2.27
+2024-08-30,IT1,Italien · Serie A,Roma,Juventus,1,1,2.03,1.91,1.85,1.99
+2024-09-01,IT1,Italien · Serie A,Roma,Inter,4,0,1.84,1.81,1.72,2.07
+2024-09-03,IT1,Italien · Serie A,Atalanta,Inter,1,1,1.61,2.48,1.62,2.34
+2024-09-05,IT1,Italien · Serie A,Fiorentina,Juventus,1,0,2.01,1.78,1.88,1.99
+2024-09-06,IT1,Italien · Serie A,Milan,Fiorentina,1,0,1.57,2.4,1.63,2.21
+2024-09-09,IT1,Italien · Serie A,Milan,Inter,4,2,1.59,2.35,1.47,2.44
+2024-09-12,IT1,Italien · Serie A,Roma,Fiorentina,2,0,1.9,1.76,1.79,1.98
+2024-09-14,IT1,Italien · Serie A,Fiorentina,Roma,2,5,2.01,1.74,1.81,1.87
+2024-09-15,IT1,Italien · Serie A,Milan,Roma,1,1,1.78,2.15,1.76,2.16
+2024-09-16,IT1,Italien · Serie A,Milan,Lazio,3,2,1.93,1.76,1.94,1.83
+2024-09-18,IT1,Italien · Serie A,Atalanta,Lazio,0,2,2.03,1.86,1.88,1.88
+2024-09-21,IT1,Italien · Serie A,Juventus,Napoli,1,2,1.87,1.88,1.81,1.99
+2024-09-22,IT1,Italien · Serie A,Roma,Milan,1,2,1.73,2.11,1.66,2.16
+2024-09-23,IT1,Italien · Serie A,Inter,Napoli,1,1,1.91,1.83,1.82,1.87
+2024-09-26,IT1,Italien · Serie A,Inter,Atalanta,2,1,1.92,2.01,1.76,2.12
+2024-09-29,IT1,Italien · Serie A,Atalanta,Juventus,0,1,2.12,1.73,1.88,1.84
+2024-10-02,IT1,Italien · Serie A,Milan,Atalanta,4,2,1.86,1.9,1.74,2.14
+2024-10-03,IT1,Italien · Serie A,Inter,Juventus,1,3,1.79,1.97,1.78,2.13
+2024-10-04,IT1,Italien · Serie A,Inter,Lazio,0,0,1.81,2.0,1.73,2.23
+2024-10-05,IT1,Italien · Serie A,Lazio,Roma,1,1,2.31,1.6,2.01,1.7
+2024-10-07,IT1,Italien · Serie A,Napoli,Milan,2,5,1.89,1.89,1.73,2.07
+2024-10-09,IT1,Italien · Serie A,Lazio,Milan,0,1,1.84,1.94,1.75,2.15
+2024-10-11,IT1,Italien · Serie A,Juventus,Lazio,1,2,2.18,1.68,1.92,1.92
+2024-10-12,IT1,Italien · Serie A,Fiorentina,Napoli,1,1,2.32,1.62,2.06,1.75
+2024-10-14,IT1,Italien · Serie A,Napoli,Inter,1,2,1.87,1.91,1.73,2.07
+2024-10-16,IT1,Italien · Serie A,Napoli,Juventus,2,1,1.88,1.93,1.78,2.06
+2024-10-19,IT1,Italien · Serie A,Fiorentina,Milan,0,0,1.56,2.38,1.53,2.36
+2024-10-22,IT1,Italien · Serie A,Napoli,Lazio,2,1,2.73,1.42,2.16,1.61
+2024-10-25,IT1,Italien · Serie A,Milan,Napoli,0,0,2.04,1.71,1.99,1.82
+2024-10-26,IT1,Italien · Serie A,Napoli,Atalanta,0,1,2.53,1.48,2.2,1.69
+2024-10-29,IT1,Italien · Serie A,Lazio,Napoli,0,1,2.66,1.44,2.25,1.55
+2024-10-31,IT1,Italien · Serie A,Fiorentina,Lazio,1,0,2.17,1.8,1.92,1.91
+2024-11-01,IT1,Italien · Serie A,Inter,Milan,1,0,1.66,2.23,1.66,2.31
+2024-11-04,IT1,Italien · Serie A,Juventus,Inter,3,2,1.79,1.94,1.71,2.04
+2024-11-06,IT1,Italien · Serie A,Juventus,Atalanta,3,3,1.89,1.89,1.71,2.04
+2024-11-09,IT1,Italien · Serie A,Roma,Napoli,1,2,2.35,1.69,2.0,1.77
+2024-11-11,IT1,Italien · Serie A,Roma,Atalanta,2,6,2.43,1.55,2.05,1.72
+2024-11-12,IT1,Italien · Serie A,Lazio,Fiorentina,3,1,2.12,1.7,1.91,1.84
+2024-11-14,IT1,Italien · Serie A,Juventus,Roma,2,0,1.76,2.0,1.8,2.12
+2024-11-16,IT1,Italien · Serie A,Inter,Fiorentina,1,0,1.58,2.42,1.44,2.49
+2024-11-17,IT1,Italien · Serie A,Fiorentina,Atalanta,1,1,2.34,1.62,2.01,1.81
+2024-11-20,IT1,Italien · Serie A,Atalanta,Roma,1,0,2.28,1.51,2.29,1.67
+2024-11-23,IT1,Italien · Serie A,Juventus,Milan,0,2,1.8,2.06,1.65,2.21
+2024-08-02,IT2,Italien · Serie B,Palermo,Bari,0,1,2.34,1.61,2.17,1.71
+2024-08-04,IT2,Italien · Serie B,Palermo,Modena,0,2,2.23,1.58,1.9,1.82
+2024-08-05,IT2,Italien · Serie B,Sampdoria,Pisa,0,0,2.84,1.37,2.42,1.58
+2024-08-07,IT2,Italien · Serie B,Parma,Modena,0,0,2.47,1.47,2.18,1.59
+2024-08-08,IT2,Italien · Serie B,Modena,Sampdoria,0,2,2.83,1.51,2.35,1.6
+2024-08-09,IT2,Italien · Serie B,Pisa,Sampdoria,1,1,2.43,1.63,2.1,1.75
+2024-08-12,IT2,Italien · Serie B,Bari,Catanzaro,1,1,2.38,1.63,2.11,1.71
+2024-08-14,IT2,Italien · Serie B,Südtirol,Catanzaro,0,0,2.29,1.62,1.97,1.79
+2024-08-17,IT2,Italien · Serie B,Parma,Südtirol,1,0,3.09,1.35,2.62,1.47
+2024-08-20,IT2,Italien · Serie B,Sampdoria,Bari,0,0,2.75,1.43,2.41,1.62
+2024-08-22,IT2,Italien · Serie B,Bari,Palermo,1,1,1.88,1.89,1.76,1.92
+2024-08-23,IT2,Italien · Serie B,Südtirol,Parma,1,1,2.57,1.52,2.14,1.67
+2024-08-24,IT2,Italien · Serie B,Modena,Palermo,2,1,2.15,1.81,1.85,1.97
+2024-08-27,IT2,Italien · Serie B,Südtirol,Sampdoria,4,0,2.4,1.51,2.09,1.81
+2024-08-30,IT2,Italien · Serie B,Parma,Catanzaro,0,2,2.38,1.61,2.15,1.69
+2024-08-31,IT2,Italien · Serie B,Modena,Parma,0,1,2.59,1.5,2.31,1.67
+2024-09-02,IT2,Italien · Serie B,Modena,Südtirol,2,3,2.47,1.54,2.3,1.54
+2024-09-03,IT2,Italien · Serie B,Palermo,Pisa,2,0,2.12,1.71,1.92,1.83
+2024-09-06,IT2,Italien · Serie B,Palermo,Südtirol,2,3,1.86,1.97,2.06,1.76
+2024-09-08,IT2,Italien · Serie B,Parma,Bari,0,1,3.3,1.34,2.6,1.54
+2024-09-09,IT2,Italien · Serie B,Südtirol,Palermo,1,0,1.84,2.1,1.78,2.02
+2024-09-12,IT2,Italien · Serie B,Pisa,Modena,1,3,2.89,1.38,2.25,1.65
+2024-09-15,IT2,Italien · Serie B,Palermo,Catanzaro,0,0,1.97,1.76,1.88,2.06
+2024-09-18,IT2,Italien · Serie B,Palermo,Sampdoria,0,0,2.05,1.8,2.02,1.8
+2024-09-21,IT2,Italien · Serie B,Bari,Südtirol,3,0,2.22,1.62,2.04,1.76
+2024-09-22,IT2,Italien · Serie B,Pisa,Südtirol,4,0,2.71,1.46,2.37,1.67
+2024-09-23,IT2,Italien · Serie B,Catanzaro,Bari,2,1,2.52,1.51,2.48,1.54
+2024-09-24,IT2,Italien · Serie B,Parma,Pisa,2,2,2.95,1.46,2.5,1.53
+2024-09-27,IT2,Italien · Serie B,Sampdoria,Palermo,2,1,2.29,1.52,1.96,1.7
+2024-09-28,IT2,Italien · Serie B,Bari,Pisa,2,0,3.29,1.37,2.44,1.46
+2024-10-01,IT2,Italien · Serie B,Sampdoria,Modena,1,1,2.53,1.56,2.25,1.69
+2024-10-04,IT2,Italien · Serie B,Sampdoria,Catanzaro,3,0,2.4,1.59,1.98,1.83
+2024-10-06,IT2,Italien · Serie B,Pisa,Parma,0,1,2.66,1.42,2.33,1.61
+2024-10-09,IT2,Italien · Serie B,Südtirol,Bari,4,1,2.27,1.68,2.06,1.87
+2024-10-11,IT2,Italien · Serie B,Modena,Catanzaro,1,1,2.04,1.84,1.78,1.88
+2024-10-13,IT2,Italien · Serie B,Pisa,Palermo,1,1,1.96,1.93,1.71,1.98
+2024-10-15,IT2,Italien · Serie B,Südtirol,Pisa,2,3,3.07,1.37,2.59,1.5
+2024-10-18,IT2,Italien · Serie B,Pisa,Bari,1,2,2.34,1.57,2.16,1.76
+2024-10-19,IT2,Italien · Serie B,Sampdoria,Südtirol,1,1,2.51,1.48,2.1,1.66
+2024-10-22,IT2,Italien · Serie B,Catanzaro,Modena,0,2,2.74,1.53,2.29,1.64
+2024-10-23,IT2,Italien · Serie B,Catanzaro,Sampdoria,2,0,2.32,1.61,2.04,1.8
+2024-10-26,IT2,Italien · Serie B,Pisa,Catanzaro,0,1,2.3,1.64,2.05,1.72
+2024-10-29,IT2,Italien · Serie B,Parma,Sampdoria,0,1,2.96,1.37,2.51,1.58
+2024-10-31,IT2,Italien · Serie B,Parma,Palermo,0,3,1.97,1.83,1.98,1.92
+2024-11-02,IT2,Italien · Serie B,Catanzaro,Südtirol,1,0,2.65,1.43,2.18,1.59
+2024-11-03,IT2,Italien · Serie B,Bari,Modena,1,0,2.43,1.6,2.16,1.76
+2024-11-04,IT2,Italien · Serie B,Modena,Bari,0,1,2.18,1.62,2.1,1.7
+2024-11-07,IT2,Italien · Serie B,Catanzaro,Palermo,2,3,2.09,1.75,1.87,1.88
+2024-11-09,IT2,Italien · Serie B,Modena,Pisa,1,0,2.3,1.68,2.09,1.69
+2024-11-12,IT2,Italien · Serie B,Palermo,Parma,1,2,2.54,1.48,2.19,1.59
+2024-11-14,IT2,Italien · Serie B,Südtirol,Modena,2,1,2.61,1.42,2.3,1.59
+2024-11-16,IT2,Italien · Serie B,Sampdoria,Parma,0,1,2.45,1.52,2.15,1.69
+2024-11-18,IT2,Italien · Serie B,Catanzaro,Parma,0,0,2.87,1.44,2.42,1.59
+2024-11-21,IT2,Italien · Serie B,Catanzaro,Pisa,1,2,2.31,1.56,2.13,1.7
+2024-11-22,IT2,Italien · Serie B,Bari,Sampdoria,0,0,2.51,1.5,2.26,1.61
+2024-11-25,IT2,Italien · Serie B,Bari,Parma,0,2,2.66,1.47,2.24,1.63
+2024-08-02,ES1,Spanien · La Liga,Atlético,Villarreal,1,1,2.01,1.91,1.79,1.96
+2024-08-05,ES1,Spanien · La Liga,Real Sociedad,Betis,0,2,2.29,1.51,2.15,1.7
+2024-08-06,ES1,Spanien · La Liga,Atlético,Sevilla,1,3,2.48,1.5,2.12,1.67
+2024-08-09,ES1,Spanien · La Liga,Betis,Sevilla,1,0,2.13,1.7,1.94,1.9
+2024-08-10,ES1,Spanien · La Liga,Valencia,Barcelona,2,4,2.59,1.52,2.17,1.64
+2024-08-12,ES1,Spanien · La Liga,Sevilla,Atlético,2,0,1.83,2.09,1.8,2.1
+2024-08-14,ES1,Spanien · La Liga,Villarreal,Real Sociedad,1,2,1.95,1.88,1.82,1.97
+2024-08-16,ES1,Spanien · La Liga,Real Sociedad,Barcelona,1,2,2.42,1.51,2.13,1.77
+2024-08-17,ES1,Spanien · La Liga,Real Sociedad,Sevilla,0,2,1.91,1.92,1.76,1.99
+2024-08-20,ES1,Spanien · La Liga,Barcelona,Sevilla,0,2,1.88,1.92,1.75,2.03
+2024-08-21,ES1,Spanien · La Liga,Betis,Atlético,0,2,2.84,1.48,2.19,1.59
+2024-08-22,ES1,Spanien · La Liga,Atlético,Barcelona,1,2,2.58,1.47,2.43,1.53
+2024-08-24,ES1,Spanien · La Liga,Sevilla,Real Madrid,2,1,2.26,1.64,2.17,1.63
+2024-08-25,ES1,Spanien · La Liga,Villarreal,Valencia,1,2,1.61,2.11,1.71,2.18
+2024-08-26,ES1,Spanien · La Liga,Betis,Real Sociedad,0,0,2.29,1.65,2.36,1.58
+2024-08-29,ES1,Spanien · La Liga,Real Sociedad,Valencia,2,0,2.47,1.56,2.23,1.77
+2024-09-01,ES1,Spanien · La Liga,Real Sociedad,Villarreal,4,1,1.75,2.17,1.61,2.1
+2024-09-02,ES1,Spanien · La Liga,Atlético,Real Madrid,0,0,2.2,1.63,1.94,1.82
+2024-09-04,ES1,Spanien · La Liga,Valencia,Atlético,0,1,1.83,2.08,1.62,2.08
+2024-09-05,ES1,Spanien · La Liga,Real Madrid,Atlético,4,0,2.24,1.67,2.02,1.8
+2024-09-08,ES1,Spanien · La Liga,Barcelona,Real Madrid,2,0,2.72,1.51,2.25,1.62
+2024-09-10,ES1,Spanien · La Liga,Valencia,Betis,2,0,2.94,1.36,2.37,1.59
+2024-09-11,ES1,Spanien · La Liga,Betis,Real Madrid,0,0,3.02,1.46,2.5,1.63
+2024-09-12,ES1,Spanien · La Liga,Sevilla,Valencia,2,0,1.88,2.02,1.86,2.06
+2024-09-15,ES1,Spanien · La Liga,Valencia,Sevilla,0,0,2.03,1.8,1.77,1.87
+2024-09-18,ES1,Spanien · La Liga,Barcelona,Valencia,2,1,1.94,1.74,1.92,1.96
+2024-09-21,ES1,Spanien · La Liga,Sevilla,Barcelona,2,1,2.3,1.65,2.08,1.78
+2024-09-24,ES1,Spanien · La Liga,Valencia,Real Sociedad,3,2,2.11,1.76,1.86,1.82
+2024-09-26,ES1,Spanien · La Liga,Betis,Valencia,1,1,2.3,1.59,2.06,1.68
+2024-09-29,ES1,Spanien · La Liga,Barcelona,Real Sociedad,0,1,2.37,1.62,1.96,1.73
+2024-10-02,ES1,Spanien · La Liga,Real Madrid,Barcelona,1,0,2.4,1.52,2.25,1.62
+2024-10-05,ES1,Spanien · La Liga,Betis,Barcelona,2,0,2.7,1.42,2.38,1.65
+2024-10-06,ES1,Spanien · La Liga,Villarreal,Real Madrid,0,0,2.11,1.64,2.0,1.89
+2024-10-07,ES1,Spanien · La Liga,Betis,Villarreal,2,1,1.99,1.76,1.84,1.95
+2024-10-10,ES1,Spanien · La Liga,Villarreal,Atlético,0,0,1.73,2.17,1.63,2.16
+2024-10-11,ES1,Spanien · La Liga,Villarreal,Sevilla,7,0,1.72,2.14,1.66,2.28
+2024-10-14,ES1,Spanien · La Liga,Real Madrid,Villarreal,0,0,2.28,1.6,1.92,1.79
+2024-10-15,ES1,Spanien · La Liga,Sevilla,Villarreal,1,1,1.54,2.27,1.75,2.17
+2024-10-17,ES1,Spanien · La Liga,Villarreal,Betis,5,0,2.58,1.55,2.1,1.63
+2024-10-20,ES1,Spanien · La Liga,Villarreal,Barcelona,0,2,1.85,2.02,1.71,2.16
+2024-10-22,ES1,Spanien · La Liga,Atlético,Betis,1,1,3.03,1.33,2.54,1.56
+2024-10-24,ES1,Spanien · La Liga,Real Madrid,Sevilla,3,1,2.72,1.39,2.27,1.65
+2024-10-27,ES1,Spanien · La Liga,Barcelona,Villarreal,2,2,1.9,1.92,1.68,2.14
+2024-10-30,ES1,Spanien · La Liga,Valencia,Villarreal,1,5,1.73,2.27,1.67,2.26
+2024-11-01,ES1,Spanien · La Liga,Real Sociedad,Atlético,1,2,2.05,1.77,1.87,1.91
+2024-11-04,ES1,Spanien · La Liga,Barcelona,Atlético,1,2,2.06,1.77,1.95,1.92
+2024-11-07,ES1,Spanien · La Liga,Real Madrid,Betis,2,0,2.57,1.57,2.22,1.72
+2024-11-10,ES1,Spanien · La Liga,Atlético,Real Sociedad,0,2,2.02,1.74,2.09,1.67
+2024-11-12,ES1,Spanien · La Liga,Barcelona,Betis,2,2,2.46,1.53,2.18,1.66
+2024-11-14,ES1,Spanien · La Liga,Real Madrid,Real Sociedad,1,2,2.29,1.57,2.16,1.62
+2024-11-17,ES1,Spanien · La Liga,Atlético,Valencia,2,1,1.81,2.03,1.8,1.91
+2024-11-19,ES1,Spanien · La Liga,Valencia,Real Madrid,1,0,2.44,1.56,2.05,1.65
+2024-11-20,ES1,Spanien · La Liga,Real Madrid,Valencia,2,0,2.7,1.4,2.41,1.62
+2024-11-23,ES1,Spanien · La Liga,Real Sociedad,Real Madrid,2,1,2.44,1.63,1.95,1.81
+2024-11-24,ES1,Spanien · La Liga,Sevilla,Real Sociedad,4,0,1.72,2.2,2.04,1.78
+2024-11-26,ES1,Spanien · La Liga,Sevilla,Betis,1,2,2.15,1.64,1.95,1.74
+2024-08-03,ES2,Spanien · Segunda División,Elche,Levante,1,4,2.13,1.64,1.87,1.8
+2024-08-06,ES2,Spanien · Segunda División,Eibar,Zaragoza,4,0,3.27,1.39,2.42,1.47
+2024-08-09,ES2,Spanien · Segunda División,Burgos,Sporting,2,1,3.15,1.42,2.44,1.55
+2024-08-10,ES2,Spanien · Segunda División,Levante,Oviedo,1,1,2.21,1.66,1.93,1.81
+2024-08-11,ES2,Spanien · Segunda División,Tenerife,Sporting,1,1,2.46,1.53,2.09,1.63
+2024-08-13,ES2,Spanien · Segunda División,Elche,Burgos,1,1,2.92,1.33,2.62,1.5
+2024-08-14,ES2,Spanien · Segunda División,Elche,Tenerife,1,1,2.69,1.51,2.19,1.59
+2024-08-17,ES2,Spanien · Segunda División,Sporting,Elche,5,1,1.98,1.83,1.95,1.86
+2024-08-19,ES2,Spanien · Segunda División,Levante,Zaragoza,2,1,1.94,1.82,1.88,1.88
+2024-08-21,ES2,Spanien · Segunda División,Tenerife,Eibar,0,0,2.78,1.42,2.34,1.55
+2024-08-24,ES2,Spanien · Segunda División,Burgos,Oviedo,3,0,2.53,1.57,2.18,1.74
+2024-08-26,ES2,Spanien · Segunda División,Tenerife,Levante,4,0,1.97,1.82,1.96,1.84
+2024-08-27,ES2,Spanien · Segunda División,Levante,Sporting,2,1,1.83,1.83,1.77,2.12
+2024-08-30,ES2,Spanien · Segunda División,Elche,Oviedo,1,2,2.2,1.7,1.96,1.75
+2024-09-01,ES2,Spanien · Segunda División,Elche,Zaragoza,0,2,3.11,1.34,2.53,1.56
+2024-09-04,ES2,Spanien · Segunda División,Zaragoza,Tenerife,2,1,3.3,1.38,2.53,1.58
+2024-09-06,ES2,Spanien · Segunda División,Eibar,Levante,2,1,2.32,1.5,2.22,1.77
+2024-09-07,ES2,Spanien · Segunda División,Levante,Tenerife,0,0,2.13,1.64,2.06,1.88
+2024-09-09,ES2,Spanien · Segunda División,Zaragoza,Levante,1,2,2.29,1.67,2.22,1.68
+2024-09-11,ES2,Spanien · Segunda División,Eibar,Oviedo,0,2,2.64,1.44,2.22,1.67
+2024-09-12,ES2,Spanien · Segunda División,Burgos,Zaragoza,2,1,3.23,1.37,2.42,1.47
+2024-09-14,ES2,Spanien · Segunda División,Sporting,Oviedo,0,0,2.48,1.5,2.05,1.76
+2024-09-15,ES2,Spanien · Segunda División,Eibar,Tenerife,0,0,2.53,1.58,2.15,1.59
+2024-09-18,ES2,Spanien · Segunda División,Elche,Sporting,1,2,2.71,1.43,2.18,1.6
+2024-09-21,ES2,Spanien · Segunda División,Burgos,Tenerife,3,0,3.54,1.33,2.83,1.42
+2024-09-23,ES2,Spanien · Segunda División,Oviedo,Tenerife,1,2,2.76,1.47,2.28,1.67
+2024-09-24,ES2,Spanien · Segunda División,Levante,Elche,0,1,1.89,1.85,1.84,1.88
+2024-09-25,ES2,Spanien · Segunda División,Burgos,Eibar,3,0,2.72,1.43,2.34,1.64
+2024-09-27,ES2,Spanien · Segunda División,Tenerife,Elche,2,1,2.65,1.51,2.26,1.59
+2024-09-28,ES2,Spanien · Segunda División,Sporting,Tenerife,0,0,2.5,1.54,2.17,1.68
+2024-09-29,ES2,Spanien · Segunda División,Oviedo,Sporting,2,1,2.16,1.61,1.95,1.76
+2024-10-02,ES2,Spanien · Segunda División,Oviedo,Elche,0,0,2.42,1.64,2.19,1.8
+2024-10-05,ES2,Spanien · Segunda División,Tenerife,Burgos,1,0,2.88,1.43,2.37,1.58
+2024-10-07,ES2,Spanien · Segunda División,Oviedo,Levante,1,2,2.04,1.75,1.94,1.77
+2024-10-09,ES2,Spanien · Segunda División,Zaragoza,Oviedo,1,1,2.36,1.56,2.03,1.7
+2024-10-12,ES2,Spanien · Segunda División,Zaragoza,Sporting,2,1,2.56,1.56,2.27,1.63
+2024-10-15,ES2,Spanien · Segunda División,Tenerife,Oviedo,0,1,2.78,1.38,2.27,1.54
+2024-10-17,ES2,Spanien · Segunda División,Burgos,Elche,2,3,2.63,1.48,2.37,1.65
+2024-10-18,ES2,Spanien · Segunda División,Eibar,Sporting,1,2,2.08,1.83,1.91,1.84
+2024-10-20,ES2,Spanien · Segunda División,Burgos,Levante,2,0,2.41,1.52,2.1,1.64
+2024-10-21,ES2,Spanien · Segunda División,Zaragoza,Eibar,2,0,2.69,1.49,2.2,1.65
+2024-10-22,ES2,Spanien · Segunda División,Sporting,Eibar,1,2,2.53,1.58,2.22,1.74
+2024-10-24,ES2,Spanien · Segunda División,Oviedo,Zaragoza,0,1,2.51,1.51,2.22,1.79
+2024-10-27,ES2,Spanien · Segunda División,Zaragoza,Burgos,3,0,3.18,1.29,2.54,1.49
+2024-10-30,ES2,Spanien · Segunda División,Eibar,Elche,2,0,2.79,1.5,2.43,1.63
+2024-11-01,ES2,Spanien · Segunda División,Sporting,Levante,1,0,1.72,2.01,1.67,2.26
+2024-11-04,ES2,Spanien · Segunda División,Zaragoza,Elche,1,1,2.96,1.44,2.59,1.49
+2024-11-05,ES2,Spanien · Segunda División,Sporting,Burgos,1,0,2.22,1.62,1.96,1.83
+2024-11-06,ES2,Spanien · Segunda División,Elche,Eibar,0,1,2.56,1.42,2.2,1.55
+2024-11-09,ES2,Spanien · Segunda División,Eibar,Burgos,2,2,2.63,1.49,2.17,1.63
+2024-11-12,ES2,Spanien · Segunda División,Levante,Burgos,4,1,2.16,1.58,1.96,1.91
+2024-11-15,ES2,Spanien · Segunda División,Oviedo,Burgos,2,0,2.64,1.48,2.2,1.69
+2024-11-17,ES2,Spanien · Segunda División,Oviedo,Eibar,4,2,2.51,1.52,2.15,1.74
+2024-11-18,ES2,Spanien · Segunda División,Tenerife,Zaragoza,0,0,3.45,1.26,2.8,1.51
+2024-11-20,ES2,Spanien · Segunda División,Sporting,Zaragoza,1,0,2.64,1.5,2.15,1.63
+2024-11-21,ES2,Spanien · Segunda División,Levante,Eibar,3,1,2.15,1.61,1.91,1.89

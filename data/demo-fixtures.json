@@ -1,0 +1,240 @@
+[
+  {
+    "id": "DK1-demo-1",
+    "date": "2026-07-31",
+    "time": "18:00",
+    "league": "DK1",
+    "leagueName": "Dänemark · Superliga",
+    "home": "Kopenhagen",
+    "away": "Aarhus",
+    "odds": {
+      "over15": 1.43,
+      "over25": 1.68,
+      "under25": 1.8,
+      "over35": 2.4,
+      "bttsYes": 1.68,
+      "bttsNo": 1.88
+    }
+  },
+  {
+    "id": "DK2-demo-2",
+    "date": "2026-08-01",
+    "time": "19:30",
+    "league": "DK2",
+    "leagueName": "Dänemark · 1st Division",
+    "home": "Esbjerg",
+    "away": "Fredericia",
+    "odds": {
+      "over15": 1.22,
+      "over25": 1.86,
+      "under25": 2.16,
+      "over35": 2.57,
+      "bttsYes": 2.03,
+      "bttsNo": 1.76
+    }
+  },
+  {
+    "id": "BE1-demo-3",
+    "date": "2026-08-02",
+    "time": "20:00",
+    "league": "BE1",
+    "leagueName": "Belgien · Pro League",
+    "home": "Antwerpen",
+    "away": "Charleroi",
+    "odds": {
+      "over15": 1.34,
+      "over25": 1.72,
+      "under25": 2.0,
+      "over35": 2.43,
+      "bttsYes": 1.97,
+      "bttsNo": 1.76
+    }
+  },
+  {
+    "id": "BE2-demo-4",
+    "date": "2026-08-03",
+    "time": "18:30",
+    "league": "BE2",
+    "leagueName": "Belgien · Challenger Pro League",
+    "home": "Seraing",
+    "away": "Lierse",
+    "odds": {
+      "over15": 1.29,
+      "over25": 1.92,
+      "under25": 1.85,
+      "over35": 2.89,
+      "bttsYes": 1.75,
+      "bttsNo": 1.89
+    }
+  },
+  {
+    "id": "SE1-demo-5",
+    "date": "2026-07-31",
+    "time": "19:00",
+    "league": "SE1",
+    "leagueName": "Schweden · Allsvenskan",
+    "home": "Malmö",
+    "away": "AIK",
+    "odds": {
+      "over15": 1.37,
+      "over25": 2.09,
+      "under25": 2.13,
+      "over35": 3.02,
+      "bttsYes": 1.63,
+      "bttsNo": 1.92
+    }
+  },
+  {
+    "id": "SE2-demo-6",
+    "date": "2026-08-01",
+    "time": "20:30",
+    "league": "SE2",
+    "leagueName": "Schweden · Superettan",
+    "home": "Helsingborg",
+    "away": "Brage",
+    "odds": {
+      "over15": 1.27,
+      "over25": 1.88,
+      "under25": 1.8,
+      "over35": 3.07,
+      "bttsYes": 2.0,
+      "bttsNo": 2.08
+    }
+  },
+  {
+    "id": "NO1-demo-7",
+    "date": "2026-08-02",
+    "time": "18:00",
+    "league": "NO1",
+    "leagueName": "Norwegen · Eliteserien",
+    "home": "Viking",
+    "away": "Haugesund",
+    "odds": {
+      "over15": 1.22,
+      "over25": 1.68,
+      "under25": 1.74,
+      "over35": 2.36,
+      "bttsYes": 2.01,
+      "bttsNo": 1.97
+    }
+  },
+  {
+    "id": "NO2-demo-8",
+    "date": "2026-08-03",
+    "time": "19:30",
+    "league": "NO2",
+    "leagueName": "Norwegen · OBOS-ligaen",
+    "home": "Raufoss",
+    "away": "Sogndal",
+    "odds": {
+      "over15": 1.2,
+      "over25": 2.02,
+      "under25": 1.96,
+      "over35": 2.58,
+      "bttsYes": 1.64,
+      "bttsNo": 2.09
+    }
+  },
+  {
+    "id": "AT1-demo-9",
+    "date": "2026-07-31",
+    "time": "20:00",
+    "league": "AT1",
+    "leagueName": "Österreich · Bundesliga",
+    "home": "Salzburg",
+    "away": "Austria Wien",
+    "odds": {
+      "over15": 1.35,
+      "over25": 1.69,
+      "under25": 2.11,
+      "over35": 2.65,
+      "bttsYes": 1.68,
+      "bttsNo": 2.06
+    }
+  },
+  {
+    "id": "AT2-demo-10",
+    "date": "2026-08-01",
+    "time": "18:30",
+    "league": "AT2",
+    "leagueName": "Österreich · 2. Liga",
+    "home": "St. Pölten",
+    "away": "Lustenau",
+    "odds": {
+      "over15": 1.38,
+      "over25": 1.7,
+      "under25": 1.77,
+      "over35": 2.76,
+      "bttsYes": 1.96,
+      "bttsNo": 2.0
+    }
+  },
+  {
+    "id": "IT1-demo-11",
+    "date": "2026-08-02",
+    "time": "19:00",
+    "league": "IT1",
+    "leagueName": "Italien · Serie A",
+    "home": "Roma",
+    "away": "Lazio",
+    "odds": {
+      "over15": 1.42,
+      "over25": 1.99,
+      "under25": 1.94,
+      "over35": 2.43,
+      "bttsYes": 2.0,
+      "bttsNo": 1.98
+    }
+  },
+  {
+    "id": "IT2-demo-12",
+    "date": "2026-08-03",
+    "time": "20:30",
+    "league": "IT2",
+    "leagueName": "Italien · Serie B",
+    "home": "Catanzaro",
+    "away": "Bari",
+    "odds": {
+      "over15": 1.36,
+      "over25": 1.8,
+      "under25": 1.82,
+      "over35": 3.19,
+      "bttsYes": 1.81,
+      "bttsNo": 2.06
+    }
+  },
+  {
+    "id": "ES1-demo-13",
+    "date": "2026-07-31",
+    "time": "18:00",
+    "league": "ES1",
+    "leagueName": "Spanien · La Liga",
+    "home": "Real Madrid",
+    "away": "Sevilla",
+    "odds": {
+      "over15": 1.44,
+      "over25": 1.89,
+      "under25": 1.82,
+      "over35": 2.63,
+      "bttsYes": 1.68,
+      "bttsNo": 1.89
+    }
+  },
+  {
+    "id": "ES2-demo-14",
+    "date": "2026-08-01",
+    "time": "19:30",
+    "league": "ES2",
+    "leagueName": "Spanien · Segunda División",
+    "home": "Sporting",
+    "away": "Burgos",
+    "odds": {
+      "over15": 1.27,
+      "over25": 2.04,
+      "under25": 1.95,
+      "over35": 2.55,
+      "bttsYes": 1.76,
+      "bttsNo": 1.77
+    }
+  }
+]

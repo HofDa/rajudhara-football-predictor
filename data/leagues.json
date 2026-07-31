@@ -1,0 +1,212 @@
+[
+  {
+    "code": "DK1",
+    "name": "Dänemark · Superliga",
+    "nameEn": "Denmark · Superliga",
+    "teams": [
+      "Kopenhagen",
+      "Midtjylland",
+      "Brøndby",
+      "Aarhus",
+      "Nordsjælland",
+      "Silkeborg",
+      "Odense",
+      "Aalborg"
+    ]
+  },
+  {
+    "code": "DK2",
+    "name": "Dänemark · 1st Division",
+    "nameEn": "Denmark · 1st Division",
+    "teams": [
+      "Lyngby",
+      "Horsens",
+      "Esbjerg",
+      "Kolding",
+      "Hvidovre",
+      "Fredericia",
+      "Hobro",
+      "Køge"
+    ]
+  },
+  {
+    "code": "BE1",
+    "name": "Belgien · Pro League",
+    "nameEn": "Belgium · Pro League",
+    "teams": [
+      "Club Brügge",
+      "Genk",
+      "Anderlecht",
+      "Gent",
+      "Antwerpen",
+      "Mechelen",
+      "Standard",
+      "Charleroi"
+    ]
+  },
+  {
+    "code": "BE2",
+    "name": "Belgien · Challenger Pro League",
+    "nameEn": "Belgium · Challenger Pro League",
+    "teams": [
+      "Beveren",
+      "Lierse",
+      "Lommel",
+      "Beerschot",
+      "Patro Eisden",
+      "RFC Liège",
+      "Seraing",
+      "Deinze"
+    ]
+  },
+  {
+    "code": "SE1",
+    "name": "Schweden · Allsvenskan",
+    "nameEn": "Sweden · Allsvenskan",
+    "teams": [
+      "Malmö",
+      "Hammarby",
+      "Djurgården",
+      "AIK",
+      "Elfsborg",
+      "Häcken",
+      "Göteborg",
+      "Norrköping"
+    ]
+  },
+  {
+    "code": "SE2",
+    "name": "Schweden · Superettan",
+    "nameEn": "Sweden · Superettan",
+    "teams": [
+      "Öster",
+      "Landskrona",
+      "Helsingborg",
+      "Örebro",
+      "Trelleborg",
+      "Brage",
+      "Utsikten",
+      "Sundsvall"
+    ]
+  },
+  {
+    "code": "NO1",
+    "name": "Norwegen · Eliteserien",
+    "nameEn": "Norway · Eliteserien",
+    "teams": [
+      "Bodø/Glimt",
+      "Molde",
+      "Rosenborg",
+      "Brann",
+      "Viking",
+      "Tromsø",
+      "Sarpsborg",
+      "Haugesund"
+    ]
+  },
+  {
+    "code": "NO2",
+    "name": "Norwegen · OBOS-ligaen",
+    "nameEn": "Norway · OBOS-ligaen",
+    "teams": [
+      "Start",
+      "Sogndal",
+      "Kongsvinger",
+      "Ranheim",
+      "Stabæk",
+      "Åsane",
+      "Raufoss",
+      "Mjøndalen"
+    ]
+  },
+  {
+    "code": "AT1",
+    "name": "Österreich · Bundesliga",
+    "nameEn": "Austria · Bundesliga",
+    "teams": [
+      "Salzburg",
+      "Sturm Graz",
+      "Rapid Wien",
+      "Austria Wien",
+      "LASK",
+      "Wolfsberg",
+      "Hartberg",
+      "Altach"
+    ]
+  },
+  {
+    "code": "AT2",
+    "name": "Österreich · 2. Liga",
+    "nameEn": "Austria · 2. Liga",
+    "teams": [
+      "Ried",
+      "Admira",
+      "St. Pölten",
+      "Kapfenberg",
+      "Vienna",
+      "Lustenau",
+      "Amstetten",
+      "Liefering"
+    ]
+  },
+  {
+    "code": "IT1",
+    "name": "Italien · Serie A",
+    "nameEn": "Italy · Serie A",
+    "teams": [
+      "Inter",
+      "Milan",
+      "Juventus",
+      "Napoli",
+      "Roma",
+      "Atalanta",
+      "Fiorentina",
+      "Lazio"
+    ]
+  },
+  {
+    "code": "IT2",
+    "name": "Italien · Serie B",
+    "nameEn": "Italy · Serie B",
+    "teams": [
+      "Palermo",
+      "Bari",
+      "Sampdoria",
+      "Modena",
+      "Parma",
+      "Pisa",
+      "Catanzaro",
+      "Südtirol"
+    ]
+  },
+  {
+    "code": "ES1",
+    "name": "Spanien · La Liga",
+    "nameEn": "Spain · La Liga",
+    "teams": [
+      "Real Madrid",
+      "Barcelona",
+      "Atlético",
+      "Sevilla",
+      "Villarreal",
+      "Betis",
+      "Valencia",
+      "Real Sociedad"
+    ]
+  },
+  {
+    "code": "ES2",
+    "name": "Spanien · Segunda División",
+    "nameEn": "Spain · Segunda División",
+    "teams": [
+      "Eibar",
+      "Oviedo",
+      "Sporting",
+      "Zaragoza",
+      "Levante",
+      "Burgos",
+      "Elche",
+      "Tenerife"
+    ]
+  }
+]

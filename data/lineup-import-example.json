@@ -1,0 +1,20 @@
+[
+  {
+    "fixtureId": "IT1-001",
+    "status": "official",
+    "updatedAt": "2026-08-22T19:45:00+02:00",
+    "teams": {
+      "Inter": {
+        "formation": "3-5-2",
+        "starters": ["inter-gk-1", "inter-st-1"],
+        "bench": []
+      },
+      "Roma": {
+        "formation": "4-2-3-1",
+        "starters": [],
+        "bench": []
+      }
+    },
+    "changes": []
+  }
+]

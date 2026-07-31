@@ -1,0 +1,35 @@
+{
+  "name": "Rajudhara Football Predictor",
+  "short_name": "Rajudhara",
+  "description": "Offline-PWA für Over/Under-, Goal/No-Goal- und aufstellungsbereinigte Fußballprognosen.",
+  "lang": "de",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#eef2ef",
+  "theme_color": "#102f24",
+  "categories": [
+    "sports",
+    "analytics",
+    "productivity"
+  ],
+  "icons": [
+    {
+      "src": "./icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "./icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "./icons/maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
