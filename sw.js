@@ -1,4 +1,4 @@
-const CACHE = "rajudhara-football-predictor-v3-combo";
+const CACHE = "rajudhara-football-predictor-v3-country";
 const CORE = [
   "./", "./index.html", "./reset.html", "./styles.css", "./app.js", "./model.js", "./normalization.js",
   "./player-model.js", "./player-data.js", "./csv.js", "./storage.js", "./sentiment.js", "./i18n.js", "./combo.js",

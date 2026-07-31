@@ -60,8 +60,17 @@ export function normalizeDate(value) {
   return raw;
 }
 
+const SUPPORTED_LEAGUES = new Set(["DK1", "DK2", "BE1", "BE2", "SE1", "SE2", "NO1", "NO2", "AT1", "AT2", "IT1", "IT2", "ES1", "ES2"]);
+
+// Football-Data's "extra leagues" files carry Country and League separately
+// ("Austria" + "Bundesliga"), where neither alone is unambiguous. Try the
+// combination first, then the league, then the country.
 function leagueValue(row, fallback = "") {
-  return canonicalLeague(pick(row.league, row.League, row.Div, row.division, row.Competition, fallback));
+  const league = pick(row.league, row.League, row.Div, row.division, row.Competition);
+  const country = pick(row.country, row.Country);
+  const candidates = [country && league ? `${country} ${league}` : null, league, country, fallback];
+  const mapped = candidates.filter(Boolean).map(canonicalLeague);
+  return mapped.find(code => SUPPORTED_LEAGUES.has(code)) || mapped[0] || "";
 }
 
 function oddsFromRow(row) {
