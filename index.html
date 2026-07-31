@@ -19,6 +19,7 @@
       <span><strong>Rajudhara Football Predictor</strong><small data-i18n="app.tagline">Totals, BTTS & Lineups</small></span>
     </a>
     <div class="top-actions">
+      <button id="loadRealDataTopBtn" class="btn secondary" data-i18n="scanner.loadRealData">⚡ Echte Daten</button>
       <select id="languageSelect" class="lang-select" data-i18n-label="app.language"></select>
       <span id="onlineBadge" class="badge">online</span>
       <button id="installBtn" class="btn subtle hidden" data-i18n="app.install">Installieren</button>
@@ -45,8 +46,9 @@
           <p class="lead" data-i18n="scanner.lead">Basisprognose und aufstellungsbereinigte Prognose, faire Quoten, Edge, Datenqualität und lokale Backtests.</p>
         </div>
         <div class="hero-actions">
+          <button id="loadRealDataHeroBtn" class="btn secondary" data-i18n="scanner.loadRealDataHero">⚡ Echte Fußball-Daten laden</button>
           <button id="refreshScannerBtn" class="btn primary" data-i18n="scanner.compute">Scanner berechnen</button>
-          <button class="btn secondary" data-nav="data" data-i18n="scanner.manageData">Daten verwalten</button>
+          <button class="btn subtle" data-nav="data" data-i18n="scanner.manageData">Daten verwalten</button>
         </div>
       </div>
 
@@ -132,11 +134,28 @@
 
     <section id="dataView" class="view">
       <div class="page-head"><div><p class="kicker" data-i18n="data.kicker">Import & Adapter</p><h1 data-i18n="data.title">Daten verwalten</h1></div></div>
+      <section class="panel real-data-panel">
+        <div class="section-head">
+          <div>
+            <p class="kicker" data-i18n="data.realKicker">1-Klick Daten</p>
+            <h2 data-i18n="data.realTitle">Echte Fußball-Daten</h2>
+          </div>
+          <button id="loadAllRealBtn" class="btn secondary" data-i18n="data.loadAllReal">⚡ Echte Daten laden (1-Klick)</button>
+        </div>
+        <p data-i18n="data.realHint">Lade echte Ergebnisse (3.800+ Spiele), Marktquoten, Fixtures, Kaderspieler und Aufstellungen per Klick in die App.</p>
+        <div class="button-row">
+          <button id="loadRealHistoryBtn" class="btn subtle" data-i18n="data.loadRealData">Reale Historie</button>
+          <button id="loadRealFixturesBtn" class="btn subtle" data-i18n="data.loadRealData">Reale Fixtures</button>
+          <button id="loadRealPlayersBtn" class="btn subtle" data-i18n="data.loadRealData">Reale Spieler</button>
+          <button id="loadRealLineupsBtn" class="btn subtle" data-i18n="data.loadRealData">Reale Aufstellungen</button>
+        </div>
+      </section>
+
       <div class="data-grid">
-        <section class="panel"><h2 data-i18n="data.historyTitle">Historische Ergebnisse</h2><p data-i18n="data.historyHint">Football-Data.co.uk-CSV und Rajudhara-Format.</p><label class="dropzone"><input id="historyFile" type="file" accept=".csv,text/csv" multiple><strong data-i18n="data.historyPick">CSV auswählen</strong><span data-i18n="data.historyPickHint">Ergebnisse und Quoten</span></label><div class="button-row"><button id="loadDemoHistoryBtn" class="btn secondary" data-i18n="data.loadDemo">Demo laden</button><button id="clearHistoryBtn" class="btn danger" data-i18n="data.clear">Löschen</button></div><p id="historyStatus" class="muted"></p></section>
-        <section class="panel"><h2 data-i18n="data.fixturesTitle">Kommende Spiele</h2><p data-i18n="data.fixturesHint">JSON oder CSV mit Begegnungen und Marktquoten.</p><label class="dropzone"><input id="fixturesFile" type="file" accept=".csv,.json,application/json,text/csv" multiple><strong data-i18n="data.fixturesPick">Fixtures auswählen</strong><span data-i18n="data.csvOrJson">CSV oder JSON</span></label><div class="button-row"><button id="loadDemoFixturesBtn" class="btn secondary" data-i18n="data.loadDemo">Demo laden</button><button id="clearFixturesBtn" class="btn danger" data-i18n="data.clear">Löschen</button></div><p id="fixturesStatus" class="muted"></p></section>
-        <section class="panel"><h2 data-i18n="data.playersTitle">Spielerstatistiken</h2><p data-i18n="data.playersHint">Saisonwerte als JSON oder CSV: Minuten, Tore, xG, xA, Schüsse, Defensivwerte und Status.</p><label class="dropzone"><input id="playersFile" type="file" accept=".csv,.json,application/json,text/csv" multiple><strong data-i18n="data.playersPick">Spielerdaten auswählen</strong><span data-i18n="data.csvOrJson">CSV oder JSON</span></label><div class="button-row"><button id="loadDemoPlayersBtn" class="btn secondary" data-i18n="data.loadDemo">Demo laden</button><button id="clearPlayersBtn" class="btn danger" data-i18n="data.clear">Löschen</button></div><p id="playersStatus" class="muted"></p></section>
-        <section class="panel"><h2 data-i18n="data.lineupsTitle">Aufstellungen & Ausfälle</h2><p data-i18n="data.lineupsHint">Fixture-bezogene Startelf, Formation, Status und Änderungen.</p><label class="dropzone"><input id="lineupsFile" type="file" accept=".json,application/json"><strong data-i18n="data.lineupsPick">Lineups auswählen</strong><span>JSON</span></label><div class="button-row"><button id="loadDemoLineupsBtn" class="btn secondary" data-i18n="data.loadDemo">Demo laden</button><button id="clearLineupsBtn" class="btn danger" data-i18n="data.clear">Löschen</button></div><p id="lineupsStatus" class="muted"></p></section>
+        <section class="panel"><h2 data-i18n="data.historyTitle">Historische Ergebnisse</h2><p data-i18n="data.historyHint">Football-Data.co.uk-CSV und Rajudhara-Format.</p><label class="dropzone"><input id="historyFile" type="file" accept=".csv,text/csv" multiple><strong data-i18n="data.historyPick">CSV auswählen</strong><span data-i18n="data.historyPickHint">Ergebnisse und Quoten</span></label><div class="button-row"><button id="loadRealHistoryBtnCard" class="btn secondary" data-i18n="data.loadRealData">Echt</button><button id="loadDemoHistoryBtn" class="btn subtle" data-i18n="data.loadDemo">Demo laden</button><button id="clearHistoryBtn" class="btn danger" data-i18n="data.clear">Löschen</button></div><p id="historyStatus" class="muted"></p></section>
+        <section class="panel"><h2 data-i18n="data.fixturesTitle">Kommende Spiele</h2><p data-i18n="data.fixturesHint">JSON oder CSV mit Begegnungen und Marktquoten.</p><label class="dropzone"><input id="fixturesFile" type="file" accept=".csv,.json,application/json,text/csv" multiple><strong data-i18n="data.fixturesPick">Fixtures auswählen</strong><span data-i18n="data.csvOrJson">CSV oder JSON</span></label><div class="button-row"><button id="loadRealFixturesBtnCard" class="btn secondary" data-i18n="data.loadRealData">Echt</button><button id="loadDemoFixturesBtn" class="btn subtle" data-i18n="data.loadDemo">Demo laden</button><button id="clearFixturesBtn" class="btn danger" data-i18n="data.clear">Löschen</button></div><p id="fixturesStatus" class="muted"></p></section>
+        <section class="panel"><h2 data-i18n="data.playersTitle">Spielerstatistiken</h2><p data-i18n="data.playersHint">Saisonwerte als JSON oder CSV: Minuten, Tore, xG, xA, Schüsse, Defensivwerte und Status.</p><label class="dropzone"><input id="playersFile" type="file" accept=".csv,.json,application/json,text/csv" multiple><strong data-i18n="data.playersPick">Spielerdaten auswählen</strong><span data-i18n="data.csvOrJson">CSV oder JSON</span></label><div class="button-row"><button id="loadRealPlayersBtnCard" class="btn secondary" data-i18n="data.loadRealData">Echt</button><button id="loadDemoPlayersBtn" class="btn subtle" data-i18n="data.loadDemo">Demo laden</button><button id="clearPlayersBtn" class="btn danger" data-i18n="data.clear">Löschen</button></div><p id="playersStatus" class="muted"></p></section>
+        <section class="panel"><h2 data-i18n="data.lineupsTitle">Aufstellungen & Ausfälle</h2><p data-i18n="data.lineupsHint">Fixture-bezogene Startelf, Formation, Status und Änderungen.</p><label class="dropzone"><input id="lineupsFile" type="file" accept=".json,application/json"><strong data-i18n="data.lineupsPick">Lineups auswählen</strong><span>JSON</span></label><div class="button-row"><button id="loadRealLineupsBtnCard" class="btn secondary" data-i18n="data.loadRealData">Echt</button><button id="loadDemoLineupsBtn" class="btn subtle" data-i18n="data.loadDemo">Demo laden</button><button id="clearLineupsBtn" class="btn danger" data-i18n="data.clear">Löschen</button></div><p id="lineupsStatus" class="muted"></p></section>
       </div>
 
       <section class="panel">

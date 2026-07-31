@@ -4,6 +4,7 @@ const CORE = [
   "./player-model.js", "./player-data.js", "./csv.js", "./storage.js", "./sentiment.js", "./i18n.js", "./combo.js",
   "./manifest.webmanifest", "./data/leagues.json", "./data/demo-fixtures.json",
   "./data/demo-history.csv", "./data/demo-players.json", "./data/demo-lineups.json",
+  "./data/real-fixtures.json", "./data/real-history.csv", "./data/real-players.json", "./data/real-lineups.json",
   "./icons/icon-192.png", "./icons/icon-512.png", "./icons/maskable-512.png"
 ];
 

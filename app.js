@@ -106,15 +106,28 @@ function saveSource(part, value) {
 function sourceLabel(value) {
   if (!value || value === "none") return t("data.sourceNone");
   if (value === "demo") return t("data.sourceDemo");
+  if (value === "real") return t("data.sourceReal");
   return value;
 }
 
 function updateStatus() {
   const source = store.source();
-  const demo = [source.history, source.fixtures, source.players, source.lineups].some(value => value === "demo");
+  const sources = [source.history, source.fixtures, source.players, source.lineups];
+  const demo = sources.some(value => value === "demo");
+  const hasReal = sources.some(value => value === "real");
+  const allReal = sources.every(value => value === "real");
+
   if ($("dataState")) {
-    $("dataState").textContent = demo ? t("scanner.demoData") : t("scanner.ownData");
-    $("dataState").classList.toggle("warning", demo);
+    if (allReal || hasReal) {
+      $("dataState").textContent = t("scanner.realData");
+      $("dataState").className = "badge success";
+    } else if (demo) {
+      $("dataState").textContent = t("scanner.demoData");
+      $("dataState").className = "badge warning";
+    } else {
+      $("dataState").textContent = t("scanner.ownData");
+      $("dataState").className = "badge";
+    }
   }
   if ($("historyStatus")) $("historyStatus").textContent = t("data.statusHistory", { count: history.length, source: sourceLabel(source.history) });
   if ($("fixturesStatus")) $("fixturesStatus").textContent = t("data.statusFixtures", { count: fixtures.length, source: sourceLabel(source.fixtures) });
@@ -438,6 +451,47 @@ async function loadDemo(kind) {
   showToast(t("toast.demoLoaded", { count: value.length }), "success");
 }
 
+async function loadReal(kind) {
+  const config = {
+    history: ["./data/real-history.csv", async path => normalizeHistory(parseCSV(await fetchText(path)))],
+    fixtures: ["./data/real-fixtures.json", async path => normalizeFixtures(await fetchJSON(path))],
+    players: ["./data/real-players.json", async path => normalizePlayers(await fetchJSON(path))],
+    lineups: ["./data/real-lineups.json", async path => normalizeLineups(await fetchJSON(path))]
+  }[kind];
+  const value = await config[1](config[0]);
+  if (kind === "history") history = value;
+  if (kind === "fixtures") fixtures = value;
+  if (kind === "players") players = value;
+  if (kind === "lineups") lineups = value;
+  persist(kind, value); saveSource(kind, "real"); compute(); renderPlayers(); runDiagnostics();
+  showToast(t("toast.realLoaded", { count: value.length, kind: t(`kind.${kind}`) }), "success");
+}
+
+async function loadAllRealData() {
+  try {
+    showToast(t("toast.loadingRealData"), "info", 4000);
+    const [hText, fData, pData, lData] = await Promise.all([
+      fetchText("./data/real-history.csv"),
+      fetchJSON("./data/real-fixtures.json"),
+      fetchJSON("./data/real-players.json"),
+      fetchJSON("./data/real-lineups.json")
+    ]);
+    history = normalizeHistory(parseCSV(hText));
+    fixtures = normalizeFixtures(fData);
+    players = normalizePlayers(pData);
+    lineups = normalizeLineups(lData);
+    persist("history", history); saveSource("history", "real");
+    persist("fixtures", fixtures); saveSource("fixtures", "real");
+    persist("players", players); saveSource("players", "real");
+    persist("lineups", lineups); saveSource("lineups", "real");
+    compute(); renderPlayers(); runDiagnostics();
+    showToast(t("toast.allRealLoaded", { matches: history.length, fixtures: fixtures.length, players: players.length }), "success", 8000);
+  } catch (error) {
+    console.error(error);
+    showToast(t("toast.error", { message: error.message }), "error", 9000);
+  }
+}
+
 async function readFiles(fileList, mode) {
   const files = [...fileList];
   const output = [];
@@ -557,6 +611,21 @@ function wireEvents() {
   $("fixtureSelect").onchange = event => renderMatch(event.target.value);
   $("profileLeagueSelect").onchange = renderProfiles;
   $("runBacktestBtn").onclick = runBacktest;
+  const handleReal = kind => loadReal(kind).catch(error => showToast(error.message, "error"));
+  const handleAllReal = () => loadAllRealData().catch(error => showToast(error.message, "error"));
+
+  if ($("loadRealDataTopBtn")) $("loadRealDataTopBtn").onclick = handleAllReal;
+  if ($("loadRealDataHeroBtn")) $("loadRealDataHeroBtn").onclick = handleAllReal;
+  if ($("loadAllRealBtn")) $("loadAllRealBtn").onclick = handleAllReal;
+  if ($("loadRealHistoryBtn")) $("loadRealHistoryBtn").onclick = () => handleReal("history");
+  if ($("loadRealHistoryBtnCard")) $("loadRealHistoryBtnCard").onclick = () => handleReal("history");
+  if ($("loadRealFixturesBtn")) $("loadRealFixturesBtn").onclick = () => handleReal("fixtures");
+  if ($("loadRealFixturesBtnCard")) $("loadRealFixturesBtnCard").onclick = () => handleReal("fixtures");
+  if ($("loadRealPlayersBtn")) $("loadRealPlayersBtn").onclick = () => handleReal("players");
+  if ($("loadRealPlayersBtnCard")) $("loadRealPlayersBtnCard").onclick = () => handleReal("players");
+  if ($("loadRealLineupsBtn")) $("loadRealLineupsBtn").onclick = () => handleReal("lineups");
+  if ($("loadRealLineupsBtnCard")) $("loadRealLineupsBtnCard").onclick = () => handleReal("lineups");
+
   $("loadDemoHistoryBtn").onclick = () => loadDemo("history").catch(error => showToast(error.message, "error"));
   $("loadDemoFixturesBtn").onclick = () => loadDemo("fixtures").catch(error => showToast(error.message, "error"));
   $("loadDemoPlayersBtn").onclick = () => loadDemo("players").catch(error => showToast(error.message, "error"));
